@@ -1,20 +1,7 @@
-# {
-#     search(query: "stars:>0", type: REPOSITORY, first: 5) {
-#         pageInfo {
-#             endCursor
-#         }
-#         edges {
-#             node {
-#                 ... on Repository {
-#                     createdAt
-#                     stargazerCount
-#                     pullRequests(states: [MERGED, CLOSED]) {
-#                         totalCount
-#                     }
-#                     nameWithOwner
-#                     sshUrl
-#                 }
-#             }
-#         }
-#     }
-# }
+import os
+from utils import github
+
+auth_token = os.getenv("GITHUB_TOKEN")
+
+data = github.get_repositories(5, auth_token)
+print(data)
