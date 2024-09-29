@@ -12,28 +12,60 @@ def run_query(query, auth_token):
     else:
         raise Exception(f"Failed to fetch repositories: {response.status_code} {response.json()}")
     
-def build_query(num_repos, cursor):
+def build_repository_query(number, cursor):
     return f"""
     {{
-        search(query: "stars:>0", type: REPOSITORY, first: {num_repos}, after: "{cursor}") {{
+        search(query: "stars:>0", type: REPOSITORY, first: {number}, after: "{cursor}") {{
             pageInfo {{
                 endCursor
             }}
             edges {{
                 node {{
                     ... on Repository {{
+                        name
+                        owner {{
+                            login
+                        }}
                         createdAt
                         stargazerCount
                         pullRequests(states: [MERGED, CLOSED]) {{
                             totalCount
                         }}
                         nameWithOwner
-                        sshUrl
+                        url
                     }}
                 }}
             }}
         }}
     }}
+    """
+
+def build_pull_request_query(owner, name, number, cursor):
+    return f"""
+        {{
+            repository(owner: "{owner}", name: "{name}") {{
+                pullRequests(states: [MERGED, CLOSED], first: {number}, after: "{cursor}") {{
+                    pageInfo {{
+                        endCursor
+                    }}
+                    nodes {{
+                        title
+                        url
+                        createdAt
+                        author {{
+                            login
+                        }}
+                        mergedAt
+                        closedAt
+                        labels(first: 10) {{
+                            nodes {{
+                                name
+                            }}
+                        }}
+                    }}
+                }}
+            }}
+        }}
     """
 
 def get_repositories_bypass_page(num_repos, auth_token, cursor = ''):
@@ -44,7 +76,7 @@ def get_repositories_bypass_page(num_repos, auth_token, cursor = ''):
     cursor = ""
 
     while page <= num_pages:
-        graphql_query = build_query(max_per_page, cursor)
+        graphql_query = build_repository_query(max_per_page, cursor)
         result = run_query(graphql_query, auth_token)
         
         page_repos = result["data"]["search"]["edges"]
@@ -61,7 +93,7 @@ def get_repositories(num_repos, auth_token):
     cursor = ''
     repositories = []
     size = 0
-    while (size < num_repos):
+    while size < num_repos:
         repositories, cursor = get_repositories_bypass_page(num_repos, auth_token, cursor)
         pr_repos = list(filter(lambda x: x["pullRequests"]["totalCount"] >= MINIMUM_PR_COUNT, repositories))
         size += len(pr_repos)
