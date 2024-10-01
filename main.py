@@ -1,8 +1,10 @@
 import os
-from utils import github
+from utils import github, data
 
 auth_token = os.getenv("GITHUB_TOKEN")
 
-repositories = github.get_repositories(5, auth_token)
+REPOSITORIES_NUMBER = 1
 
+repositories = github.get_repositories(REPOSITORIES_NUMBER, auth_token)
+data.save_data(repositories, 'repositories')
 print(repositories)
