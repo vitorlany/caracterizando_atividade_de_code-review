@@ -7,4 +7,5 @@ REPOSITORIES_NUMBER = 1
 
 repositories = github.get_repositories(REPOSITORIES_NUMBER, auth_token)
 data.save_data(repositories, 'repositories')
+github.get_pull_requests(repositories, auth_token)
 print(repositories)

@@ -1,5 +1,6 @@
 import requests
 import math
+from utils import data
 
 GITHUB_API_URL = "https://api.github.com/graphql"
 MINIMUM_PR_COUNT = 100
@@ -98,5 +99,19 @@ def get_repositories(num_repos, auth_token):
         pr_repos = list(filter(lambda x: x["pullRequests"]["totalCount"] >= MINIMUM_PR_COUNT, repositories))
         size += len(pr_repos)
         repositories.extend(pr_repos)
-        
     return repositories[:num_repos]
+
+def get_pull_requests(repositories, auth_token):
+    pull_requests_list = []
+    repository = repositories[0]
+    owner = repository["owner"]["login"]
+    name = repository["name"]
+    name_with_owner = repository["nameWithOwner"].replace("/", "-")
+    cursor = ""
+
+    graphql_query = build_pull_request_query(owner, name, 100, cursor)
+    result = run_query(graphql_query, auth_token)
+    result_data = result['data']['repository']['pullRequests']['nodes']
+    pull_requests_list.extend(result_data)
+    data.save_data(pull_requests_list, f'pull_requests/{name_with_owner}')
+
