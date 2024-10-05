@@ -1,4 +1,4 @@
-# Relatório de Análise de Qualidade de Repositórios Java
+# Caracterizando a atividade de code review no github
 
 ## 1. Introdução
 
