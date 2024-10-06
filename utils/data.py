@@ -1,5 +1,14 @@
 import pandas as pd
+import json
+import os
 
 def save_data(data, filename):
-    df = pd.json_normalize(data)
-    df.to_csv(f'./data/{filename}.csv', index=False, sep=';')
+    with open(f'./data/{filename}.json', 'w') as f:
+        json.dump(data, f, indent=4)
+
+def is_file_exists(filename):
+    return os.path.isfile(f'./data/{filename}.csv')
+
+def load_data(filename):
+    with open(f'./data/{filename}.json', 'r') as f:
+        return json.load(f)

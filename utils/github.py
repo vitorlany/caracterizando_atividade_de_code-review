@@ -49,18 +49,16 @@ def build_pull_request_query(owner, name, number, cursor):
                     pageInfo {{
                         endCursor
                     }}
-                    nodes {{
-                        title
-                        url
-                        createdAt
-                        author {{
-                            login
-                        }}
-                        mergedAt
-                        closedAt
-                        labels(first: 10) {{
-                            nodes {{
-                                name
+                    edges {{
+                        node {{
+                            title
+                            url
+                            state
+                            createdAt
+                            mergedAt
+                            closedAt
+                            reviews(first: 100) {{
+                                totalCount
                             }}
                         }}
                     }}
@@ -111,7 +109,8 @@ def get_pull_requests(repositories, auth_token):
 
     graphql_query = build_pull_request_query(owner, name, 100, cursor)
     result = run_query(graphql_query, auth_token)
-    result_data = result['data']['repository']['pullRequests']['nodes']
+    result_data = result['data']['repository']['pullRequests']['edges']
+    # filter data
     pull_requests_list.extend(result_data)
     data.save_data(pull_requests_list, f'pull_requests/{name_with_owner}')
 
