@@ -4,7 +4,7 @@ from utils import github, data
 auth_token = os.getenv("GITHUB_TOKEN")
 
 # REPOSITORIES_NUMBER = 200
-REPOSITORIES_NUMBER = 1
+REPOSITORIES_NUMBER = 20
 
 if not data.is_file_exists('repositories'):
     repositories = github.get_repositories(REPOSITORIES_NUMBER, auth_token)

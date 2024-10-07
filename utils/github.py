@@ -101,16 +101,18 @@ def get_repositories(num_repos, auth_token):
 
 def get_pull_requests(repositories, auth_token):
     pull_requests_list = []
-    repository = repositories[0]
-    owner = repository["owner"]["login"]
-    name = repository["name"]
-    name_with_owner = repository["nameWithOwner"].replace("/", "-")
-    cursor = ""
 
-    graphql_query = build_pull_request_query(owner, name, 100, cursor)
-    result = run_query(graphql_query, auth_token)
-    result_data = result['data']['repository']['pullRequests']['edges']
-    # filter data
-    pull_requests_list.extend(result_data)
-    data.save_data(pull_requests_list, f'pull_requests/{name_with_owner}')
-
+    for repository in repositories:
+        owner = repository["owner"]["login"]
+        name = repository["name"]
+        name_with_owner = repository["nameWithOwner"].replace("/", "-")
+        cursor = ""
+        graphql_query = build_pull_request_query(owner, name, 100, cursor)
+        result = run_query(graphql_query, auth_token)
+        result_data = result['data']['repository']['pullRequests']['edges']
+        filtered_data = list(filter(lambda obj: obj['node']['reviews']['totalCount'] > 0, result_data))
+        if len(filtered_data) == 0:
+            print("No pull requests with reviews")
+            continue
+        pull_requests_list.extend(filtered_data)
+        data.save_data(pull_requests_list, f'pull_requests/{name_with_owner}')

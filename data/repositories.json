@@ -5,11 +5,258 @@
             "login": "freeCodeCamp"
         },
         "createdAt": "2014-12-24T17:49:19Z",
-        "stargazerCount": 403497,
+        "stargazerCount": 403509,
         "pullRequests": {
             "totalCount": 37369
         },
         "nameWithOwner": "freeCodeCamp/freeCodeCamp",
         "url": "https://github.com/freeCodeCamp/freeCodeCamp"
+    },
+    {
+        "name": "free-programming-books",
+        "owner": {
+            "login": "EbookFoundation"
+        },
+        "createdAt": "2013-10-11T06:50:37Z",
+        "stargazerCount": 335674,
+        "pullRequests": {
+            "totalCount": 10030
+        },
+        "nameWithOwner": "EbookFoundation/free-programming-books",
+        "url": "https://github.com/EbookFoundation/free-programming-books"
+    },
+    {
+        "name": "awesome",
+        "owner": {
+            "login": "sindresorhus"
+        },
+        "createdAt": "2014-07-11T13:42:37Z",
+        "stargazerCount": 327508,
+        "pullRequests": {
+            "totalCount": 2024
+        },
+        "nameWithOwner": "sindresorhus/awesome",
+        "url": "https://github.com/sindresorhus/awesome"
+    },
+    {
+        "name": "public-apis",
+        "owner": {
+            "login": "public-apis"
+        },
+        "createdAt": "2016-03-20T23:49:42Z",
+        "stargazerCount": 313713,
+        "pullRequests": {
+            "totalCount": 2918
+        },
+        "nameWithOwner": "public-apis/public-apis",
+        "url": "https://github.com/public-apis/public-apis"
+    },
+    {
+        "name": "coding-interview-university",
+        "owner": {
+            "login": "jwasham"
+        },
+        "createdAt": "2016-06-06T02:34:12Z",
+        "stargazerCount": 305234,
+        "pullRequests": {
+            "totalCount": 993
+        },
+        "nameWithOwner": "jwasham/coding-interview-university",
+        "url": "https://github.com/jwasham/coding-interview-university"
+    },
+    {
+        "name": "build-your-own-x",
+        "owner": {
+            "login": "codecrafters-io"
+        },
+        "createdAt": "2018-05-09T12:03:18Z",
+        "stargazerCount": 303351,
+        "pullRequests": {
+            "totalCount": 264
+        },
+        "nameWithOwner": "codecrafters-io/build-your-own-x",
+        "url": "https://github.com/codecrafters-io/build-your-own-x"
+    },
+    {
+        "name": "developer-roadmap",
+        "owner": {
+            "login": "kamranahmedse"
+        },
+        "createdAt": "2017-03-15T13:45:52Z",
+        "stargazerCount": 293718,
+        "pullRequests": {
+            "totalCount": 4314
+        },
+        "nameWithOwner": "kamranahmedse/developer-roadmap",
+        "url": "https://github.com/kamranahmedse/developer-roadmap"
+    },
+    {
+        "name": "system-design-primer",
+        "owner": {
+            "login": "donnemartin"
+        },
+        "createdAt": "2017-02-26T16:15:28Z",
+        "stargazerCount": 271730,
+        "pullRequests": {
+            "totalCount": 317
+        },
+        "nameWithOwner": "donnemartin/system-design-primer",
+        "url": "https://github.com/donnemartin/system-design-primer"
+    },
+    {
+        "name": "996.ICU",
+        "owner": {
+            "login": "996icu"
+        },
+        "createdAt": "2019-03-26T07:31:14Z",
+        "stargazerCount": 269715,
+        "pullRequests": {
+            "totalCount": 1984
+        },
+        "nameWithOwner": "996icu/996.ICU",
+        "url": "https://github.com/996icu/996.ICU"
+    },
+    {
+        "name": "react",
+        "owner": {
+            "login": "facebook"
+        },
+        "createdAt": "2013-05-24T16:15:54Z",
+        "stargazerCount": 228053,
+        "pullRequests": {
+            "totalCount": 15999
+        },
+        "nameWithOwner": "facebook/react",
+        "url": "https://github.com/facebook/react"
+    },
+    {
+        "name": "awesome-python",
+        "owner": {
+            "login": "vinta"
+        },
+        "createdAt": "2014-06-27T21:00:06Z",
+        "stargazerCount": 220672,
+        "pullRequests": {
+            "totalCount": 1531
+        },
+        "nameWithOwner": "vinta/awesome-python",
+        "url": "https://github.com/vinta/awesome-python"
+    },
+    {
+        "name": "vue",
+        "owner": {
+            "login": "vuejs"
+        },
+        "createdAt": "2013-07-29T03:24:51Z",
+        "stargazerCount": 207756,
+        "pullRequests": {
+            "totalCount": 2298
+        },
+        "nameWithOwner": "vuejs/vue",
+        "url": "https://github.com/vuejs/vue"
+    },
+    {
+        "name": "project-based-learning",
+        "owner": {
+            "login": "practical-tutorials"
+        },
+        "createdAt": "2017-04-12T05:07:46Z",
+        "stargazerCount": 199565,
+        "pullRequests": {
+            "totalCount": 342
+        },
+        "nameWithOwner": "practical-tutorials/project-based-learning",
+        "url": "https://github.com/practical-tutorials/project-based-learning"
+    },
+    {
+        "name": "awesome-selfhosted",
+        "owner": {
+            "login": "awesome-selfhosted"
+        },
+        "createdAt": "2015-06-01T02:33:17Z",
+        "stargazerCount": 197537,
+        "pullRequests": {
+            "totalCount": 3036
+        },
+        "nameWithOwner": "awesome-selfhosted/awesome-selfhosted",
+        "url": "https://github.com/awesome-selfhosted/awesome-selfhosted"
+    },
+    {
+        "name": "Python",
+        "owner": {
+            "login": "TheAlgorithms"
+        },
+        "createdAt": "2016-07-16T09:44:01Z",
+        "stargazerCount": 189132,
+        "pullRequests": {
+            "totalCount": 9573
+        },
+        "nameWithOwner": "TheAlgorithms/Python",
+        "url": "https://github.com/TheAlgorithms/Python"
+    },
+    {
+        "name": "javascript-algorithms",
+        "owner": {
+            "login": "trekhleb"
+        },
+        "createdAt": "2018-03-24T07:47:04Z",
+        "stargazerCount": 187719,
+        "pullRequests": {
+            "totalCount": 535
+        },
+        "nameWithOwner": "trekhleb/javascript-algorithms",
+        "url": "https://github.com/trekhleb/javascript-algorithms"
+    },
+    {
+        "name": "tensorflow",
+        "owner": {
+            "login": "tensorflow"
+        },
+        "createdAt": "2015-11-07T01:19:20Z",
+        "stargazerCount": 185862,
+        "pullRequests": {
+            "totalCount": 33147
+        },
+        "nameWithOwner": "tensorflow/tensorflow",
+        "url": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "name": "linux",
+        "owner": {
+            "login": "torvalds"
+        },
+        "createdAt": "2011-09-04T22:48:12Z",
+        "stargazerCount": 179814,
+        "pullRequests": {
+            "totalCount": 529
+        },
+        "nameWithOwner": "torvalds/linux",
+        "url": "https://github.com/torvalds/linux"
+    },
+    {
+        "name": "You-Dont-Know-JS",
+        "owner": {
+            "login": "getify"
+        },
+        "createdAt": "2013-11-16T02:37:24Z",
+        "stargazerCount": 179312,
+        "pullRequests": {
+            "totalCount": 845
+        },
+        "nameWithOwner": "getify/You-Dont-Know-JS",
+        "url": "https://github.com/getify/You-Dont-Know-JS"
+    },
+    {
+        "name": "CS-Notes",
+        "owner": {
+            "login": "CyC2018"
+        },
+        "createdAt": "2018-02-13T14:56:24Z",
+        "stargazerCount": 175015,
+        "pullRequests": {
+            "totalCount": 552
+        },
+        "nameWithOwner": "CyC2018/CS-Notes",
+        "url": "https://github.com/CyC2018/CS-Notes"
     }
 ]
