@@ -99,20 +99,38 @@ def get_repositories(num_repos, auth_token):
         repositories.extend(pr_repos)
     return repositories[:num_repos]
 
+def get_pull_requests_bypass_page(owner, name, num_prs, auth_token, cursor = ''):
+    pull_requests = []
+    max_per_page = num_prs if num_prs < 25 else 25
+    num_pages = math.ceil(num_prs / max_per_page)
+    page = 1
+    cursor = ""
+
+    while page <= num_pages:
+        graphql_query = build_pull_request_query(owner, name, max_per_page, cursor)
+        result = run_query(graphql_query, auth_token)
+
+        page_pull_requests = result["data"]["repository"]["pullRequests"]["edges"]
+        if not page_pull_requests:
+            break
+
+        filtered_data = list(filter(lambda obj: obj['node']['reviews']['totalCount'] > 0, page_pull_requests))
+
+        if len(filtered_data) == 0:
+            break
+
+        pull_requests.extend(filtered_data)
+        cursor = result["data"]["repository"]["pullRequests"]["pageInfo"]["endCursor"]
+        page += 1
+
+    return pull_requests
+
 def get_pull_requests(repositories, auth_token):
-    pull_requests_list = []
 
     for repository in repositories:
         owner = repository["owner"]["login"]
         name = repository["name"]
+        total_count = repository["pullRequests"]["totalCount"]
         name_with_owner = repository["nameWithOwner"].replace("/", "-")
-        cursor = ""
-        graphql_query = build_pull_request_query(owner, name, 100, cursor)
-        result = run_query(graphql_query, auth_token)
-        result_data = result['data']['repository']['pullRequests']['edges']
-        filtered_data = list(filter(lambda obj: obj['node']['reviews']['totalCount'] > 0, result_data))
-        if len(filtered_data) == 0:
-            print("No pull requests with reviews")
-            continue
-        pull_requests_list.extend(filtered_data)
-        data.save_data(pull_requests_list, f'pull_requests/{name_with_owner}')
+        pull_requests = get_pull_requests_bypass_page(owner, name, total_count, auth_token)
+        data.save_data(pull_requests, f'pull_requests/{name_with_owner}')
