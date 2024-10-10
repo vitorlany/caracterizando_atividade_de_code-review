@@ -1,19 +1,6 @@
 [
     {
         "node": {
-            "title": "Update Branden's Team Member Bio",
-            "url": "https://github.com/freeCodeCamp/freeCodeCamp/pull/10",
-            "state": "MERGED",
-            "createdAt": "2015-01-09T15:55:49Z",
-            "mergedAt": "2015-01-09T18:58:45Z",
-            "closedAt": "2015-01-09T18:58:45Z",
-            "reviews": {
-                "totalCount": 10
-            }
-        }
-    },
-    {
-        "node": {
             "title": "Update 1",
             "url": "https://github.com/jwasham/coding-interview-university/pull/1",
             "state": "CLOSED",
@@ -202,6 +189,110 @@
             "createdAt": "2017-01-06T05:01:41Z",
             "mergedAt": null,
             "closedAt": "2017-01-07T18:18:30Z",
+            "reviews": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Thai Translation - First pull request",
+            "url": "https://github.com/jwasham/coding-interview-university/pull/159",
+            "state": "MERGED",
+            "createdAt": "2017-03-04T01:18:38Z",
+            "mergedAt": "2017-03-12T00:16:34Z",
+            "closedAt": "2017-03-12T00:16:34Z",
+            "reviews": {
+                "totalCount": 9
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Updated Ukrainian translation",
+            "url": "https://github.com/jwasham/coding-interview-university/pull/165",
+            "state": "CLOSED",
+            "createdAt": "2017-03-11T11:10:48Z",
+            "mergedAt": null,
+            "closedAt": "2017-08-23T10:08:21Z",
+            "reviews": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Thai translation: Fixed typos",
+            "url": "https://github.com/jwasham/coding-interview-university/pull/168",
+            "state": "MERGED",
+            "createdAt": "2017-03-14T02:40:05Z",
+            "mergedAt": "2017-03-14T17:00:08Z",
+            "closedAt": "2017-03-14T17:00:08Z",
+            "reviews": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add a link to help with Forking a repo",
+            "url": "https://github.com/jwasham/coding-interview-university/pull/173",
+            "state": "MERGED",
+            "createdAt": "2017-03-19T14:52:34Z",
+            "mergedAt": "2017-03-19T18:32:36Z",
+            "closedAt": "2017-03-19T18:32:36Z",
+            "reviews": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Translation: Turkish",
+            "url": "https://github.com/jwasham/coding-interview-university/pull/185",
+            "state": "MERGED",
+            "createdAt": "2017-04-11T09:46:43Z",
+            "mergedAt": "2021-07-29T16:02:39Z",
+            "closedAt": "2021-07-29T16:02:39Z",
+            "reviews": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update some words and Adding in readme-hi.md",
+            "url": "https://github.com/jwasham/coding-interview-university/pull/199",
+            "state": "CLOSED",
+            "createdAt": "2017-04-29T05:30:06Z",
+            "mergedAt": null,
+            "closedAt": "2024-05-03T15:58:53Z",
+            "reviews": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "fix(gitignore): change js-style comments to shell comments",
+            "url": "https://github.com/jwasham/coding-interview-university/pull/212",
+            "state": "MERGED",
+            "createdAt": "2017-06-05T10:31:08Z",
+            "mergedAt": "2017-06-09T04:09:25Z",
+            "closedAt": "2017-06-09T04:09:25Z",
+            "reviews": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "added anchor to video series",
+            "url": "https://github.com/jwasham/coding-interview-university/pull/213",
+            "state": "MERGED",
+            "createdAt": "2017-06-09T14:37:40Z",
+            "mergedAt": "2017-06-10T17:52:17Z",
+            "closedAt": "2017-06-10T17:52:17Z",
             "reviews": {
                 "totalCount": 1
             }
