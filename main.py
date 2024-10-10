@@ -58,8 +58,8 @@ def get_interactions(pr, repo, auth_token):
 
 def process_pull_requests(repositories, auth_token):
     for repo in repositories:
-        repo_name = repo['full_name']
-        pull_requests = github.get_pull_requests(repo_name, auth_token)
+        repo_name = repo['nameWithOwner']
+        pull_requests = github.get_pull_request(repo, auth_token)
         
         for pr in pull_requests:
             pr_details = get_pull_request_details(repo_name, pr['number'], auth_token)

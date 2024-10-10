@@ -134,3 +134,12 @@ def get_pull_requests(repositories, auth_token):
         name_with_owner = repository["nameWithOwner"].replace("/", "-")
         pull_requests = get_pull_requests_bypass_page(owner, name, total_count, auth_token)
         data.save_data(pull_requests, f'pull_requests/{name_with_owner}')
+
+        
+def get_pull_request(repository, auth_token):
+        owner = repository["owner"]["login"]
+        name = repository["name"]
+        total_count = repository["pullRequests"]["totalCount"]
+        name_with_owner = repository["nameWithOwner"].replace("/", "-")
+        pull_requests = get_pull_requests_bypass_page(owner, name, total_count, auth_token)
+        return pull_requests;
