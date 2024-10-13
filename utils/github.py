@@ -60,6 +60,18 @@ def build_pull_request_query(owner, name, number, cursor):
                             reviews(first: 100) {{
                                 totalCount
                             }}
+                            files(first: 100) {{
+                              totalCount
+                            }}
+                            additions
+                            deletions
+                            body
+                            participants(first: 100) {{
+                                totalCount
+                            }}
+                            comments(first: 100) {{
+                                totalCount
+                            }}
                         }}
                     }}
                 }}
