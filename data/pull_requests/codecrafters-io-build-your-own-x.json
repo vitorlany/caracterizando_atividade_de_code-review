@@ -1,0 +1,1002 @@
+[
+    {
+        "node": {
+            "title": "readme: Add my tutorial on shell",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/10",
+            "state": "MERGED",
+            "createdAt": "2018-05-11T10:08:57Z",
+            "mergedAt": "2018-05-12T07:55:36Z",
+            "closedAt": "2018-05-12T07:55:36Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "This is a collection of three blog posts, but I've linked to only Part I in this PR and readers can follow on from there (links to consecutive parts are available at the end of each blog post).",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add: Generate SVG images in C",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/16",
+            "state": "CLOSED",
+            "createdAt": "2018-05-12T08:21:04Z",
+            "mergedAt": null,
+            "closedAt": "2018-05-13T10:53:26Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Nanocoin cryptocurrency written in Haskell",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/30",
+            "state": "MERGED",
+            "createdAt": "2018-05-13T10:05:48Z",
+            "mergedAt": "2018-05-13T10:45:32Z",
+            "closedAt": "2018-05-13T10:45:32Z",
+            "reviews": {
+                "totalCount": 4
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "Nanocoin is a PoC cryptocurrency written in Haskell. It is under development to illustrate that the foundations of DLTs (Distributed Ledger Techonology) and aid in dispelling the air of mystery about what a cryptocurrency is. The project attempts to present the necessary cryptographic components and distributed systems knowledge necessary to implement a cryptocurrency.\r\n\r\nhttps://github.com/adjoint-io/nanocoin\r\n",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add \"Build your own Window Manager\"",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/35",
+            "state": "MERGED",
+            "createdAt": "2018-05-13T14:44:31Z",
+            "mergedAt": "2018-05-14T06:51:54Z",
+            "closedAt": "2018-05-14T06:51:54Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "added 'Build your own CI server' title & one item",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/59",
+            "state": "MERGED",
+            "createdAt": "2018-05-14T14:37:35Z",
+            "mergedAt": "2018-05-15T13:35:32Z",
+            "closedAt": "2018-05-15T13:35:32Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "proposal: add https://developer.github.com/v3/guides/building-a-ci-server/",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update README.md",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/63",
+            "state": "MERGED",
+            "createdAt": "2018-05-14T17:30:12Z",
+            "mergedAt": "2018-05-14T18:55:00Z",
+            "closedAt": "2018-05-14T18:55:00Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 1,
+            "body": "Added two tutorials",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Added a New Category : Text Editor",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/137",
+            "state": "MERGED",
+            "createdAt": "2018-05-24T05:49:20Z",
+            "mergedAt": "2018-05-24T09:21:06Z",
+            "closedAt": "2018-05-24T09:21:06Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 9,
+            "deletions": 1,
+            "body": "added few items in that category and moved an item `C: Build Your Own Text Editor` to `Text Editor` category",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Found a Web site hosting these tutorials, want to add a link",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/211",
+            "state": "CLOSED",
+            "createdAt": "2018-06-24T09:09:39Z",
+            "mergedAt": null,
+            "closedAt": "2018-06-29T10:33:16Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 0,
+            "body": "Found a Web site hosting these tutorials on their page, as a 'Web version': www.byo-x.org with a link back to here.\r\n\r\nOriginally found: on [this rant](https://devrant.com/rants/1511286/hey-devrant-here-is-a-list-with-some-dev-tutorials-currently-208-more-are-being).\r\n\r\nJust a thought that you might want to include it on your page for anyone interested in using it!",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add Build your own Front-end Framework re-implement react fiber",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/343",
+            "state": "CLOSED",
+            "createdAt": "2019-03-27T02:34:20Z",
+            "mergedAt": null,
+            "closedAt": "2019-10-07T02:28:58Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Added a tutorial: Lest's build a NodeJS micro framework",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/349",
+            "state": "CLOSED",
+            "createdAt": "2019-04-13T12:06:48Z",
+            "mergedAt": null,
+            "closedAt": "2024-07-25T17:59:41Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "Added a link to this tutorial:  [Let's build a NodeJS micro framework](https://evanxg852000.github.io/tutorial/2019/01/05/lets-build-a-nodejs-micro-framework-part-i.html)\r\n",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add 'Twitter Bot Tutorial-Node.js and Processing'",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/380",
+            "state": "CLOSED",
+            "createdAt": "2019-10-06T15:01:26Z",
+            "mergedAt": null,
+            "closedAt": "2020-10-30T19:20:29Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add an article about monadic parser combinators in C#",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/404",
+            "state": "CLOSED",
+            "createdAt": "2019-11-10T21:06:49Z",
+            "mergedAt": null,
+            "closedAt": "2022-11-28T09:34:36Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add Write your own Excel in 100 lines of F#",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/425",
+            "state": "CLOSED",
+            "createdAt": "2020-02-07T13:37:24Z",
+            "mergedAt": null,
+            "closedAt": "2023-07-30T08:45:16Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix a broken link with archive",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/512",
+            "state": "CLOSED",
+            "createdAt": "2020-07-27T02:13:06Z",
+            "mergedAt": null,
+            "closedAt": "2024-02-12T22:30:30Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 2,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update readme",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/514",
+            "state": "CLOSED",
+            "createdAt": "2020-08-02T21:17:08Z",
+            "mergedAt": null,
+            "closedAt": "2023-07-16T16:00:52Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "I don't know which category this repository fits in so I put it in the uncategorized, it has tutorials on how to create virtual machines, compilers, hash tables, and others.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add Web App Server in Golang",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/534",
+            "state": "CLOSED",
+            "createdAt": "2020-10-01T12:55:06Z",
+            "mergedAt": null,
+            "closedAt": "2020-10-25T18:24:41Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 3,
+            "deletions": 3,
+            "body": "This Tutorial walk you through Golang Language by teaching you how to build a webserver/application in golang using different libraries and frameworks ",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add Test Collision With Separating Axis Theorem in JavaScript",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/536",
+            "state": "CLOSED",
+            "createdAt": "2020-10-03T19:26:47Z",
+            "mergedAt": null,
+            "closedAt": "2021-12-02T14:21:40Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "Closes #535",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add link to \"ugit: Building Git Yourself\"",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/542",
+            "state": "MERGED",
+            "createdAt": "2020-10-11T11:29:49Z",
+            "mergedAt": "2023-01-31T07:38:01Z",
+            "closedAt": "2023-01-31T07:38:01Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "### Main programming language\r\nPython\r\n\r\n### Tutorial title\r\nugit: Learn Git Internals by Building Your Own Git\r\n\r\n### Tutorial URL\r\nhttps://www.leshenko.net/p/ugit/\r\n\r\n### Category\r\n* [ ] 3D Renderer\r\n* [ ] Augmented Reality\r\n* [ ] BitTorrent Client\r\n* [ ] Blockchain / Cryptocurrency\r\n* [ ] Bot\r\n* [ ] Command-Line Tool\r\n* [ ] Database\r\n* [ ] Docker\r\n* [ ] Emulator / Virtual Machine\r\n* [ ] Front-end Framework / Library\r\n* [ ] Game\r\n* [X] Git\r\n* [ ] Network Stack\r\n* [ ] Neural Network\r\n* [ ] Operating System\r\n* [ ] Physics Engine\r\n* [ ] Programming Language\r\n* [ ] Regex Engine\r\n* [ ] Search Engine\r\n* [ ] Shell\r\n* [ ] Template Engine\r\n* [ ] Visual Recognition System\r\n* [ ] Voxel Engine\r\n* [ ] Web Search Engine\r\n* [ ] Web Server\r\n* [ ] Uncategorized\r\n",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add Ray Tracing in One Weekend",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/551",
+            "state": "MERGED",
+            "createdAt": "2020-11-17T02:38:14Z",
+            "mergedAt": "2023-01-31T07:44:39Z",
+            "closedAt": "2023-01-31T07:44:39Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "Closes #550 \r\n\r\nRay Tracing in One Weekend by Peter Shirley is a really great tutorial on how to build a basic ray tracer from scratch. I think it would be a great addition to this repository.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add a tutorial about writing a Tetris game.",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/634",
+            "state": "CLOSED",
+            "createdAt": "2021-06-16T14:11:33Z",
+            "mergedAt": null,
+            "closedAt": "2021-08-29T15:42:17Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "Add a tutorial about writing a Tetris game in ClojureScript.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "chore: remove reverse engineering react unavailable resourse",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/674",
+            "state": "MERGED",
+            "createdAt": "2021-11-05T16:13:59Z",
+            "mergedAt": "2021-11-30T08:41:01Z",
+            "closedAt": "2021-11-30T08:41:01Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 0,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "added cryptoCurreny miner and dockerize tuturial",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/678",
+            "state": "CLOSED",
+            "createdAt": "2021-11-17T20:04:08Z",
+            "mergedAt": null,
+            "closedAt": "2022-07-18T13:41:33Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "Can you check this. added cryptoCurreny miner and dockerize tuturial",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Emphasize JavaScript's Regex Implementation Topic",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/696",
+            "state": "MERGED",
+            "createdAt": "2022-02-13T17:59:19Z",
+            "mergedAt": "2022-02-16T14:06:28Z",
+            "closedAt": "2022-02-16T14:06:28Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "So I know this is lame, but I found a missing `<em>` tag on the [Implementing a Regular Expression Engine](https://deniskyashif.com/2019/02/17/implementing-a-regular-expression-engine/) topic.\r\n\r\n<img width=\"1397\" alt=\"image\" src=\"https://user-images.githubusercontent.com/38928059/153767783-c98943f4-ed57-4164-8dac-243bb17cc808.png\">\r\n",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Added tutorial for building a basic Rust CLI app",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/748",
+            "state": "CLOSED",
+            "createdAt": "2022-06-17T12:00:53Z",
+            "mergedAt": null,
+            "closedAt": "2023-07-04T13:04:41Z",
+            "reviews": {
+                "totalCount": 4
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "Linking to the Rust CLI book => https://rust-cli.github.io/book/tutorial/index.html",
+            "participants": {
+                "totalCount": 5
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update Games With Go unavailable link",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/775",
+            "state": "MERGED",
+            "createdAt": "2022-07-16T11:43:47Z",
+            "mergedAt": "2022-07-20T14:00:56Z",
+            "closedAt": "2022-07-20T14:00:56Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "[https://gameswithgo.org/](https://gameswithgo.org/) This website is no longer available. Hence update the URL to point to it's [Original YouTube Video Playlist](https://www.youtube.com/playlist?list=PLDZujg-VgQlZUy1iCqBbe5faZLMkA3g2x) instead",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "New 2D game development with JavaScript added",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/795",
+            "state": "CLOSED",
+            "createdAt": "2022-08-15T01:52:46Z",
+            "mergedAt": null,
+            "closedAt": "2022-11-08T10:10:48Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "A 2D game development with just vanilla JavaScript for beginners from freeCodeCamp",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update README.md",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/797",
+            "state": "CLOSED",
+            "createdAt": "2022-08-16T14:14:12Z",
+            "mergedAt": null,
+            "closedAt": "2024-05-25T15:36:32Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "adds ray tracing in one weekend to the build your own 3d renderer repo",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "add python slack bot",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/802",
+            "state": "CLOSED",
+            "createdAt": "2022-09-02T02:55:49Z",
+            "mergedAt": null,
+            "closedAt": "2023-03-02T06:23:48Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "I recently created a python slack bot that that listens for messages containing IP addresses and responds with security info about them. ",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add Create Your Own CLI Tool with NodeJS",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/809",
+            "state": "MERGED",
+            "createdAt": "2022-10-05T17:56:03Z",
+            "mergedAt": "2022-10-09T10:17:49Z",
+            "closedAt": "2022-10-09T10:17:49Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "closes #568 ",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add KV store",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/855",
+            "state": "MERGED",
+            "createdAt": "2023-02-14T19:48:30Z",
+            "mergedAt": "2023-02-16T11:17:42Z",
+            "closedAt": "2023-02-16T11:17:42Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "Build your own fast, persistent KV store in Ruby",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add quote information",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/870",
+            "state": "CLOSED",
+            "createdAt": "2023-03-26T10:00:21Z",
+            "mergedAt": null,
+            "closedAt": "2023-10-16T15:00:21Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "add Build your own VPN/Virtual Switch",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/893",
+            "state": "MERGED",
+            "createdAt": "2023-05-09T09:03:51Z",
+            "mergedAt": "2023-05-10T00:26:40Z",
+            "closedAt": "2023-05-10T00:26:40Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "A tutorial project for building you own VPN/Virtual Switch.\r\n\r\nPlease consider and merge it. Thanks.\r\n@rohitpaulk ",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix: Replaced a broken link with alternative from smashingmagazine.com",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/934",
+            "state": "MERGED",
+            "createdAt": "2023-09-30T06:56:25Z",
+            "mergedAt": "2023-10-26T20:04:50Z",
+            "closedAt": "2023-10-26T20:04:50Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "Fixes the issue #932 . \r\nReplaced the link with similar article from https://www.smashingmagazine.com/2020/02/cryptocurrency-blockchain-node-js/",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update README.md",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/944",
+            "state": "CLOSED",
+            "createdAt": "2023-10-11T11:40:19Z",
+            "mergedAt": null,
+            "closedAt": "2023-10-16T17:13:38Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "Resolves #943 ",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "new pull request",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/961",
+            "state": "CLOSED",
+            "createdAt": "2023-11-23T18:00:26Z",
+            "mergedAt": null,
+            "closedAt": "2023-11-24T11:55:09Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "added python commandline tool",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/1030",
+            "state": "CLOSED",
+            "createdAt": "2024-04-12T03:57:56Z",
+            "mergedAt": null,
+            "closedAt": "2024-04-14T10:53:53Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 0,
+            "body": "An interactive command line tool built using python along with `poetry` as a package manager.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "fix: fixed broken link from list",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/1060",
+            "state": "MERGED",
+            "createdAt": "2024-06-05T21:00:45Z",
+            "mergedAt": "2024-06-12T21:49:32Z",
+            "closedAt": "2024-06-12T21:49:32Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "closes #1059 ",
+            "participants": {
+                "totalCount": 6
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "feat: added how to build a cli app with node 2024 guide",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/1084",
+            "state": "CLOSED",
+            "createdAt": "2024-06-29T08:23:12Z",
+            "mergedAt": null,
+            "closedAt": "2024-09-13T13:41:27Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "Added the article - Building a CLI App with Node.js in 2024\r\n\r\nhttps://medium.com/nmc-techblog/building-a-cli-with-node-js-in-2024-c278802a3ef5",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Updated the article link for \"Python: Developing a License Plate Recognition System with Machine Learning in Python\"",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/1107",
+            "state": "CLOSED",
+            "createdAt": "2024-07-13T18:06:33Z",
+            "mergedAt": null,
+            "closedAt": "2024-07-15T11:09:09Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 5
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update README.md",
+            "url": "https://github.com/codecrafters-io/build-your-own-x/pull/1124",
+            "state": "MERGED",
+            "createdAt": "2024-08-03T14:41:51Z",
+            "mergedAt": "2024-08-06T00:02:50Z",
+            "closedAt": "2024-08-06T00:02:51Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 0,
+            "deletions": 1,
+            "body": "removed uncatogorised python project for \"Build your own error-correction fountain code with Luby Transform Codes\" due to dead links and domain not being allocated",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "node": {
+            "title": "Fix some issues",
+            "url": "https://github.com/kamranahmedse/developer-roadmap/pull/25",
+            "state": "CLOSED",
+            "createdAt": "2017-03-19T13:32:51Z",
+            "mergedAt": null,
+            "closedAt": "2017-03-23T05:14:20Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 2
+            },
+            "additions": 2,
+            "deletions": 2,
+            "body": "Related: #12 #24 \r\nAdds:\r\n\r\n- [x] Xdebug to PHP (Backend)\r\n- [x] Byebug to Ruby (Backend)\r\n- [x] Material Design to CSS Frameworks (Frontend)",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    }
+]

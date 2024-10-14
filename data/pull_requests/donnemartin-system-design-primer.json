@@ -1,0 +1,4502 @@
+[
+    {
+        "node": {
+            "title": "Fix typo in Study Guide section",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/10",
+            "state": "MERGED",
+            "createdAt": "2017-03-09T10:50:34Z",
+            "mergedAt": "2017-03-10T00:36:12Z",
+            "closedAt": "2017-03-10T00:36:12Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 2,
+            "body": "A small fix to change to drop the \"a\" in \"solving a many interview questions\".",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix typo - lobsided -> lopsided",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/11",
+            "state": "MERGED",
+            "createdAt": "2017-03-09T14:21:29Z",
+            "mergedAt": "2017-03-10T00:37:40Z",
+            "closedAt": "2017-03-10T00:37:40Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add Dyn DDoS attack link",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/13",
+            "state": "MERGED",
+            "createdAt": "2017-03-10T04:30:56Z",
+            "mergedAt": "2017-03-11T02:07:51Z",
+            "closedAt": "2017-03-11T02:07:51Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "#12 ",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix multiple typos",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/14",
+            "state": "MERGED",
+            "createdAt": "2017-03-10T07:53:56Z",
+            "mergedAt": "2017-03-11T02:06:35Z",
+            "closedAt": "2017-03-11T02:06:35Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 8,
+            "deletions": 8,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix typo in RPC section",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/17",
+            "state": "MERGED",
+            "createdAt": "2017-03-11T16:47:20Z",
+            "mergedAt": "2017-03-11T16:59:59Z",
+            "closedAt": "2017-03-11T16:59:59Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "Small typo in the Remote Procedure Call section.\r\ns/definied/defined",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix #6: Migrate links from exercises/solutions to use internal links",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/23",
+            "state": "MERGED",
+            "createdAt": "2017-03-16T22:49:05Z",
+            "mergedAt": "2017-03-19T19:23:03Z",
+            "closedAt": "2017-03-19T19:23:03Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 8
+            },
+            "additions": 35,
+            "deletions": 35,
+            "body": "Changed the links in the main README and in the readme files inside solutions/ to address #6.\r\nSkipped the links from the files inside solutions/ to the main readme, so that they won't break if the directory structure change.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Delete duplicate word \"does\" in design exercises",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/24",
+            "state": "MERGED",
+            "createdAt": "2017-03-18T04:17:42Z",
+            "mergedAt": "2017-03-18T15:37:17Z",
+            "closedAt": "2017-03-18T15:37:17Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 3
+            },
+            "additions": 3,
+            "deletions": 3,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix typo JSS -> JS",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/25",
+            "state": "MERGED",
+            "createdAt": "2017-03-18T16:45:40Z",
+            "mergedAt": "2017-03-19T19:24:13Z",
+            "closedAt": "2017-03-19T19:24:13Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "Under CDN section, change JSS to JS",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Declare variable key in the get_user example",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/26",
+            "state": "MERGED",
+            "createdAt": "2017-03-19T22:54:10Z",
+            "mergedAt": "2017-03-21T11:39:11Z",
+            "closedAt": "2017-03-21T11:39:11Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "As the variable `key` is not defined, the example could generate a little of confusion in my opinion.\r\n\r\nIf we don't want to add more complexity using `format()`, we should be also able to just do `key = \"user.{user_id}`.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix typo",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/29",
+            "state": "MERGED",
+            "createdAt": "2017-03-22T16:44:21Z",
+            "mergedAt": "2017-03-23T02:53:16Z",
+            "closedAt": "2017-03-23T02:53:16Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix typos",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/33",
+            "state": "MERGED",
+            "createdAt": "2017-03-23T22:30:10Z",
+            "mergedAt": "2017-03-24T02:42:03Z",
+            "closedAt": "2017-03-24T02:42:03Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 2,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "change the service discovery documenation example to use consul/etcd",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/34",
+            "state": "CLOSED",
+            "createdAt": "2017-03-24T11:32:50Z",
+            "mergedAt": null,
+            "closedAt": "2017-03-26T17:02:10Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 4,
+            "deletions": 1,
+            "body": "Suggested path of #31 \r\nUpdate to used consul/etcd as examples of service discovery ",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Explain difference between PUT & PATCH",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/35",
+            "state": "MERGED",
+            "createdAt": "2017-03-25T22:50:04Z",
+            "mergedAt": "2017-03-29T10:19:15Z",
+            "closedAt": "2017-03-29T10:19:15Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 0,
+            "body": "I think some developers get confused between PUT & PATCH. [This Laracasts comment](https://laracasts.com/discuss/channels/general-discussion/whats-the-differences-between-put-and-patch?page=1) hopes to provide a clear distinction between the two.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update service discovery section to include consul, etcd, and additional details",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/36",
+            "state": "MERGED",
+            "createdAt": "2017-03-26T16:58:09Z",
+            "mergedAt": "2017-03-28T11:45:13Z",
+            "closedAt": "2017-03-28T11:45:13Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 5
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Change AP wording for clarity",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/50",
+            "state": "MERGED",
+            "createdAt": "2017-04-04T08:27:14Z",
+            "mergedAt": "2017-04-04T09:56:39Z",
+            "closedAt": "2017-04-04T09:56:39Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "I think that the description for AP should be changed. It currently says that the most recent version of the data might not be the latest. \r\nThe explanation of Consistency uses the same word, recent. \r\nI have changed AP to qualify 'recent' as being the most recent data available on the node",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Change Pull CDN wording for clarity",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/55",
+            "state": "MERGED",
+            "createdAt": "2017-04-07T23:44:25Z",
+            "mergedAt": "2017-04-08T00:20:38Z",
+            "closedAt": "2017-04-08T00:20:38Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "zh-cn: Add Simplified Chinese translation v1.0",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/62",
+            "state": "MERGED",
+            "createdAt": "2017-04-15T07:44:20Z",
+            "mergedAt": "2017-04-15T13:32:32Z",
+            "closedAt": "2017-04-15T13:32:32Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1797,
+            "deletions": 0,
+            "body": "At\u00a0your\u00a0request (#60), we have created a new branch to squash these commits. Now there's only one commit in the history. \ud83d\ude1c",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "zh-cn: Rename README-zh-Hant.md to README-zh-Hans.md",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/64",
+            "state": "MERGED",
+            "createdAt": "2017-04-16T03:17:12Z",
+            "mergedAt": "2017-04-16T21:49:16Z",
+            "closedAt": "2017-04-16T21:49:16Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 0,
+            "deletions": 0,
+            "body": ":truck: The file name of Simplified Chinese translation is wrong, so I corrected it. (#62)",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix asynchronism link in mint README",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/69",
+            "state": "MERGED",
+            "createdAt": "2017-04-22T00:06:53Z",
+            "mergedAt": "2017-05-16T04:10:52Z",
+            "closedAt": "2017-05-16T04:10:52Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix lowercase typo in Layer 7 load balancing title",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/74",
+            "state": "MERGED",
+            "createdAt": "2017-05-02T19:28:31Z",
+            "mergedAt": "2017-05-16T04:17:24Z",
+            "closedAt": "2017-05-16T04:17:24Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "Fixed letter case for title **layer 7 load balancing**",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix typo",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/75",
+            "state": "MERGED",
+            "createdAt": "2017-05-09T13:31:23Z",
+            "mergedAt": "2017-05-27T00:32:45Z",
+            "closedAt": "2017-05-27T00:32:45Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add license disclaimer",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/78",
+            "state": "CLOSED",
+            "createdAt": "2017-05-18T08:42:10Z",
+            "mergedAt": null,
+            "closedAt": "2017-05-27T00:34:53Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 2
+            },
+            "additions": 10,
+            "deletions": 0,
+            "body": "![image](https://cloud.githubusercontent.com/assets/10015677/26193796/de7fde10-3be8-11e7-9e7b-0cf86c3de2fa.png)\r\nthis URL seems cannot visit",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix #79: Inaccuracy in Twitter timeline and search example",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/81",
+            "state": "MERGED",
+            "createdAt": "2017-05-25T01:47:16Z",
+            "mergedAt": "2017-05-27T00:31:32Z",
+            "closedAt": "2017-05-27T00:31:32Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Init spot_size member in parking lot exercise",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/83",
+            "state": "MERGED",
+            "createdAt": "2017-05-29T16:47:48Z",
+            "mergedAt": "2017-05-30T00:55:33Z",
+            "closedAt": "2017-05-30T00:55:33Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "spot_size is not initialised.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix reducer argument in pastebin exercise",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/85",
+            "state": "MERGED",
+            "createdAt": "2017-06-06T15:19:52Z",
+            "mergedAt": "2017-06-14T00:43:11Z",
+            "closedAt": "2017-06-14T00:43:11Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "This should make it clear that the code the developer writes for the reduce steps indeed gets an iterable of values, not only a single value.\r\n\r\nThat's how the [luigi mapreduce framework](https://github.com/spotify/luigi/blob/710e7238406a9843945c74d53f5524a6284194f0/examples/wordcount_hadoop.py#L84) is designed at least.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add Grab Engineering Blog link",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/92",
+            "state": "CLOSED",
+            "createdAt": "2017-07-10T07:25:48Z",
+            "mergedAt": null,
+            "closedAt": "2017-07-18T02:13:02Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 2
+            },
+            "additions": 2,
+            "deletions": 0,
+            "body": "Grab is one of the largest transport companies in South-east Asia, and they handle 2.3 million rides daily. Their Engineering Blog content focuses on how they handle the scale of their business and is suitable for learning system design.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add automated testing",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/93",
+            "state": "CLOSED",
+            "createdAt": "2017-07-11T03:27:24Z",
+            "mergedAt": null,
+            "closedAt": "2018-10-28T21:25:17Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 11,
+            "deletions": 0,
+            "body": "The goal of this change is to have Travis-CI automatically run [flake8](http://flake8.readthedocs.io) tests on every pull request. This will help contributors know if their submissions are going to *break the build*. To turn on this **free** service, you would need to do steps 1 and 2 of https://docs.travis-ci.com/user/getting-started/",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 12
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix typo in denormalization section",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/95",
+            "state": "MERGED",
+            "createdAt": "2017-07-17T14:04:37Z",
+            "mergedAt": "2017-07-18T02:08:37Z",
+            "closedAt": "2017-07-18T02:08:37Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Mention policy for adding new blogs to Company engineering blogs section",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/96",
+            "state": "MERGED",
+            "createdAt": "2017-07-18T02:25:43Z",
+            "mergedAt": "2017-07-18T02:29:29Z",
+            "closedAt": "2017-07-18T02:29:29Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 0,
+            "body": "In response to #92 ",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Convert all .py files to be valid Python",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/98",
+            "state": "MERGED",
+            "createdAt": "2017-08-15T07:19:19Z",
+            "mergedAt": "2018-03-07T00:37:47Z",
+            "closedAt": "2018-03-07T00:37:47Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 7
+            },
+            "additions": 78,
+            "deletions": 39,
+            "body": "`raise NotImplementedError('Please replace this line with your code...')` signals to the user where they need to put their code.\r\n\r\nThis approach enables the codebase to be tested with lint tools like flake8, pyflakes, pylint, etc.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 8
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add API rate limiter design link",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/108",
+            "state": "MERGED",
+            "createdAt": "2017-09-29T06:10:36Z",
+            "mergedAt": "2017-10-09T00:52:45Z",
+            "closedAt": "2017-10-09T00:52:45Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix typo: considering -> consider in scaling AWS solution",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/109",
+            "state": "MERGED",
+            "createdAt": "2017-10-02T02:42:48Z",
+            "mergedAt": "2017-10-07T16:06:38Z",
+            "closedAt": "2017-10-07T16:06:38Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "thank you for an awesome repo. I think I found a minor typo and thought I would correct it.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Simplify logic for is_ace and is_face_card in deck of cards solution",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/113",
+            "state": "MERGED",
+            "createdAt": "2017-10-21T19:56:43Z",
+            "mergedAt": "2017-10-25T01:06:00Z",
+            "closedAt": "2017-10-25T01:06:00Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 2,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add Japanese Translation",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/114",
+            "state": "MERGED",
+            "createdAt": "2017-10-27T04:40:49Z",
+            "mergedAt": "2017-12-02T01:15:57Z",
+            "closedAt": "2017-12-02T01:15:57Z",
+            "reviews": {
+                "totalCount": 6
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1787,
+            "deletions": 0,
+            "body": "Complete version of japanese translation",
+            "participants": {
+                "totalCount": 5
+            },
+            "comments": {
+                "totalCount": 9
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Correct Redis list structure in Twitter solution",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/116",
+            "state": "MERGED",
+            "createdAt": "2017-11-20T01:11:18Z",
+            "mergedAt": "2017-11-30T01:12:16Z",
+            "closedAt": "2017-11-30T01:12:16Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "```\r\n           tweet n+2                   tweet n+1                   tweet n\r\n| 8 bytes   8 bytes  1 byte | 8 bytes   8 bytes  1 byte | 8 bytes   7 bytes  1 byte |\r\n| tweet_id  user_id  meta   | tweet_id  user_id  meta   | tweet_id  user_id  meta   |\r\n```\r\n\r\nshould the 7 be 8?",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "ja: Fix typo ",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/119",
+            "state": "MERGED",
+            "createdAt": "2017-12-06T15:03:13Z",
+            "mergedAt": "2017-12-08T01:18:26Z",
+            "closedAt": "2017-12-08T01:18:26Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "## WHY\r\n\r\nAbout **native** there is a shake of the notation of \"\u30cd\u30fc\u30c6\u30a3\u30d6\" and \"\u30cd\u30a4\u30c6\u30a3\u30d6\" in README-ja.\r\nI think that it is probably typo. \ud83e\udd14 \r\n\r\n- original contents:\r\n\r\n```shell-session\r\n$ grep -ir \"native\" ./README.md \r\n./README.md:RPC is focused on exposing behaviors.  RPCs are often used for performance reasons with internal communications, as you can hand-craft native calls to better fit your use cases.\r\n./README.md:Choose a native library (aka SDK) when:\r\n```\r\n\r\n- ja:\r\n\r\n```shell-session\r\n$ grep -ir \"\u30cd\u30a4\u30c6\u30a3\u30d6\" ./README-ja.md \r\n./README-ja.md:\u30cd\u30a4\u30c6\u30a3\u30d6\u30e9\u30a4\u30d6\u30e9\u30ea\u30fc (aka SDK) \u3092\u547c\u3076\u306e\u306f\u4ee5\u4e0b\u306e\u6642:\r\n$ grep -ir \"\u30cd\u30fc\u30c6\u30a3\u30d6\" ./README-ja.md \r\n./README-ja.md:RPC\u306f\u632f\u308b\u821e\u3044\u3092\u516c\u958b\u3059\u308b\u3053\u3068\u306b\u7126\u70b9\u3092\u5f53\u3066\u3066\u3044\u307e\u3059\u3002RPC\u306f\u5185\u90e8\u901a\u4fe1\u30d1\u30d5\u30a9\u30fc\u30de\u30f3\u30b9\u3092\u7406\u7531\u3068\u3057\u3066\u4f7f\u308f\u308c\u308b\u3053\u3068\u304c\u591a\u3044\u3067\u3059\u3002\u3068\u3044\u3046\u306e\u3082\u3001\u4f7f\u7528\u3059\u308b\u72b6\u6cc1\u306b\u5408\u308f\u305b\u3066\u30cd\u30fc\u30c6\u30a3\u30d6\u30b3\u30fc\u30eb\u3092\u81ea\u4f5c\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u308b\u304b\u3089\u3067\u3059\u3002\r\n```\r\n\r\n## WHAT\r\n\r\nFIx typo.(`s/\u30cd\u30fc\u30c6\u30a3\u30d6/\u30cd\u30a4\u30c6\u30a3\u30d6/g`)",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "add Netflix in Company Architecture",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/121",
+            "state": "CLOSED",
+            "createdAt": "2018-01-02T12:01:03Z",
+            "mergedAt": null,
+            "closedAt": "2018-01-21T16:51:13Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 4,
+            "deletions": 3,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add Netflix in Company Architectures",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/122",
+            "state": "MERGED",
+            "createdAt": "2018-01-06T12:59:55Z",
+            "mergedAt": "2018-01-21T16:55:00Z",
+            "closedAt": "2018-01-21T16:55:00Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add Scaling Uber in Company Architecture",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/123",
+            "state": "MERGED",
+            "createdAt": "2018-01-06T13:04:37Z",
+            "mergedAt": "2018-02-02T23:08:50Z",
+            "closedAt": "2018-02-02T23:08:50Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add article link: How Twitter Handles 3,000 Images/sec",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/124",
+            "state": "MERGED",
+            "createdAt": "2018-01-06T13:07:40Z",
+            "mergedAt": "2019-04-10T00:47:00Z",
+            "closedAt": "2019-04-10T00:47:00Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add Facebook Live Streams",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/125",
+            "state": "MERGED",
+            "createdAt": "2018-01-06T13:10:29Z",
+            "mergedAt": "2018-02-16T01:37:46Z",
+            "closedAt": "2018-02-16T01:37:46Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update master-slave section anchor",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/129",
+            "state": "MERGED",
+            "createdAt": "2018-01-26T20:51:15Z",
+            "mergedAt": "2018-02-08T00:57:01Z",
+            "closedAt": "2018-02-08T00:57:01Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 4
+            },
+            "additions": 4,
+            "deletions": 4,
+            "body": "#master-slave doesn't go anywhere, the relevant link is #master-slave-replication.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add Traditional Chinese translation",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/133",
+            "state": "MERGED",
+            "createdAt": "2018-02-14T04:51:04Z",
+            "mergedAt": "2018-02-28T02:41:24Z",
+            "closedAt": "2018-02-28T02:41:24Z",
+            "reviews": {
+                "totalCount": 8
+            },
+            "files": {
+                "totalCount": 2
+            },
+            "additions": 1787,
+            "deletions": 1,
+            "body": "Hi @donnemartin , I've already finished the Traditional Chinese translation which the issue goes here [issue](https://github.com/donnemartin/system-design-primer/issues/88). I also add the link by updating the table of content in README.md. Please helps check. \r\n\r\nThanks.",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 23
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update re:Invent url to 2017 version",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/137",
+            "state": "MERGED",
+            "createdAt": "2018-02-25T12:51:34Z",
+            "mergedAt": "2018-02-27T02:28:05Z",
+            "closedAt": "2018-02-27T02:28:05Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 3
+            },
+            "additions": 18,
+            "deletions": 18,
+            "body": "Scaling up to your first 10 million users url updated to point newer version of the video, 2017 instead of 2015. Includes Microservices architecture overview.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "zh-TW: Add proper line break to links",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/139",
+            "state": "MERGED",
+            "createdAt": "2018-03-02T16:19:29Z",
+            "mergedAt": "2018-03-04T19:14:45Z",
+            "closedAt": "2018-03-04T19:14:45Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 16,
+            "deletions": 16,
+            "body": "Add proper line break to the links on \"Additional system design interview questions\" and \"Company architectures\" tables",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "zh-Hans: Fix typos",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/141",
+            "state": "MERGED",
+            "createdAt": "2018-03-05T08:53:33Z",
+            "mergedAt": "2018-03-08T01:37:46Z",
+            "closedAt": "2018-03-08T01:37:46Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 7,
+            "deletions": 7,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add missing self variables to Deck of Cards solution",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/145",
+            "state": "MERGED",
+            "createdAt": "2018-03-07T05:32:45Z",
+            "mergedAt": "2018-03-18T13:21:53Z",
+            "closedAt": "2018-03-18T13:21:53Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 3,
+            "deletions": 3,
+            "body": "Discovered via #93",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Change LARGE to VehicleSize.LARGE in parking lot solution",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/146",
+            "state": "MERGED",
+            "createdAt": "2018-03-10T02:37:12Z",
+            "mergedAt": "2018-04-09T00:25:12Z",
+            "closedAt": "2018-04-09T00:25:12Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 2,
+            "body": "The class name is required in this context.  Discovered via #93",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add deque import to Social Graph solution",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/147",
+            "state": "MERGED",
+            "createdAt": "2018-03-10T07:14:36Z",
+            "mergedAt": "2018-03-24T23:38:34Z",
+            "closedAt": "2018-03-24T23:38:34Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 0,
+            "body": "https://docs.python.org/3/library/collections.html#deque-objects  Discovered via #93",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix coding errors",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/149",
+            "state": "MERGED",
+            "createdAt": "2018-03-14T12:11:36Z",
+            "mergedAt": "2018-04-26T01:19:05Z",
+            "closedAt": "2018-04-26T01:19:05Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 3
+            },
+            "additions": 5,
+            "deletions": 5,
+            "body": "The function parameter in __reducer(self, key, value):__ is __value__ (without an _s_) but the function body uses __values__ with an _s_ which creates an undefined name.  Solution: change the function parameter from __value__ to __values__.  Discovered via #93 \r\n\r\nAlso fixed a copy-and-paste error and a missing comma error.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix dict KeyError",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/152",
+            "state": "MERGED",
+            "createdAt": "2018-04-02T22:52:26Z",
+            "mergedAt": "2018-04-26T01:22:06Z",
+            "closedAt": "2018-04-26T01:22:06Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 2,
+            "body": "[] operator can raise KeyError, if query not in dict.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix dict KeyError",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/153",
+            "state": "MERGED",
+            "createdAt": "2018-04-02T22:53:43Z",
+            "mergedAt": "2018-04-26T01:22:26Z",
+            "closedAt": "2018-04-26T01:22:26Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 2,
+            "body": "[] operator can raise KeyError in dict.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fixed grammar in \"Learn how to design large-scale systems\"",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/154",
+            "state": "CLOSED",
+            "createdAt": "2018-04-03T03:54:13Z",
+            "mergedAt": null,
+            "closedAt": "2020-07-04T14:40:44Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 2,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "zh-TW: Fix comment format",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/155",
+            "state": "MERGED",
+            "createdAt": "2018-04-03T07:56:28Z",
+            "mergedAt": "2018-04-11T00:28:16Z",
+            "closedAt": "2018-04-11T00:28:16Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "This line is to express an asterisk comment,\r\nspace will be parsed into list tag",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add missing enum imports",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/157",
+            "state": "MERGED",
+            "createdAt": "2018-04-16T08:53:40Z",
+            "mergedAt": "2018-05-07T01:26:02Z",
+            "closedAt": "2018-05-07T01:26:02Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 2
+            },
+            "additions": 6,
+            "deletions": 2,
+            "body": "Resolve the _undefined name_ __Enum__ in two files by importing it from [__enum__](https://docs.python.org/3/library/enum.html).  Also fix a Syntax Error.\r\n\r\nflake8 testing of https://github.com/donnemartin/system-design-primer on Python 3.6\r\n\r\n$ __flake8 . --count --select=E901,E999,F821,F822,F823 --show-source --statistics__\r\n```\r\n./solutions/object_oriented_design/online_chat/online_chat.py:98:21: F821 undefined name 'Enum'\r\nclass RequestStatus(Enum):\r\n                    ^\r\n./solutions/system_design/mint/mint_snippets.py:3:25: F821 undefined name 'Enum'\r\nclass DefaultCategories(Enum):\r\n                        ^\r\n2    F821 undefined name 'Enum'\r\n2\r\n```",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Adding missing self variable",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/158",
+            "state": "MERGED",
+            "createdAt": "2018-04-26T06:44:04Z",
+            "mergedAt": "2018-05-07T01:25:32Z",
+            "closedAt": "2018-05-07T01:25:32Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "__levels__ is an _undefined name_ in this context (see #93) so replace it with __self.levels__ which is defined a few lines above.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Change variable seller to category in Mint solution",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/159",
+            "state": "MERGED",
+            "createdAt": "2018-04-26T07:04:46Z",
+            "mergedAt": "2018-05-23T03:15:43Z",
+            "closedAt": "2018-05-23T03:15:43Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "In the current code, __seller__ is an unused variable and __category__ is an undefined name (see #93).\r\n\r\nGiven that the class is __SpendingByCategory__, this PR advocates changing seller \u2014> category.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "zh-Hans: Fix typo",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/161",
+            "state": "MERGED",
+            "createdAt": "2018-05-28T06:04:38Z",
+            "mergedAt": "2018-06-16T05:30:42Z",
+            "closedAt": "2018-06-16T05:30:42Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "fix a spelling mistake",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Replace broken SQL tuning links",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/163",
+            "state": "MERGED",
+            "createdAt": "2018-06-22T15:10:58Z",
+            "mergedAt": "2018-06-29T03:18:12Z",
+            "closedAt": "2018-06-29T03:18:12Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 2,
+            "body": "Also replaced the \"performance issues\" link for mysql version 5.7. ",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "zh-Hans: Fix PostgreSQL typo",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/166",
+            "state": "MERGED",
+            "createdAt": "2018-07-09T15:10:58Z",
+            "mergedAt": "2018-07-13T11:32:15Z",
+            "closedAt": "2018-07-13T11:32:15Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "PostgreSQl -> PostgreSQL",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix #148: Add State(Enum) to social_graph_snippets.py",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/167",
+            "state": "MERGED",
+            "createdAt": "2018-07-13T11:58:50Z",
+            "mergedAt": "2018-07-15T00:01:58Z",
+            "closedAt": "2018-07-15T00:01:58Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 6,
+            "deletions": 0,
+            "body": "* Fixes #148\r\n* Enables #93\r\n* Replaces #162",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Remove Imgur dependency by storing images locally",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/168",
+            "state": "MERGED",
+            "createdAt": "2018-07-14T03:56:05Z",
+            "mergedAt": "2020-07-18T01:15:48Z",
+            "closedAt": "2020-07-18T01:15:48Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 40
+            },
+            "additions": 152,
+            "deletions": 152,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "ja: Swap VARCHAR and CHAR translation error",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/169",
+            "state": "MERGED",
+            "createdAt": "2018-07-14T09:33:31Z",
+            "mergedAt": "2018-07-15T00:05:15Z",
+            "closedAt": "2018-07-15T00:05:15Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "This PR fixes incorrect translation.\r\n\r\nThis line\r\n```\r\n\u9577\u3055\u306e\u6c7a\u307e\u3063\u305f\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u5bfe\u3057\u3066\u306f CHAR \u3088\u308a\u3082 VARCHAR \u3092\u4f7f\u3046\u3088\u3046\u306b\u3057\u307e\u3057\u3087\u3046\u3002\r\n```\r\nshould be\r\n```\r\n\u9577\u3055\u306e\u6c7a\u307e\u3063\u305f\u30d5\u30a3\u30fc\u30eb\u30c9\u306b\u5bfe\u3057\u3066\u306f VARCHAR \u3088\u308a\u3082 CHAR \u3092\u4f7f\u3046\u3088\u3046\u306b\u3057\u307e\u3057\u3087\u3046\u3002\r\n```\r\n\r\nOriginal:\r\n```\r\nUse CHAR instead of VARCHAR for fixed-length fields.\r\n```",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add newlines - PEP8 style",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/173",
+            "state": "MERGED",
+            "createdAt": "2018-07-15T05:56:01Z",
+            "mergedAt": "2018-07-19T06:09:09Z",
+            "closedAt": "2018-07-19T06:09:10Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 3
+            },
+            "additions": 3,
+            "deletions": 1,
+            "body": "This adds a single carriage return to three different files so that this repo compliant with [PEP8](http://pep8.org).\r\n\r\nThe rules being corrected for are:\r\n* two blank lines before each class definition\r\n* a single carriage return at the end of each file\r\n\r\nThese changes are suggested by the test:\r\n\r\n$ __flake8 . --max-line-length=92 --show-source__\r\n```\r\n./solutions/system_design/query_cache/query_cache_snippets.py:3:1: E302 expected 2 blank lines, found 1\r\nclass QueryApi(object):\r\n^\r\n./solutions/system_design/web_crawler/web_crawler_snippets.py:3:1: E302 expected 2 blank lines, found 1\r\nclass PagesDataStore(object):\r\n^\r\n./solutions/object_oriented_design/hash_table/hash_map.py:38:40: W292 no newline at end of file\r\n        raise KeyError('Key not found')\r\n                                       ^\r\n```",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "zh-TW: Improve translations",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/176",
+            "state": "MERGED",
+            "createdAt": "2018-07-16T08:08:25Z",
+            "mergedAt": "2018-07-20T04:46:36Z",
+            "closedAt": "2018-07-20T04:46:36Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 4,
+            "deletions": 4,
+            "body": "",
+            "participants": {
+                "totalCount": 5
+            },
+            "comments": {
+                "totalCount": 5
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix broken links",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/180",
+            "state": "MERGED",
+            "createdAt": "2018-07-19T07:57:12Z",
+            "mergedAt": "2018-07-25T01:55:55Z",
+            "closedAt": "2018-07-25T01:55:55Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 4
+            },
+            "additions": 15,
+            "deletions": 15,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix typo in LRU cache solution",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/182",
+            "state": "MERGED",
+            "createdAt": "2018-07-21T11:33:22Z",
+            "mergedAt": "2018-07-23T06:13:03Z",
+            "closedAt": "2018-07-23T06:13:03Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "sertyuiop",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/184",
+            "state": "CLOSED",
+            "createdAt": "2018-07-22T06:33:12Z",
+            "mergedAt": null,
+            "closedAt": "2018-07-23T06:12:15Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 5
+            },
+            "additions": 8,
+            "deletions": 6,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Translation for 7 Layers OSI Model",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/185",
+            "state": "CLOSED",
+            "createdAt": "2018-07-26T02:30:00Z",
+            "mergedAt": null,
+            "closedAt": "2018-07-27T02:04:01Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 2,
+            "body": "English -> Chinese",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix broken URL",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/194",
+            "state": "MERGED",
+            "createdAt": "2018-08-04T18:15:33Z",
+            "mergedAt": "2018-08-05T13:52:04Z",
+            "closedAt": "2018-08-05T13:52:04Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "The link to the GitHub page was incorrect. Fixed it.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix error in Twitter timeline solution",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/196",
+            "state": "MERGED",
+            "createdAt": "2018-08-06T15:59:12Z",
+            "mergedAt": "2018-08-07T01:25:00Z",
+            "closedAt": "2018-08-07T01:25:00Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "'user' instead of 'home'",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix wording in call center solution",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/197",
+            "state": "MERGED",
+            "createdAt": "2018-08-08T07:04:11Z",
+            "mergedAt": "2018-08-09T12:01:27Z",
+            "closedAt": "2018-08-09T12:01:27Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 2,
+            "body": "available is more meaningful",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Resolve #195: Fix broken GitHub URLs",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/199",
+            "state": "MERGED",
+            "createdAt": "2018-08-12T06:36:14Z",
+            "mergedAt": "2018-08-13T00:49:30Z",
+            "closedAt": "2018-08-13T00:49:31Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 5
+            },
+            "additions": 5,
+            "deletions": 5,
+            "body": "Resolve #195. ",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "zh-Hans: Fix typo: 'Twitter' ",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/200",
+            "state": "MERGED",
+            "createdAt": "2018-08-12T06:56:43Z",
+            "mergedAt": "2018-08-14T02:32:16Z",
+            "closedAt": "2018-08-14T02:32:16Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update Twitter/Facebook exercise description",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/202",
+            "state": "MERGED",
+            "createdAt": "2018-08-18T13:17:20Z",
+            "mergedAt": "2018-08-20T04:38:44Z",
+            "closedAt": "2018-08-20T04:38:44Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "Align title in `System design interview questions with solutions` table with the subsequent section.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix broken links",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/204",
+            "state": "MERGED",
+            "createdAt": "2018-08-23T00:52:29Z",
+            "mergedAt": "2018-08-29T00:56:39Z",
+            "closedAt": "2018-08-29T00:56:39Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 10,
+            "deletions": 11,
+            "body": "Fixed some broken links.\r\n\r\nThe Hulu blog post seemed to have been completely removed, so I changed the link to point to a Wayback Machine link instead.\r\n\r\nRemoved the link to the Autodesk Cloud Engineering blog, since I couldn't find its current location.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix typo in CAP theorem section",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/205",
+            "state": "MERGED",
+            "createdAt": "2018-08-23T17:00:30Z",
+            "mergedAt": "2018-08-24T06:24:59Z",
+            "closedAt": "2018-08-24T06:24:59Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "A simple typo fix in CAP theorem section in README",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix #126: Update link to Anki decks",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/206",
+            "state": "MERGED",
+            "createdAt": "2018-08-31T19:14:04Z",
+            "mergedAt": "2018-09-02T18:10:43Z",
+            "closedAt": "2018-09-02T18:10:43Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 3,
+            "deletions": 3,
+            "body": "Previous link would cause download to be an incorrectly formatted apkg file.  \r\n\r\nChanged the links to absolute links to the files instead of relative links.\r\n\r\nSee Issue #126.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add Ebook generation script",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/207",
+            "state": "MERGED",
+            "createdAt": "2018-09-02T19:00:51Z",
+            "mergedAt": "2019-05-12T10:21:15Z",
+            "closedAt": "2019-05-12T10:21:15Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 7
+            },
+            "additions": 164,
+            "deletions": 120,
+            "body": "Hey donnemartin,\r\n\r\nGreat Writeup!\r\nI wanted to get this onto my Kindle and noticed that there is no ebook version of the book.\r\nI figured I'd write a script to generate one.\r\n\r\nTo use it, you need [Pandoc](https://pandoc.org/) installed.\r\nThen, just execute `./generate.sh`.\r\n\r\nMaybe you could publish the ebooks via Github Releases :)",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 6
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "zh-Hans: Fix translation",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/208",
+            "state": "MERGED",
+            "createdAt": "2018-09-04T12:50:56Z",
+            "mergedAt": "2018-09-14T21:10:40Z",
+            "closedAt": "2018-09-14T21:10:40Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": " zh-Hans: Update translation",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/209",
+            "state": "MERGED",
+            "createdAt": "2018-09-06T08:18:18Z",
+            "mergedAt": "2018-09-16T07:48:51Z",
+            "closedAt": "2018-09-16T07:48:51Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 4,
+            "deletions": 4,
+            "body": "change \u5ea6\u91cf to \u6269\u5c55 for scaling",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix typo in Design Pastebin.com exercise",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/210",
+            "state": "MERGED",
+            "createdAt": "2018-09-06T19:07:21Z",
+            "mergedAt": "2018-09-08T00:47:44Z",
+            "closedAt": "2018-09-08T00:47:44Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": " zh-Hans: Update translation",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/212",
+            "state": "MERGED",
+            "createdAt": "2018-09-14T11:04:42Z",
+            "mergedAt": "2018-09-15T07:29:04Z",
+            "closedAt": "2018-09-15T07:29:04Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update Cassandra architecture links",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/213",
+            "state": "MERGED",
+            "createdAt": "2018-09-15T18:52:40Z",
+            "mergedAt": "2018-09-19T00:10:27Z",
+            "closedAt": "2018-09-19T00:10:27Z",
+            "reviews": {
+                "totalCount": 4
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 2,
+            "body": "The cassandra architecture link was pointing to an old, archived version of cassandra. Since they have the same document but in a new version, I found it fair to update it. I don't know if the correct would be changing only english or all four languages versions, I am only updating the english one in this commit/PR. The link itself appear twice per readme file. A simple `sed -i 's/\\/archived\\/cassandra\\/2\\.0\\/cassandra\\/architecture\\/architectureIntro\\_c/\\/cassandra\\/3\\.0\\/cassandra\\/architecture\\/architectureIntro/g' README*` can make it for all.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update README intro",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/216",
+            "state": "MERGED",
+            "createdAt": "2018-09-20T00:12:19Z",
+            "mergedAt": "2018-09-24T00:12:12Z",
+            "closedAt": "2018-09-24T00:12:12Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix #397: Change master/slave to primary/replica",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/217",
+            "state": "CLOSED",
+            "createdAt": "2018-09-22T06:21:25Z",
+            "mergedAt": null,
+            "closedAt": "2022-04-15T11:11:49Z",
+            "reviews": {
+                "totalCount": 6
+            },
+            "files": {
+                "totalCount": 11
+            },
+            "additions": 33,
+            "deletions": 33,
+            "body": "This is somewhat of a tricky pull request that with all honesty I don't expect to get merged. \r\n\r\nThere are still some that feel that there are benifits of using the 'well-known' terminology of _master_ and _slave_ far rather than those without negative historic connotations such as _leader_/_follower_ or _primary_/_replica_ citing readability etc..\r\n\r\nHowever, I hope you will atleast consider seriously altering the language in this repository, especially if it's helpful as a tool for interviews to work on large-scale systems given many companies have adopted either _leader_/_follower_ or _primary_/_replica_, as alternate terms of reference. \r\n\r\nSome examples its alteration, and conversation around it can be found below. I have tried to find some who haven't made the move in order to provide a balanced argument, feel free to add more in the comments:\r\n* https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html\r\n* https://docs.microsoft.com/en-us/previous-versions/system-center/system-center-2012-R2/hh846234(v=technet.10)\r\n* https://github.com/django/django/pull/2694\r\n* https://docs.pivotal.io/p-mysql/2-2/about-leader-follower.html\r\n* https://www.ibm.com/support/knowledgecenter/SSSH5A_8.0.0/com.ibm.rational.clearquest.ms_admin.doc/topics/c_cr_db_replica_ovw.htm\r\n* https://issues.apache.org/jira/browse/COUCHDB-2248\r\n* https://support.cloud.engineyard.com/hc/en-us/articles/205408108-Set-Up-Database-Replication\r\n\r\n* https://www.theregister.co.uk/2018/09/11/python_purges_master_and_slave_in_political_pogrom/\r\n* https://github.com/antirez/redis/issues/3185\r\n* https://www.drupal.org/project/drupal/issues/2275877\r\n\r\nI think even if there's just a footnote referencing that some feel that this is no longer an acceptable reference, that's also an option.",
+            "participants": {
+                "totalCount": 6
+            },
+            "comments": {
+                "totalCount": 5
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Resolve #214: Add reference links to message queues section",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/218",
+            "state": "MERGED",
+            "createdAt": "2018-09-22T08:15:36Z",
+            "mergedAt": "2018-10-01T00:38:29Z",
+            "closedAt": "2018-10-01T00:38:29Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 2
+            },
+            "additions": 4,
+            "deletions": 4,
+            "body": "fixes #214 ",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update Scalability for Dummies link",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/224",
+            "state": "MERGED",
+            "createdAt": "2018-10-08T16:08:15Z",
+            "mergedAt": "2018-10-11T01:13:43Z",
+            "closedAt": "2018-10-11T01:13:43Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 4
+            },
+            "additions": 4,
+            "deletions": 4,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "ja: Fix typo",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/226",
+            "state": "MERGED",
+            "createdAt": "2018-10-15T15:34:37Z",
+            "mergedAt": "2018-10-26T00:20:27Z",
+            "closedAt": "2018-10-26T00:20:27Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 7,
+            "deletions": 7,
+            "body": "- original contents:\r\nObject-**oriented** ...\r\nDocument-**oriented**...\r\n\r\n- ja\r\n\u30aa\u30d6\u30b8\u30a7\u30af\u30c8**\u601d\u8003** ... or\r\n\u30aa\u30d6\u30b8\u30a7\u30af\u30c8**\u6307\u5411** ... or\r\n\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8**\u5fd7\u5411**...\r\n\r\noriented is \"\u6307\u5411\" in Japanese.\r\n\"\u601d\u8003\" and \"\u5fd7\u5411\" are incorrect.\r\n\r\n\r\n",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "zh-TW: Update index anchors",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/227",
+            "state": "MERGED",
+            "createdAt": "2018-10-18T20:27:58Z",
+            "mergedAt": "2018-10-31T22:34:52Z",
+            "closedAt": "2018-10-31T22:34:52Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 20,
+            "deletions": 20,
+            "body": "There are some broken anchors due to uppercase characters, parentheses, or colons. So I use the headings of [README-zh-TW.md](https://github.com/donnemartin/system-design-primer/blob/master/README-zh-TW.md) to fix some links of the `Index of system design topics` (\u7cfb\u7d71\u8a2d\u8a08\u4e3b\u984c\u7684\u7d22\u5f15) section.",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add Link: A 360 Degree View Of The Entire Netflix Stack",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/229",
+            "state": "MERGED",
+            "createdAt": "2018-11-01T11:43:13Z",
+            "mergedAt": "2018-11-14T01:23:22Z",
+            "closedAt": "2018-11-14T01:23:22Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "add A 360 Degree View Of The Entire Netflix Stack",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Proper text formatting",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/230",
+            "state": "CLOSED",
+            "createdAt": "2018-11-14T17:26:54Z",
+            "mergedAt": null,
+            "closedAt": "2018-12-15T04:10:09Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 7,
+            "deletions": 1,
+            "body": "Change in formatting the text in points which was earlier jumbled in one line. ",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix #228: Address mutex latency discrepancy",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/233",
+            "state": "MERGED",
+            "createdAt": "2018-11-15T09:10:35Z",
+            "mergedAt": "2018-12-19T02:17:01Z",
+            "closedAt": "2018-12-19T02:17:01Z",
+            "reviews": {
+                "totalCount": 4
+            },
+            "files": {
+                "totalCount": 4
+            },
+            "additions": 4,
+            "deletions": 4,
+            "body": "@donnemartin \r\nFixes https://github.com/donnemartin/system-design-primer/issues/228",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add availability in numbers section",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/237",
+            "state": "MERGED",
+            "createdAt": "2018-11-25T02:49:01Z",
+            "mergedAt": "2019-05-12T11:19:23Z",
+            "closedAt": "2019-05-12T11:19:23Z",
+            "reviews": {
+                "totalCount": 7
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 47,
+            "deletions": 0,
+            "body": "Points:\r\n - 9s of availability with example of 99.9 and 99.99 percentage\r\n - Difference in availability with components in sequence or parallel",
+            "participants": {
+                "totalCount": 5
+            },
+            "comments": {
+                "totalCount": 7
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "--fix: Missing `path` in argument.",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/238",
+            "state": "CLOSED",
+            "createdAt": "2018-11-26T06:10:39Z",
+            "mergedAt": null,
+            "closedAt": "2019-04-10T00:44:49Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "Seems to be simple typo, comparison can be made to `User Graph Service implementation:` section of README.md.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add missing word in cache write through discussion",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/245",
+            "state": "MERGED",
+            "createdAt": "2018-12-30T05:21:15Z",
+            "mergedAt": "2019-01-05T17:20:17Z",
+            "closedAt": "2019-01-05T17:20:17Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "zh-Hans: Fix typo",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/246",
+            "state": "MERGED",
+            "createdAt": "2019-01-15T02:37:22Z",
+            "mergedAt": "2019-01-20T19:59:43Z",
+            "closedAt": "2019-01-20T19:59:43Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix grammar in document store section",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/247",
+            "state": "MERGED",
+            "createdAt": "2019-01-24T18:20:06Z",
+            "mergedAt": "2019-02-03T12:35:25Z",
+            "closedAt": "2019-02-03T12:35:25Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "`organized by` is more correct than `organized in either`",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix typo in Twitter timeline and search solution",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/251",
+            "state": "MERGED",
+            "createdAt": "2019-02-10T01:21:37Z",
+            "mergedAt": "2019-02-11T10:48:37Z",
+            "closedAt": "2019-02-11T10:48:37Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Translate language list",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/252",
+            "state": "MERGED",
+            "createdAt": "2019-02-10T16:30:39Z",
+            "mergedAt": "2019-05-11T16:42:59Z",
+            "closedAt": "2019-05-11T16:42:59Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "Hi,\r\n\r\nHere is an update to translate the language list as discussed here: https://github.com/donnemartin/system-design-primer/issues/249\r\n\r\nI will also add the [french translation](https://github.com/donnemartin/system-design-primer/issues/250) as WIP once this one will be merged.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update document-store to document store",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/255",
+            "state": "MERGED",
+            "createdAt": "2019-02-20T21:12:04Z",
+            "mergedAt": "2019-02-28T11:55:51Z",
+            "closedAt": "2019-02-28T11:55:51Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 2,
+            "body": "\"document-store\" -> \"document store\"",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Enable Python syntax highlighting in Pastebin sample code",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/257",
+            "state": "MERGED",
+            "createdAt": "2019-02-28T14:38:27Z",
+            "mergedAt": "2019-03-04T03:28:44Z",
+            "closedAt": "2019-03-04T03:28:44Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "I will come back around a bit later and make this change for all code snippets throughout.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix broken SQL link in Scaling AWS exercise",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/258",
+            "state": "MERGED",
+            "createdAt": "2019-03-02T22:43:37Z",
+            "mergedAt": "2019-03-18T00:55:20Z",
+            "closedAt": "2019-03-18T00:55:20Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "There is no anchor for #sql on the README page, so I changed it to the most related topic #relational-database-management-system-rdbms",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add a little bit more description about profiling",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/264",
+            "state": "CLOSED",
+            "createdAt": "2019-04-05T02:57:23Z",
+            "mergedAt": null,
+            "closedAt": "2024-01-29T03:43:43Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "As from the original article, we cannot learn what profiling is.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Enable syntax highlighting in all python code snippets",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/268",
+            "state": "MERGED",
+            "createdAt": "2019-04-13T12:45:54Z",
+            "mergedAt": "2019-05-07T10:24:42Z",
+            "closedAt": "2019-05-07T10:24:42Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 10
+            },
+            "additions": 30,
+            "deletions": 30,
+            "body": "Quick run through all embedded python snippets to enable syntax highlighting.\r\n\r\nThere are possibly other formats to be enabled, which I'll come back to later.\r\n\r\nHope this helps!\r\n",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "zh-Hans: Translate Pastebin solution",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/273",
+            "state": "MERGED",
+            "createdAt": "2019-04-26T05:31:50Z",
+            "mergedAt": "2019-06-16T15:21:22Z",
+            "closedAt": "2019-06-16T15:21:22Z",
+            "reviews": {
+                "totalCount": 8
+            },
+            "files": {
+                "totalCount": 2
+            },
+            "additions": 331,
+            "deletions": 1,
+            "body": "@sqrthree pls review.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 6
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update HDFS design link to the latest version",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/275",
+            "state": "MERGED",
+            "createdAt": "2019-05-02T17:02:24Z",
+            "mergedAt": "2019-05-07T10:22:13Z",
+            "closedAt": "2019-05-07T10:22:13Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "ja: Fix typo of Big-O notation in KVS section",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/292",
+            "state": "MERGED",
+            "createdAt": "2019-06-19T10:19:06Z",
+            "mergedAt": "2019-07-06T15:07:14Z",
+            "closedAt": "2019-07-06T15:07:14Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "This fix on the translation is a correction based on the original English version:\r\nhttps://github.com/donnemartin/system-design-primer/blob/33431e61a9e6a636c902298fe3629da3a34c3c66/README.md#L1003\r\n\r\nNo change on the original version.\r\n\r\nRef:\r\nhttps://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md#changes-to-translations",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Change disk to HDD for clarity",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/295",
+            "state": "MERGED",
+            "createdAt": "2019-06-29T18:29:29Z",
+            "mergedAt": "2020-07-11T01:01:12Z",
+            "closedAt": "2020-07-11T01:01:13Z",
+            "reviews": {
+                "totalCount": 4
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 3,
+            "deletions": 3,
+            "body": "In several parts of the article there is a \"disk\" as a permanent storage medium. In the changed paragraph there is \"SSD\" (flash disk), and in the opposition to it \"disk\", although it is about HDD (magnetic disk).",
+            "participants": {
+                "totalCount": 5
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "ja: Fix translation in weak consistency section",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/299",
+            "state": "MERGED",
+            "createdAt": "2019-07-05T18:04:55Z",
+            "mergedAt": "2019-08-03T14:06:58Z",
+            "closedAt": "2019-08-03T14:06:58Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 2,
+            "body": "- \"best effort\" should be literally \"\u30d9\u30b9\u30c8\u30a8\u30d5\u30a9\u30fc\u30c8\" in Japanese.\r\n- \"\u30e1\u30e0\u30ad\u30e3\u30c3\u30b7\u30e5\" is overtranslation. Remain in English: \"memecached\".\r\n- The modification structure of last sentence in Japanese is ambiguous.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "ja: Fix translation in push CDNs section",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/300",
+            "state": "MERGED",
+            "createdAt": "2019-07-08T15:46:23Z",
+            "mergedAt": "2019-08-03T14:07:35Z",
+            "closedAt": "2019-08-03T14:07:35Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "- \u201cprovide\u201d means \u201c\u7528\u610f\u201d or \u201c\u63d0\u4f9b\u201d, rather than \u201c\u914d\u4fe1\u201d (distribute/publish).\r\n- Clarified who takes responsibility.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "ja: Fix translation in horizontal scaling section",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/301",
+            "state": "MERGED",
+            "createdAt": "2019-07-08T15:57:57Z",
+            "mergedAt": "2019-08-03T14:07:59Z",
+            "closedAt": "2019-08-03T14:07:59Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "- The Japanese translation is ambiguous about \u201cvertical scaling\u201d means scaling out or scaling up.\r\n- The word \u201cexpensive\u201d is missing in the Japanese translation.",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "ja: Fix translation in reverse proxy (web server) section",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/302",
+            "state": "MERGED",
+            "createdAt": "2019-07-10T15:13:37Z",
+            "mergedAt": "2019-08-03T14:08:19Z",
+            "closedAt": "2019-08-03T14:08:19Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "- Fix mistranslation of parallel structure. (not information/blacklist/limit, but hide/blacklist/limit)",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "ja: Fix translation in Federation section",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/303",
+            "state": "MERGED",
+            "createdAt": "2019-07-10T15:27:54Z",
+            "mergedAt": "2019-08-05T00:30:54Z",
+            "closedAt": "2019-08-05T00:30:54Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "- \":\" in the second paragraph is not properly translated.\r\n- \"have\" (\u6301\u3064) in the second paragraph shouldn't be literally translated in this situation.\r\n- \"therefore\" (\u305d\u306e\u7d50\u679c) in the second paragraph is missing in the translation.\r\n- The translation of \"replication\" should be standardized into \"\u30ec\u30d7\u30ea\u30b1\u30fc\u30b7\u30e7\u30f3\".\r\n- \"\u7528\u3044\u308b\" (use) in \"\u30c7\u30fc\u30bf\u30d9\u30fc\u30b9\u3092\u7528\u3044\u308b\" would be mistranslation of \"result in\" (\u301c\u306a\u308b\u3053\u3068\u3067).\r\n- The meaning of the third paragraph is translated incorrectly because \"cache locality\" (\u30ad\u30e3\u30c3\u30b7\u30e5\u306e\u5c40\u6240\u6027) is mistranslated into \"\u30ed\u30fc\u30ab\u30eb\u30ad\u30e3\u30c3\u30b7\u30e5\" (local cache).\r\n- The meaning of the 4th paragraph is translated incorrectly because \"serializing\" (\u76f4\u5217\u5316) is missing in the translation.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "ja: Fix mistranslation in SQL tuning section",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/305",
+            "state": "MERGED",
+            "createdAt": "2019-07-18T15:53:00Z",
+            "mergedAt": "2019-12-09T03:35:45Z",
+            "closedAt": "2019-12-09T03:35:45Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 11,
+            "deletions": 11,
+            "body": "Fixed mistranslations and made translations more fluent.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "ja: Fix translation in Anki flashcards section",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/306",
+            "state": "MERGED",
+            "createdAt": "2019-07-23T16:09:07Z",
+            "mergedAt": "2019-08-13T23:50:10Z",
+            "closedAt": "2019-08-13T23:50:10Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "- The original translation is explanation of the feature of Anki app (spaced repetition), rather than the flashcard decks.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "ja: Fix translation in Load balancer section",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/307",
+            "state": "MERGED",
+            "createdAt": "2019-07-23T16:10:20Z",
+            "mergedAt": "2019-08-13T23:50:53Z",
+            "closedAt": "2019-08-13T23:50:53Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "- \"\u5358\u4e00\u969c\u5bb3\u70b9\u304c\u9664\u304b\u308c\u305f\u3053\u3068\u306b\u306f\u306a\u308a\u307e\u305b\u3093\" (It doesn\u2019t mean the single point of failure is removed) is not found in the original text (it looks over-translated).\r\n- \"\u305d\u308c\u3059\u306a\u308f\u3061\u8907\u96d1\u5316\u3067\u3059\" in the original Japanese translation doesn\u2019t make sense.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "ja: Fix translation in Service Discovery section",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/308",
+            "state": "MERGED",
+            "createdAt": "2019-07-23T16:11:36Z",
+            "mergedAt": "2019-08-13T23:51:20Z",
+            "closedAt": "2019-08-13T23:51:20Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "- Consul, Etcd, and Zookeeper don\u2019t find each other, but the services in those systems do.\r\n- \"integrity\" means \"\u5b8c\u5168\u6027\" in Japanese. \"\u7d71\u4e00\u6027\" isn\u2019t used in this kind of context.\r\n- Make the translation more fluent (\"\u3057\u3070\u3057\u3070\" for \"often\", and \"\u305d\u3057\u3066\" for \"and\" are too literal).",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Clarify CDN advantages",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/310",
+            "state": "MERGED",
+            "createdAt": "2019-07-28T18:11:56Z",
+            "mergedAt": "2020-07-10T00:49:44Z",
+            "closedAt": "2020-07-10T00:49:44Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "It is clearer to say that a user receives data \"from\" a data center then it is to say that a user receives data \"at\" a data center.",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix a typo in Layer 7 load balancer of README.md",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/317",
+            "state": "MERGED",
+            "createdAt": "2019-08-31T20:03:32Z",
+            "mergedAt": "2020-07-01T00:56:56Z",
+            "closedAt": "2020-07-01T00:56:56Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "change CN translation to make it more accurate",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/318",
+            "state": "MERGED",
+            "createdAt": "2019-09-01T01:03:33Z",
+            "mergedAt": "2019-12-09T03:34:17Z",
+            "closedAt": "2019-12-09T03:34:17Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "change CN translation to make it more accurate. SQL tuning -> Blob",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add links for latency based and geolocation based routing",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/319",
+            "state": "MERGED",
+            "createdAt": "2019-09-09T05:59:32Z",
+            "mergedAt": "2020-07-10T00:48:47Z",
+            "closedAt": "2020-07-10T00:48:47Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 2,
+            "body": "Added Amazon AWS public docs link for better understanding of latency based and geo-location based routing.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update dead links",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/321",
+            "state": "MERGED",
+            "createdAt": "2019-09-10T11:50:46Z",
+            "mergedAt": "2020-07-09T00:10:17Z",
+            "closedAt": "2020-07-09T00:10:17Z",
+            "reviews": {
+                "totalCount": 5
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 3,
+            "body": "",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fixed typo.",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/332",
+            "state": "CLOSED",
+            "createdAt": "2019-10-25T09:26:41Z",
+            "mergedAt": null,
+            "closedAt": "2019-11-03T10:50:01Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 4,
+            "deletions": 4,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Merge pull request #1 from donnemartin/master",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/333",
+            "state": "CLOSED",
+            "createdAt": "2019-10-30T09:12:43Z",
+            "mergedAt": null,
+            "closedAt": "2019-11-03T10:47:08Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 0
+            },
+            "additions": 0,
+            "deletions": 0,
+            "body": "Sync",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update url for weighted round robin",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/336",
+            "state": "CLOSED",
+            "createdAt": "2019-11-16T03:54:40Z",
+            "mergedAt": null,
+            "closedAt": "2020-07-09T00:08:56Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 2,
+            "body": "The previous url led to an empty page - searching on the site\r\nfor \"round robin\" let to this article.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "kr: Fix Korean translation link in language index",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/340",
+            "state": "MERGED",
+            "createdAt": "2019-12-06T01:52:23Z",
+            "mergedAt": "2020-07-05T14:57:58Z",
+            "closedAt": "2020-07-05T14:57:58Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 4
+            },
+            "additions": 4,
+            "deletions": 4,
+            "body": "Hi,\r\n\r\nThis change fixes the Korean index by using the Korean alphabet, Hangul.\r\n\r\n* \u97d3\u570b\u8a9e -> \ud55c\uad6d\uc5b4\r\n\r\nHangul is the official writing system of Korea.\r\nhttps://en.wikipedia.org/wiki/Hangul",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "raise NotImplemented \u2014> raise NotImplementedError",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/345",
+            "state": "MERGED",
+            "createdAt": "2019-12-26T08:06:00Z",
+            "mergedAt": "2019-12-27T01:11:58Z",
+            "closedAt": "2019-12-27T01:11:58Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "__flake8 . --count --exit-zero --max-complexity=10 --statistics__\r\n```\r\n./solutions/object_oriented_design/call_center/call_center.py:69:9:\r\nF901 'raise NotImplemented' should be 'raise NotImplementedError'\r\n```\r\nhttps://docs.python.org/3/library/exceptions.html#NotImplementedError",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix broken link in CAP theorem section",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/348",
+            "state": "MERGED",
+            "createdAt": "2020-01-07T19:53:37Z",
+            "mergedAt": "2020-02-17T02:00:45Z",
+            "closedAt": "2020-02-17T02:00:45Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Resolve #164 - Fix phrasing with availability and partition tolerance",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/350",
+            "state": "MERGED",
+            "createdAt": "2020-01-08T15:17:00Z",
+            "mergedAt": "2020-07-04T01:22:03Z",
+            "closedAt": "2020-07-04T01:22:03Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "\u2026ition of AP under CAP theorem portion.\r\n\r\nUpdated the wordings as per issue #164  - Confusing word play in the definition of AP under CAP theorem portion. ",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix broken 'round robin' links",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/351",
+            "state": "MERGED",
+            "createdAt": "2020-01-13T02:08:43Z",
+            "mergedAt": "2020-01-15T15:04:08Z",
+            "closedAt": "2020-01-15T15:04:08Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 2,
+            "body": "Change URLs from [http://g33kinfo.com/info/archives/2657](http://g33kinfo.com/info/archives/2657) (broken) to [https://www.g33kinfo.com/info/2010/02/round-robin-vs-weighted-round-robin-lb](https://www.g33kinfo.com/info/2010/02/round-robin-vs-weighted-round-robin-lb)",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix link",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/355",
+            "state": "MERGED",
+            "createdAt": "2020-01-19T03:32:17Z",
+            "mergedAt": "2020-01-21T00:26:10Z",
+            "closedAt": "2020-01-21T00:26:10Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "Endpoint with trailing slash returns 404.",
+            "participants": {
+                "totalCount": 1
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "zh-cn: Sync with upstream to keep it up-to-date",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/374",
+            "state": "MERGED",
+            "createdAt": "2020-02-27T17:08:58Z",
+            "mergedAt": "2020-03-10T01:34:19Z",
+            "closedAt": "2020-03-10T01:34:19Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 9
+            },
+            "additions": 1458,
+            "deletions": 1466,
+            "body": "",
+            "participants": {
+                "totalCount": 8
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "zh-Hans: Translate solutions",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/392",
+            "state": "MERGED",
+            "createdAt": "2020-03-10T07:22:13Z",
+            "mergedAt": "2020-03-30T00:40:50Z",
+            "closedAt": "2020-03-30T00:40:51Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 9
+            },
+            "additions": 2525,
+            "deletions": 10,
+            "body": "Related: #374",
+            "participants": {
+                "totalCount": 8
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Remove extraneous __init__.py",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/393",
+            "state": "MERGED",
+            "createdAt": "2020-03-21T19:21:35Z",
+            "mergedAt": "2020-07-12T16:02:45Z",
+            "closedAt": "2020-07-12T16:02:45Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 0,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 1
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Remove invalid link",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/395",
+            "state": "CLOSED",
+            "createdAt": "2020-04-03T03:24:29Z",
+            "mergedAt": null,
+            "closedAt": "2021-04-16T02:52:46Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "Remove invalid link",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix the loop over \"self.cards\"",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/396",
+            "state": "MERGED",
+            "createdAt": "2020-04-06T00:59:48Z",
+            "mergedAt": "2020-07-08T00:56:06Z",
+            "closedAt": "2020-07-08T00:56:06Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "fix: typo",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/398",
+            "state": "MERGED",
+            "createdAt": "2020-04-08T11:02:07Z",
+            "mergedAt": "2020-07-01T00:42:25Z",
+            "closedAt": "2020-07-01T00:42:25Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 2,
+            "body": "fix typo: single points -> single point",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Missing comma",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/399",
+            "state": "MERGED",
+            "createdAt": "2020-04-12T16:16:30Z",
+            "mergedAt": "2020-07-01T00:37:50Z",
+            "closedAt": "2020-07-01T00:37:50Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add CAP theorem video",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/400",
+            "state": "MERGED",
+            "createdAt": "2020-04-13T16:58:08Z",
+            "mergedAt": "2020-07-08T00:54:02Z",
+            "closedAt": "2020-07-08T00:54:02Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "I feel that [this](https://www.youtube.com/watch?v=k-Yaq8AHlFA) short video explains the CAP theorem really well. ",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Remove redundant SQL index in Pastebin exercise",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/405",
+            "state": "MERGED",
+            "createdAt": "2020-04-20T19:16:06Z",
+            "mergedAt": "2020-07-07T01:05:51Z",
+            "closedAt": "2020-07-07T01:05:51Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "Making a column a primary key enforces uniqueness, and the db usually does so by creating a unique clustered index. So, you don't need a second index.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Check dependencies in Ebook gen script",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/406",
+            "state": "MERGED",
+            "createdAt": "2020-04-25T07:19:24Z",
+            "mergedAt": "2020-07-04T01:24:24Z",
+            "closedAt": "2020-07-04T01:24:24Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 15,
+            "deletions": 1,
+            "body": "Fixes https://github.com/donnemartin/system-design-primer/issues/339\r\n\r\n@donnemartin @Skn0tt Please check",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Included apache kafka for event queuing",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/408",
+            "state": "CLOSED",
+            "createdAt": "2020-04-28T22:03:48Z",
+            "mergedAt": null,
+            "closedAt": "2020-07-10T10:58:46Z",
+            "reviews": {
+                "totalCount": 4
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 4,
+            "deletions": 0,
+            "body": "Included apache Kafka for event queuing\r\n\r\nadded some info on backpressure for parallel consumers",
+            "participants": {
+                "totalCount": 9
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix Mint exercise bugs and typos",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/409",
+            "state": "MERGED",
+            "createdAt": "2020-05-05T19:45:39Z",
+            "mergedAt": "2020-07-07T01:00:34Z",
+            "closedAt": "2020-07-07T01:00:34Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 8,
+            "deletions": 8,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update \"Scaling up to your first 10 million users\" link",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/411",
+            "state": "MERGED",
+            "createdAt": "2020-05-09T11:13:02Z",
+            "mergedAt": "2020-05-26T01:59:02Z",
+            "closedAt": "2020-05-26T01:59:02Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 4,
+            "deletions": 4,
+            "body": "Upgrading \"Scaling up to your first 10 million users\" video link to https://www.youtube.com/watch?v=kKjm4ehYiMs which is the latest talk as of today",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update design Twitter back-of-the-envelope calculations",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/414",
+            "state": "MERGED",
+            "createdAt": "2020-05-17T19:02:16Z",
+            "mergedAt": "2020-07-04T14:55:43Z",
+            "closedAt": "2020-07-04T14:55:43Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "Made a small change to explain the logic behind the 4,000 search requests per second.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix typo: Change replication to federation",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/418",
+            "state": "MERGED",
+            "createdAt": "2020-05-24T04:41:10Z",
+            "mergedAt": "2020-07-04T14:53:57Z",
+            "closedAt": "2020-07-04T14:53:57Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "I believe there's a typo in here and it should say \"federation\" as opposed to \"replication\" as replication does not solve the problem of data size and request load.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix: metadata-file",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/425",
+            "state": "CLOSED",
+            "createdAt": "2020-06-15T18:58:54Z",
+            "mergedAt": null,
+            "closedAt": "2020-07-10T01:18:58Z",
+            "reviews": {
+                "totalCount": 10
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "I have tried to run generate-epub.sh script on my ubuntu 20.04 and pandoc 2.2.3.2\r\nIt failed with error no option metadata-file.\r\nI found from man-page that epub-metadata works and tested it \r\nIt generated all the epub files .",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Write word \"Korean\" in Korean language.",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/428",
+            "state": "CLOSED",
+            "createdAt": "2020-06-20T15:33:37Z",
+            "mergedAt": null,
+            "closedAt": "2020-07-05T14:58:57Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 4
+            },
+            "additions": 4,
+            "deletions": 4,
+            "body": "Write word \"Korean\" in Korean language from Chinese characters.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add system design template link",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/433",
+            "state": "MERGED",
+            "createdAt": "2020-06-30T19:55:56Z",
+            "mergedAt": "2020-07-05T14:53:29Z",
+            "closedAt": "2020-07-05T14:53:29Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix typos in Twitter and web crawler exercises",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/438",
+            "state": "MERGED",
+            "createdAt": "2020-07-04T16:29:59Z",
+            "mergedAt": "2020-07-05T14:48:23Z",
+            "closedAt": "2020-07-05T14:48:23Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 2
+            },
+            "additions": 3,
+            "deletions": 3,
+            "body": "As pertains to issue #344 with one extra typo spotted during correction.\r\n",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix #313: Clarify availability patterns",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/439",
+            "state": "MERGED",
+            "createdAt": "2020-07-05T02:59:05Z",
+            "mergedAt": "2020-07-05T14:50:31Z",
+            "closedAt": "2020-07-05T14:50:31Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "Clarify availability pattern",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Resolve #281: Add design stock exchange links",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/441",
+            "state": "MERGED",
+            "createdAt": "2020-07-07T03:53:13Z",
+            "mergedAt": "2020-07-12T16:00:04Z",
+            "closedAt": "2020-07-12T16:00:04Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "fixes https://github.com/donnemartin/system-design-primer/issues/281\r\n",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix #335: Update OSI image to Open Systems Interconnection ",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/447",
+            "state": "MERGED",
+            "createdAt": "2020-07-16T16:22:54Z",
+            "mergedAt": "2020-08-02T18:10:23Z",
+            "closedAt": "2020-08-02T18:10:23Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 0,
+            "deletions": 0,
+            "body": "## Review the Contributing Guidelines\r\n\r\nBefore submitting a pull request, verify it meets all requirements in the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).\r\n\r\n### Translations\r\n\r\nSee the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).  Verify you've:\r\n\r\n* Tagged the [language maintainer](TRANSLATIONS.md)\r\n* Prefixed the title with a language code\r\n    * Example: \"ja: Fix ...\"\r\n",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix translations link in PR template",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/451",
+            "state": "MERGED",
+            "createdAt": "2020-07-26T13:07:35Z",
+            "mergedAt": "2020-08-02T18:13:18Z",
+            "closedAt": "2020-08-02T18:13:18Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "Fix TRANSLATIONS.md to absolute path",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update broken HBase architecture link",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/481",
+            "state": "MERGED",
+            "createdAt": "2020-10-09T19:01:55Z",
+            "mergedAt": "2020-10-30T01:14:46Z",
+            "closedAt": "2020-10-30T01:14:46Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 2,
+            "body": "Fix for #475. The paragraph talking about wide column store also has the dead HBase link. It started redirecting to something different earlier this year.\r\n\r\nThe [new link](https://www.edureka.co/blog/hbase-architecture/) goes to a relevant HBase architecture page and contains the same info as the original page from before.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Merge pull request #1 from donnemartin/master",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/484",
+            "state": "CLOSED",
+            "createdAt": "2020-11-02T07:44:50Z",
+            "mergedAt": null,
+            "closedAt": "2024-06-27T01:45:40Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 0
+            },
+            "additions": 0,
+            "deletions": 0,
+            "body": "wanna merge\r\n\r\n## Review the Contributing Guidelines\r\n\r\nBefore submitting a pull request, verify it meets all requirements in the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).\r\n\r\n### Translations\r\n\r\nSee the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).  Verify you've:\r\n\r\n* Tagged the [language maintainer](https://github.com/donnemartin/system-design-primer/blob/master/TRANSLATIONS.md)\r\n* Prefixed the title with a language code\r\n    * Example: \"ja: Fix ...\"\r\n",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix Celery url",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/486",
+            "state": "MERGED",
+            "createdAt": "2020-11-10T11:46:39Z",
+            "mergedAt": "2020-12-29T02:51:33Z",
+            "closedAt": "2020-12-29T02:51:33Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "Fixed celery task queue link",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update indieflashblog link",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/500",
+            "state": "MERGED",
+            "createdAt": "2021-01-24T09:27:38Z",
+            "mergedAt": "2021-02-16T02:10:04Z",
+            "closedAt": "2021-02-16T02:10:04Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 4
+            },
+            "additions": 4,
+            "deletions": 4,
+            "body": "## description\r\nThe link to `indieflashblog` is broken, I updated it with archive.org last save.\r\n\r\ncf Issue (501)[https://github.com/donnemartin/system-design-primer/issues/501]\r\n\r\n## Review the Contributing Guidelines\r\n\r\nBefore submitting a pull request, verify it meets all requirements in the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).\r\n\r\n### Translations\r\n\r\nSee the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).  Verify you've:\r\n\r\n* Tagged the [language maintainer](https://github.com/donnemartin/system-design-primer/blob/master/TRANSLATIONS.md)\r\n* Prefixed the title with a language code\r\n    * Example: \"ja: Fix ...\"\r\n",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix LRU cache link",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/505",
+            "state": "MERGED",
+            "createdAt": "2021-02-02T17:44:53Z",
+            "mergedAt": "2021-02-16T02:14:06Z",
+            "closedAt": "2021-02-16T02:14:06Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "The current URL: `https://en.wikipedia.org/wiki/Cache_algorithms#Least_Recently_Used` doesn't point to LRU section",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix capitalization of Dropbox",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/511",
+            "state": "MERGED",
+            "createdAt": "2021-02-23T03:06:20Z",
+            "mergedAt": "2021-05-09T18:20:50Z",
+            "closedAt": "2021-05-09T18:20:50Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "Dropbox is officially one word according to the company. This makes the entry in the table match all other mentions of the company in README.md",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "add git action for generating epub and upload artifacts",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/557",
+            "state": "CLOSED",
+            "createdAt": "2021-08-14T01:41:21Z",
+            "mergedAt": null,
+            "closedAt": "2023-12-02T06:26:01Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 18,
+            "deletions": 0,
+            "body": "Too frequently we use mobile/tab to read in our spare time, generating epub in mobile/tab is not something that we like to do. We can generate it on a computer and send it to mobile/tab for sure, but that adds some extra friction.\r\n\r\nThis MR aims to generate epub in GitHub Linux server and upload epubs as artifacts. Artifact stays on the GitHub server for 90 days, not too bad!\r\n\r\nArtifacts will be accessible from the `Actions` page.",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "German Translation README-de.md",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/577",
+            "state": "CLOSED",
+            "createdAt": "2021-09-24T02:29:55Z",
+            "mergedAt": null,
+            "closedAt": "2024-01-09T11:02:53Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1853,
+            "deletions": 0,
+            "body": "## Review the Contributing Guidelines\r\n\r\nBefore submitting a pull request, verify it meets all requirements in the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).\r\n\r\n### Translations\r\n\r\nSee the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).  Verify you've:\r\n\r\n* Tagged the [language maintainer](https://github.com/donnemartin/system-design-primer/blob/master/TRANSLATIONS.md)\r\n* Prefixed the title with a language code\r\n    * Example: \"ja: Fix ...\"\r\n",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update GitHub Engineer Blog link",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/594",
+            "state": "MERGED",
+            "createdAt": "2021-10-10T14:07:05Z",
+            "mergedAt": "2021-11-17T12:26:09Z",
+            "closedAt": "2021-11-17T12:26:09Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 4
+            },
+            "additions": 4,
+            "deletions": 4,
+            "body": "As of today, the newest article of https://githubengineering.com and https://github.blog/category/engineering were from 2019/03/05 and 2021/10/06 respectively. Not sure what happened to https://githubengineering.com , but https://github.blog/category/engineering seems to be more up to date.\r\n\r\n| https://githubengineering.com | https://github.blog/category/engineering |\r\n| --- | --- |\r\n| <img width=\"969\" alt=\"image\" src=\"https://user-images.githubusercontent.com/12410942/136699074-a45047ca-c9c9-449f-a2ca-25e30adddc6e.png\"> | <img width=\"990\" alt=\"image\" src=\"https://user-images.githubusercontent.com/12410942/136699084-125548b6-28df-4e49-b80b-c01a34c48666.png\"> |\r\n",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix memcache architecture URL",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/631",
+            "state": "MERGED",
+            "createdAt": "2021-12-23T13:24:04Z",
+            "mergedAt": "2022-02-13T02:52:00Z",
+            "closedAt": "2022-02-13T02:52:00Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 4
+            },
+            "additions": 4,
+            "deletions": 4,
+            "body": "This PR fixes Link to Memchached architecture and solves [#593](https://github.com/donnemartin/system-design-primer/issues/593)\r\n",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Added white background to all images (#630)",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/634",
+            "state": "CLOSED",
+            "createdAt": "2021-12-30T22:40:30Z",
+            "mergedAt": null,
+            "closedAt": "2023-02-20T23:12:22Z",
+            "reviews": {
+                "totalCount": 4
+            },
+            "files": {
+                "totalCount": 54
+            },
+            "additions": 0,
+            "deletions": 0,
+            "body": "The images don\u2019t work well in dark mode (#630), I added a white background to all `.png` files with `imageMagick`:\r\n```bash\r\nfind -name '*.png' -exec convert {} -background white -alpha remove -alpha off {} \\;\r\n```",
+            "participants": {
+                "totalCount": 7
+            },
+            "comments": {
+                "totalCount": 5
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Replace broken weighted round robin link (#650)",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/651",
+            "state": "MERGED",
+            "createdAt": "2022-03-23T20:48:50Z",
+            "mergedAt": "2022-04-20T00:37:02Z",
+            "closedAt": "2022-04-20T00:37:02Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "## Review the Contributing Guidelines\r\n\r\nBefore submitting a pull request, verify it meets all requirements in the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).\r\n\r\n### Translations\r\n\r\nSee the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).  Verify you've:\r\n\r\n* Tagged the [language maintainer](https://github.com/donnemartin/system-design-primer/blob/master/TRANSLATIONS.md)\r\n* Prefixed the title with a language code\r\n    * Example: \"ja: Fix ...\"\r\n",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix typos",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/661",
+            "state": "MERGED",
+            "createdAt": "2022-04-17T16:01:57Z",
+            "mergedAt": "2022-04-23T13:14:45Z",
+            "closedAt": "2022-04-23T13:14:45Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 3
+            },
+            "additions": 3,
+            "deletions": 3,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix Typo",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/694",
+            "state": "MERGED",
+            "createdAt": "2022-07-30T21:03:42Z",
+            "mergedAt": "2022-07-31T16:44:43Z",
+            "closedAt": "2022-07-31T16:44:43Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "Fixed typo",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "eng: ADDED the post scriptum hint ",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/701",
+            "state": "CLOSED",
+            "createdAt": "2022-09-03T21:37:57Z",
+            "mergedAt": null,
+            "closedAt": "2023-09-13T18:49:14Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "Just got the problem with importing the packages and issues section didn't help, so I found out the solution that may help others to avoid wasting the time with it.\r\n",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "new commit",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/704",
+            "state": "CLOSED",
+            "createdAt": "2022-09-26T13:35:57Z",
+            "mergedAt": null,
+            "closedAt": "2024-06-28T00:12:45Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "## Review the Contributing Guidelines\r\n\r\nBefore submitting a pull request, verify it meets all requirements in the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).\r\n\r\n### Translations\r\n\r\nSee the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).  Verify you've:\r\n\r\n* Tagged the [language maintainer](https://github.com/donnemartin/system-design-primer/blob/master/TRANSLATIONS.md)\r\n* Prefixed the title with a language code\r\n    * Example: \"ja: Fix ...\"\r\n",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "test",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/705",
+            "state": "CLOSED",
+            "createdAt": "2022-09-29T12:49:58Z",
+            "mergedAt": null,
+            "closedAt": "2024-06-26T00:20:49Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 0,
+            "body": "## Review the Contributing Guidelines\r\n\r\nBefore submitting a pull request, verify it meets all requirements in the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).\r\n\r\n### Translations\r\n\r\nSee the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).  Verify you've:\r\n\r\n* Tagged the [language maintainer](https://github.com/donnemartin/system-design-primer/blob/master/TRANSLATIONS.md)\r\n* Prefixed the title with a language code\r\n    * Example: \"ja: Fix ...\"\r\n",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update latency vs throughput blog link",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/716",
+            "state": "MERGED",
+            "createdAt": "2022-11-06T18:02:12Z",
+            "mergedAt": "2022-11-13T21:04:18Z",
+            "closedAt": "2022-11-13T21:04:18Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "## Review the Contributing Guidelines\r\n\r\nBefore submitting a pull request, verify it meets all requirements in the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).\r\n\r\n### Translations\r\n\r\nSee the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).  Verify you've:\r\n\r\n* Tagged the [language maintainer](https://github.com/donnemartin/system-design-primer/blob/master/TRANSLATIONS.md)\r\n* Prefixed the title with a language code\r\n    * Example: \"ja: Fix ...\"\r\n",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix top k requests link",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/717",
+            "state": "MERGED",
+            "createdAt": "2022-11-20T11:29:30Z",
+            "mergedAt": "2022-12-11T20:06:51Z",
+            "closedAt": "2022-12-11T20:06:51Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "## Review the Contributing Guidelines\r\n\r\nBefore submitting a pull request, verify it meets all requirements in the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).\r\n\r\n### Translations\r\n\r\nSee the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).  Verify you've:\r\n\r\n* Tagged the [language maintainer](https://github.com/donnemartin/system-design-primer/blob/master/TRANSLATIONS.md)\r\n* Prefixed the title with a language code\r\n    * Example: \"ja: Fix ...\"\r\n",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix Scalability Article links",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/750",
+            "state": "MERGED",
+            "createdAt": "2023-03-08T22:02:32Z",
+            "mergedAt": "2023-03-16T09:58:20Z",
+            "closedAt": "2023-03-16T09:58:20Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 5,
+            "deletions": 5,
+            "body": "Linking to Wayback Machine since it seems the domain expired?\r\n\r\n## Review the Contributing Guidelines\r\n\r\nBefore submitting a pull request, verify it meets all requirements in the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).\r\n\r\n### Translations\r\n\r\nSee the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).  Verify you've:\r\n\r\n* Tagged the [language maintainer](https://github.com/donnemartin/system-design-primer/blob/master/TRANSLATIONS.md)\r\n* Prefixed the title with a language code\r\n    * Example: \"ja: Fix ...\"\r\n",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Updated Elastic Cache URL",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/823",
+            "state": "CLOSED",
+            "createdAt": "2023-12-30T05:24:35Z",
+            "mergedAt": null,
+            "closedAt": "2024-05-14T05:46:44Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "\u2022 Located the file README.md in the project repository\r\n\u2022 Replaced the old URL with the new URL\r\n\u2022 Issue : Update to a URL  #816",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "this is test",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/842",
+            "state": "CLOSED",
+            "createdAt": "2024-02-22T15:23:46Z",
+            "mergedAt": null,
+            "closedAt": "2024-06-26T00:14:51Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 2
+            },
+            "additions": 10,
+            "deletions": 0,
+            "body": "## Review the Contributing Guidelines\r\n\r\nBefore submitting a pull request, verify it meets all requirements in the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).\r\n\r\n### Translations\r\n\r\nSee the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).  Verify you've:\r\n\r\n* Tagged the [language maintainer](https://github.com/donnemartin/system-design-primer/blob/master/TRANSLATIONS.md)\r\n* Prefixed the title with a language code\r\n    * Example: \"ja: Fix ...\"\r\n",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix links to Debunking the myths of RPC and REST",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/855",
+            "state": "MERGED",
+            "createdAt": "2024-04-25T10:58:19Z",
+            "mergedAt": "2024-06-29T00:09:30Z",
+            "closedAt": "2024-06-29T00:09:30Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 4
+            },
+            "additions": 8,
+            "deletions": 8,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "pt-BR: Add Brazilian Portuguese translation",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/867",
+            "state": "CLOSED",
+            "createdAt": "2024-06-16T21:03:10Z",
+            "mergedAt": null,
+            "closedAt": "2024-07-16T14:52:00Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1838,
+            "deletions": 0,
+            "body": "Hello, hope everything is going well. \r\nMy name is Geovana, and I'm submitting a pull request to continue the work started by @IuryAlves. He has informed us that he will no longer be able to continue.\r\n\r\n![image](https://github.com/donnemartin/system-design-primer/assets/13040713/42b78c9e-cef7-4ef1-9cd1-14a935b46fbc)\r\n\r\nI would like to request the inclusion of me as a maintainer of Brazilian Portuguese translations. I have created an updated fork and am in the process of incorporating the changes from the previous pull request [opened by Iury](https://github.com/donnemartin/system-design-primer/pull/67). Noticing the interest from others in contributing to the issue [you opened](https://github.com/donnemartin/system-design-primer/issues/40), I took the initiative to invite them to contribute to my fork, pending your approval. Additionally, I said that I am available to schedule a conversation with the others Brazilians contributors to address any questions about contributing to the project. Thanks a lot.",
+            "participants": {
+                "totalCount": 7
+            },
+            "comments": {
+                "totalCount": 6
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix DNS routing hyperlinks",
+            "url": "https://github.com/donnemartin/system-design-primer/pull/872",
+            "state": "MERGED",
+            "createdAt": "2024-06-18T09:29:17Z",
+            "mergedAt": "2024-06-23T17:36:45Z",
+            "closedAt": "2024-06-23T17:36:45Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 2,
+            "body": "Now, instead of hyperlinks landing to a routing index page, they route to relevant web pages. This issue might have been caused due to source website moving index page sections to separate web pages.\r\n",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    }
+]

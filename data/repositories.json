@@ -1,0 +1,2602 @@
+[
+    {
+        "name": "freeCodeCamp",
+        "owner": {
+            "login": "freeCodeCamp"
+        },
+        "createdAt": "2014-12-24T17:49:19Z",
+        "stargazerCount": 403984,
+        "pullRequests": {
+            "totalCount": 37458
+        },
+        "nameWithOwner": "freeCodeCamp/freeCodeCamp",
+        "url": "https://github.com/freeCodeCamp/freeCodeCamp"
+    },
+    {
+        "name": "free-programming-books",
+        "owner": {
+            "login": "EbookFoundation"
+        },
+        "createdAt": "2013-10-11T06:50:37Z",
+        "stargazerCount": 336175,
+        "pullRequests": {
+            "totalCount": 10148
+        },
+        "nameWithOwner": "EbookFoundation/free-programming-books",
+        "url": "https://github.com/EbookFoundation/free-programming-books"
+    },
+    {
+        "name": "awesome",
+        "owner": {
+            "login": "sindresorhus"
+        },
+        "createdAt": "2014-07-11T13:42:37Z",
+        "stargazerCount": 328515,
+        "pullRequests": {
+            "totalCount": 2024
+        },
+        "nameWithOwner": "sindresorhus/awesome",
+        "url": "https://github.com/sindresorhus/awesome"
+    },
+    {
+        "name": "public-apis",
+        "owner": {
+            "login": "public-apis"
+        },
+        "createdAt": "2016-03-20T23:49:42Z",
+        "stargazerCount": 315253,
+        "pullRequests": {
+            "totalCount": 2921
+        },
+        "nameWithOwner": "public-apis/public-apis",
+        "url": "https://github.com/public-apis/public-apis"
+    },
+    {
+        "name": "coding-interview-university",
+        "owner": {
+            "login": "jwasham"
+        },
+        "createdAt": "2016-06-06T02:34:12Z",
+        "stargazerCount": 305571,
+        "pullRequests": {
+            "totalCount": 993
+        },
+        "nameWithOwner": "jwasham/coding-interview-university",
+        "url": "https://github.com/jwasham/coding-interview-university"
+    },
+    {
+        "name": "build-your-own-x",
+        "owner": {
+            "login": "codecrafters-io"
+        },
+        "createdAt": "2018-05-09T12:03:18Z",
+        "stargazerCount": 304165,
+        "pullRequests": {
+            "totalCount": 265
+        },
+        "nameWithOwner": "codecrafters-io/build-your-own-x",
+        "url": "https://github.com/codecrafters-io/build-your-own-x"
+    },
+    {
+        "name": "developer-roadmap",
+        "owner": {
+            "login": "kamranahmedse"
+        },
+        "createdAt": "2017-03-15T13:45:52Z",
+        "stargazerCount": 294298,
+        "pullRequests": {
+            "totalCount": 4384
+        },
+        "nameWithOwner": "kamranahmedse/developer-roadmap",
+        "url": "https://github.com/kamranahmedse/developer-roadmap"
+    },
+    {
+        "name": "system-design-primer",
+        "owner": {
+            "login": "donnemartin"
+        },
+        "createdAt": "2017-02-26T16:15:28Z",
+        "stargazerCount": 272389,
+        "pullRequests": {
+            "totalCount": 318
+        },
+        "nameWithOwner": "donnemartin/system-design-primer",
+        "url": "https://github.com/donnemartin/system-design-primer"
+    },
+    {
+        "name": "996.ICU",
+        "owner": {
+            "login": "996icu"
+        },
+        "createdAt": "2019-03-26T07:31:14Z",
+        "stargazerCount": 269748,
+        "pullRequests": {
+            "totalCount": 1984
+        },
+        "nameWithOwner": "996icu/996.ICU",
+        "url": "https://github.com/996icu/996.ICU"
+    },
+    {
+        "name": "react",
+        "owner": {
+            "login": "facebook"
+        },
+        "createdAt": "2013-05-24T16:15:54Z",
+        "stargazerCount": 228285,
+        "pullRequests": {
+            "totalCount": 16061
+        },
+        "nameWithOwner": "facebook/react",
+        "url": "https://github.com/facebook/react"
+    },
+    {
+        "name": "awesome-python",
+        "owner": {
+            "login": "vinta"
+        },
+        "createdAt": "2014-06-27T21:00:06Z",
+        "stargazerCount": 221475,
+        "pullRequests": {
+            "totalCount": 1533
+        },
+        "nameWithOwner": "vinta/awesome-python",
+        "url": "https://github.com/vinta/awesome-python"
+    },
+    {
+        "name": "vue",
+        "owner": {
+            "login": "vuejs"
+        },
+        "createdAt": "2013-07-29T03:24:51Z",
+        "stargazerCount": 207803,
+        "pullRequests": {
+            "totalCount": 2301
+        },
+        "nameWithOwner": "vuejs/vue",
+        "url": "https://github.com/vuejs/vue"
+    },
+    {
+        "name": "project-based-learning",
+        "owner": {
+            "login": "practical-tutorials"
+        },
+        "createdAt": "2017-04-12T05:07:46Z",
+        "stargazerCount": 200620,
+        "pullRequests": {
+            "totalCount": 344
+        },
+        "nameWithOwner": "practical-tutorials/project-based-learning",
+        "url": "https://github.com/practical-tutorials/project-based-learning"
+    },
+    {
+        "name": "awesome-selfhosted",
+        "owner": {
+            "login": "awesome-selfhosted"
+        },
+        "createdAt": "2015-06-01T02:33:17Z",
+        "stargazerCount": 198561,
+        "pullRequests": {
+            "totalCount": 3036
+        },
+        "nameWithOwner": "awesome-selfhosted/awesome-selfhosted",
+        "url": "https://github.com/awesome-selfhosted/awesome-selfhosted"
+    },
+    {
+        "name": "Python",
+        "owner": {
+            "login": "TheAlgorithms"
+        },
+        "createdAt": "2016-07-16T09:44:01Z",
+        "stargazerCount": 191258,
+        "pullRequests": {
+            "totalCount": 9688
+        },
+        "nameWithOwner": "TheAlgorithms/Python",
+        "url": "https://github.com/TheAlgorithms/Python"
+    },
+    {
+        "name": "javascript-algorithms",
+        "owner": {
+            "login": "trekhleb"
+        },
+        "createdAt": "2018-03-24T07:47:04Z",
+        "stargazerCount": 187845,
+        "pullRequests": {
+            "totalCount": 536
+        },
+        "nameWithOwner": "trekhleb/javascript-algorithms",
+        "url": "https://github.com/trekhleb/javascript-algorithms"
+    },
+    {
+        "name": "tensorflow",
+        "owner": {
+            "login": "tensorflow"
+        },
+        "createdAt": "2015-11-07T01:19:20Z",
+        "stargazerCount": 186015,
+        "pullRequests": {
+            "totalCount": 33496
+        },
+        "nameWithOwner": "tensorflow/tensorflow",
+        "url": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "name": "linux",
+        "owner": {
+            "login": "torvalds"
+        },
+        "createdAt": "2011-09-04T22:48:12Z",
+        "stargazerCount": 180292,
+        "pullRequests": {
+            "totalCount": 533
+        },
+        "nameWithOwner": "torvalds/linux",
+        "url": "https://github.com/torvalds/linux"
+    },
+    {
+        "name": "You-Dont-Know-JS",
+        "owner": {
+            "login": "getify"
+        },
+        "createdAt": "2013-11-16T02:37:24Z",
+        "stargazerCount": 179421,
+        "pullRequests": {
+            "totalCount": 845
+        },
+        "nameWithOwner": "getify/You-Dont-Know-JS",
+        "url": "https://github.com/getify/You-Dont-Know-JS"
+    },
+    {
+        "name": "CS-Notes",
+        "owner": {
+            "login": "CyC2018"
+        },
+        "createdAt": "2018-02-13T14:56:24Z",
+        "stargazerCount": 175132,
+        "pullRequests": {
+            "totalCount": 552
+        },
+        "nameWithOwner": "CyC2018/CS-Notes",
+        "url": "https://github.com/CyC2018/CS-Notes"
+    },
+    {
+        "name": "ohmyzsh",
+        "owner": {
+            "login": "ohmyzsh"
+        },
+        "createdAt": "2009-08-28T18:15:37Z",
+        "stargazerCount": 173157,
+        "pullRequests": {
+            "totalCount": 7074
+        },
+        "nameWithOwner": "ohmyzsh/ohmyzsh",
+        "url": "https://github.com/ohmyzsh/ohmyzsh"
+    },
+    {
+        "name": "computer-science",
+        "owner": {
+            "login": "ossu"
+        },
+        "createdAt": "2014-05-04T00:18:39Z",
+        "stargazerCount": 171256,
+        "pullRequests": {
+            "totalCount": 440
+        },
+        "nameWithOwner": "ossu/computer-science",
+        "url": "https://github.com/ossu/computer-science"
+    },
+    {
+        "name": "bootstrap",
+        "owner": {
+            "login": "twbs"
+        },
+        "createdAt": "2011-07-29T21:19:00Z",
+        "stargazerCount": 170426,
+        "pullRequests": {
+            "totalCount": 15209
+        },
+        "nameWithOwner": "twbs/bootstrap",
+        "url": "https://github.com/twbs/bootstrap"
+    },
+    {
+        "name": "AutoGPT",
+        "owner": {
+            "login": "Significant-Gravitas"
+        },
+        "createdAt": "2023-03-16T09:21:07Z",
+        "stargazerCount": 167473,
+        "pullRequests": {
+            "totalCount": 4383
+        },
+        "nameWithOwner": "Significant-Gravitas/AutoGPT",
+        "url": "https://github.com/Significant-Gravitas/AutoGPT"
+    },
+    {
+        "name": "flutter",
+        "owner": {
+            "login": "flutter"
+        },
+        "createdAt": "2015-03-06T22:54:58Z",
+        "stargazerCount": 165431,
+        "pullRequests": {
+            "totalCount": 56180
+        },
+        "nameWithOwner": "flutter/flutter",
+        "url": "https://github.com/flutter/flutter"
+    },
+    {
+        "name": "vscode",
+        "owner": {
+            "login": "microsoft"
+        },
+        "createdAt": "2015-09-03T20:23:38Z",
+        "stargazerCount": 163386,
+        "pullRequests": {
+            "totalCount": 32908
+        },
+        "nameWithOwner": "microsoft/vscode",
+        "url": "https://github.com/microsoft/vscode"
+    },
+    {
+        "name": "gitignore",
+        "owner": {
+            "login": "github"
+        },
+        "createdAt": "2010-11-08T20:17:14Z",
+        "stargazerCount": 161709,
+        "pullRequests": {
+            "totalCount": 3953
+        },
+        "nameWithOwner": "github/gitignore",
+        "url": "https://github.com/github/gitignore"
+    },
+    {
+        "name": "Python-100-Days",
+        "owner": {
+            "login": "jackfrued"
+        },
+        "createdAt": "2018-03-01T16:05:52Z",
+        "stargazerCount": 155648,
+        "pullRequests": {
+            "totalCount": 152
+        },
+        "nameWithOwner": "jackfrued/Python-100-Days",
+        "url": "https://github.com/jackfrued/Python-100-Days"
+    },
+    {
+        "name": "the-art-of-command-line",
+        "owner": {
+            "login": "jlevy"
+        },
+        "createdAt": "2015-05-20T15:11:03Z",
+        "stargazerCount": 153194,
+        "pullRequests": {
+            "totalCount": 464
+        },
+        "nameWithOwner": "jlevy/the-art-of-command-line",
+        "url": "https://github.com/jlevy/the-art-of-command-line"
+    },
+    {
+        "name": "JavaGuide",
+        "owner": {
+            "login": "Snailclimb"
+        },
+        "createdAt": "2018-05-07T13:27:00Z",
+        "stargazerCount": 146351,
+        "pullRequests": {
+            "totalCount": 1363
+        },
+        "nameWithOwner": "Snailclimb/JavaGuide",
+        "url": "https://github.com/Snailclimb/JavaGuide"
+    },
+    {
+        "name": "the-book-of-secret-knowledge",
+        "owner": {
+            "login": "trimstray"
+        },
+        "createdAt": "2018-06-23T10:43:14Z",
+        "stargazerCount": 145900,
+        "pullRequests": {
+            "totalCount": 213
+        },
+        "nameWithOwner": "trimstray/the-book-of-secret-knowledge",
+        "url": "https://github.com/trimstray/the-book-of-secret-knowledge"
+    },
+    {
+        "name": "javascript",
+        "owner": {
+            "login": "airbnb"
+        },
+        "createdAt": "2012-11-01T23:13:50Z",
+        "stargazerCount": 144969,
+        "pullRequests": {
+            "totalCount": 1532
+        },
+        "nameWithOwner": "airbnb/javascript",
+        "url": "https://github.com/airbnb/javascript"
+    },
+    {
+        "name": "stable-diffusion-webui",
+        "owner": {
+            "login": "AUTOMATIC1111"
+        },
+        "createdAt": "2022-08-22T14:05:26Z",
+        "stargazerCount": 141100,
+        "pullRequests": {
+            "totalCount": 3077
+        },
+        "nameWithOwner": "AUTOMATIC1111/stable-diffusion-webui",
+        "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui"
+    },
+    {
+        "name": "transformers",
+        "owner": {
+            "login": "huggingface"
+        },
+        "createdAt": "2018-10-29T13:56:00Z",
+        "stargazerCount": 133314,
+        "pullRequests": {
+            "totalCount": 17356
+        },
+        "nameWithOwner": "huggingface/transformers",
+        "url": "https://github.com/huggingface/transformers"
+    },
+    {
+        "name": "youtube-dl",
+        "owner": {
+            "login": "ytdl-org"
+        },
+        "createdAt": "2010-10-31T14:35:07Z",
+        "stargazerCount": 131817,
+        "pullRequests": {
+            "totalCount": 4449
+        },
+        "nameWithOwner": "ytdl-org/youtube-dl",
+        "url": "https://github.com/ytdl-org/youtube-dl"
+    },
+    {
+        "name": "awesome-go",
+        "owner": {
+            "login": "avelino"
+        },
+        "createdAt": "2014-07-06T13:42:15Z",
+        "stargazerCount": 130462,
+        "pullRequests": {
+            "totalCount": 4541
+        },
+        "nameWithOwner": "avelino/awesome-go",
+        "url": "https://github.com/avelino/awesome-go"
+    },
+    {
+        "name": "next.js",
+        "owner": {
+            "login": "vercel"
+        },
+        "createdAt": "2016-10-05T23:32:51Z",
+        "stargazerCount": 125720,
+        "pullRequests": {
+            "totalCount": 23868
+        },
+        "nameWithOwner": "vercel/next.js",
+        "url": "https://github.com/vercel/next.js"
+    },
+    {
+        "name": "fucking-algorithm",
+        "owner": {
+            "login": "labuladong"
+        },
+        "createdAt": "2020-02-19T09:01:23Z",
+        "stargazerCount": 125390,
+        "pullRequests": {
+            "totalCount": 463
+        },
+        "nameWithOwner": "labuladong/fucking-algorithm",
+        "url": "https://github.com/labuladong/fucking-algorithm"
+    },
+    {
+        "name": "go",
+        "owner": {
+            "login": "golang"
+        },
+        "createdAt": "2014-08-19T04:33:40Z",
+        "stargazerCount": 123465,
+        "pullRequests": {
+            "totalCount": 3721
+        },
+        "nameWithOwner": "golang/go",
+        "url": "https://github.com/golang/go"
+    },
+    {
+        "name": "30-seconds-of-code",
+        "owner": {
+            "login": "Chalarangelo"
+        },
+        "createdAt": "2017-11-29T17:35:03Z",
+        "stargazerCount": 121461,
+        "pullRequests": {
+            "totalCount": 1614
+        },
+        "nameWithOwner": "Chalarangelo/30-seconds-of-code",
+        "url": "https://github.com/Chalarangelo/30-seconds-of-code"
+    },
+    {
+        "name": "react-native",
+        "owner": {
+            "login": "facebook"
+        },
+        "createdAt": "2015-01-09T18:10:16Z",
+        "stargazerCount": 118687,
+        "pullRequests": {
+            "totalCount": 18718
+        },
+        "nameWithOwner": "facebook/react-native",
+        "url": "https://github.com/facebook/react-native"
+    },
+    {
+        "name": "tech-interview-handbook",
+        "owner": {
+            "login": "yangshun"
+        },
+        "createdAt": "2016-07-05T05:00:48Z",
+        "stargazerCount": 117934,
+        "pullRequests": {
+            "totalCount": 538
+        },
+        "nameWithOwner": "yangshun/tech-interview-handbook",
+        "url": "https://github.com/yangshun/tech-interview-handbook"
+    },
+    {
+        "name": "electron",
+        "owner": {
+            "login": "electron"
+        },
+        "createdAt": "2013-04-12T01:47:36Z",
+        "stargazerCount": 113924,
+        "pullRequests": {
+            "totalCount": 23182
+        },
+        "nameWithOwner": "electron/electron",
+        "url": "https://github.com/electron/electron"
+    },
+    {
+        "name": "awesome-chatgpt-prompts",
+        "owner": {
+            "login": "f"
+        },
+        "createdAt": "2022-12-05T13:54:13Z",
+        "stargazerCount": 111604,
+        "pullRequests": {
+            "totalCount": 302
+        },
+        "nameWithOwner": "f/awesome-chatgpt-prompts",
+        "url": "https://github.com/f/awesome-chatgpt-prompts"
+    },
+    {
+        "name": "free-programming-books-zh_CN",
+        "owner": {
+            "login": "justjavac"
+        },
+        "createdAt": "2013-11-04T01:59:19Z",
+        "stargazerCount": 111454,
+        "pullRequests": {
+            "totalCount": 434
+        },
+        "nameWithOwner": "justjavac/free-programming-books-zh_CN",
+        "url": "https://github.com/justjavac/free-programming-books-zh_CN"
+    },
+    {
+        "name": "PowerToys",
+        "owner": {
+            "login": "microsoft"
+        },
+        "createdAt": "2019-05-01T17:44:02Z",
+        "stargazerCount": 110460,
+        "pullRequests": {
+            "totalCount": 5474
+        },
+        "nameWithOwner": "microsoft/PowerToys",
+        "url": "https://github.com/microsoft/PowerToys"
+    },
+    {
+        "name": "kubernetes",
+        "owner": {
+            "login": "kubernetes"
+        },
+        "createdAt": "2014-06-06T22:56:04Z",
+        "stargazerCount": 110422,
+        "pullRequests": {
+            "totalCount": 80826
+        },
+        "nameWithOwner": "kubernetes/kubernetes",
+        "url": "https://github.com/kubernetes/kubernetes"
+    },
+    {
+        "name": "scrcpy",
+        "owner": {
+            "login": "Genymobile"
+        },
+        "createdAt": "2017-11-21T18:00:27Z",
+        "stargazerCount": 110279,
+        "pullRequests": {
+            "totalCount": 423
+        },
+        "nameWithOwner": "Genymobile/scrcpy",
+        "url": "https://github.com/Genymobile/scrcpy"
+    },
+    {
+        "name": "d3",
+        "owner": {
+            "login": "d3"
+        },
+        "createdAt": "2010-09-27T17:22:42Z",
+        "stargazerCount": 108624,
+        "pullRequests": {
+            "totalCount": 1176
+        },
+        "nameWithOwner": "d3/d3",
+        "url": "https://github.com/d3/d3"
+    },
+    {
+        "name": "node",
+        "owner": {
+            "login": "nodejs"
+        },
+        "createdAt": "2014-11-26T19:57:11Z",
+        "stargazerCount": 107156,
+        "pullRequests": {
+            "totalCount": 34476
+        },
+        "nameWithOwner": "nodejs/node",
+        "url": "https://github.com/nodejs/node"
+    },
+    {
+        "name": "axios",
+        "owner": {
+            "login": "axios"
+        },
+        "createdAt": "2014-08-18T22:30:27Z",
+        "stargazerCount": 105454,
+        "pullRequests": {
+            "totalCount": 1536
+        },
+        "nameWithOwner": "axios/axios",
+        "url": "https://github.com/axios/axios"
+    },
+    {
+        "name": "create-react-app",
+        "owner": {
+            "login": "facebook"
+        },
+        "createdAt": "2016-07-17T14:55:11Z",
+        "stargazerCount": 102659,
+        "pullRequests": {
+            "totalCount": 3805
+        },
+        "nameWithOwner": "facebook/create-react-app",
+        "url": "https://github.com/facebook/create-react-app"
+    },
+    {
+        "name": "three.js",
+        "owner": {
+            "login": "mrdoob"
+        },
+        "createdAt": "2010-03-23T18:58:01Z",
+        "stargazerCount": 102196,
+        "pullRequests": {
+            "totalCount": 16721
+        },
+        "nameWithOwner": "mrdoob/three.js",
+        "url": "https://github.com/mrdoob/three.js"
+    },
+    {
+        "name": "TypeScript",
+        "owner": {
+            "login": "microsoft"
+        },
+        "createdAt": "2014-06-17T15:28:39Z",
+        "stargazerCount": 100642,
+        "pullRequests": {
+            "totalCount": 17685
+        },
+        "nameWithOwner": "microsoft/TypeScript",
+        "url": "https://github.com/microsoft/TypeScript"
+    },
+    {
+        "name": "nodebestpractices",
+        "owner": {
+            "login": "goldbergyoni"
+        },
+        "createdAt": "2017-09-15T08:33:19Z",
+        "stargazerCount": 99645,
+        "pullRequests": {
+            "totalCount": 921
+        },
+        "nameWithOwner": "goldbergyoni/nodebestpractices",
+        "url": "https://github.com/goldbergyoni/nodebestpractices"
+    },
+    {
+        "name": "Microsoft-Activation-Scripts",
+        "owner": {
+            "login": "massgravel"
+        },
+        "createdAt": "2020-01-12T23:03:34Z",
+        "stargazerCount": 98937,
+        "pullRequests": {
+            "totalCount": 35
+        },
+        "nameWithOwner": "massgravel/Microsoft-Activation-Scripts",
+        "url": "https://github.com/massgravel/Microsoft-Activation-Scripts"
+    },
+    {
+        "name": "rust",
+        "owner": {
+            "login": "rust-lang"
+        },
+        "createdAt": "2010-06-16T20:39:03Z",
+        "stargazerCount": 97632,
+        "pullRequests": {
+            "totalCount": 75828
+        },
+        "nameWithOwner": "rust-lang/rust",
+        "url": "https://github.com/rust-lang/rust"
+    },
+    {
+        "name": "hello-algo",
+        "owner": {
+            "login": "krahets"
+        },
+        "createdAt": "2022-11-04T11:08:34Z",
+        "stargazerCount": 96587,
+        "pullRequests": {
+            "totalCount": 1057
+        },
+        "nameWithOwner": "krahets/hello-algo",
+        "url": "https://github.com/krahets/hello-algo"
+    },
+    {
+        "name": "angular",
+        "owner": {
+            "login": "angular"
+        },
+        "createdAt": "2014-09-18T16:12:01Z",
+        "stargazerCount": 96000,
+        "pullRequests": {
+            "totalCount": 28267
+        },
+        "nameWithOwner": "angular/angular",
+        "url": "https://github.com/angular/angular"
+    },
+    {
+        "name": "deno",
+        "owner": {
+            "login": "denoland"
+        },
+        "createdAt": "2018-05-15T01:34:26Z",
+        "stargazerCount": 95522,
+        "pullRequests": {
+            "totalCount": 13859
+        },
+        "nameWithOwner": "denoland/deno",
+        "url": "https://github.com/denoland/deno"
+    },
+    {
+        "name": "terminal",
+        "owner": {
+            "login": "microsoft"
+        },
+        "createdAt": "2017-08-11T18:38:22Z",
+        "stargazerCount": 95270,
+        "pullRequests": {
+            "totalCount": 4406
+        },
+        "nameWithOwner": "microsoft/terminal",
+        "url": "https://github.com/microsoft/terminal"
+    },
+    {
+        "name": "material-ui",
+        "owner": {
+            "login": "mui"
+        },
+        "createdAt": "2014-08-18T19:11:54Z",
+        "stargazerCount": 93605,
+        "pullRequests": {
+            "totalCount": 23238
+        },
+        "nameWithOwner": "mui/material-ui",
+        "url": "https://github.com/mui/material-ui"
+    },
+    {
+        "name": "langchain",
+        "owner": {
+            "login": "langchain-ai"
+        },
+        "createdAt": "2022-10-17T02:58:36Z",
+        "stargazerCount": 93434,
+        "pullRequests": {
+            "totalCount": 15172
+        },
+        "nameWithOwner": "langchain-ai/langchain",
+        "url": "https://github.com/langchain-ai/langchain"
+    },
+    {
+        "name": "ollama",
+        "owner": {
+            "login": "ollama"
+        },
+        "createdAt": "2023-06-26T19:39:32Z",
+        "stargazerCount": 93157,
+        "pullRequests": {
+            "totalCount": 2135
+        },
+        "nameWithOwner": "ollama/ollama",
+        "url": "https://github.com/ollama/ollama"
+    },
+    {
+        "name": "ant-design",
+        "owner": {
+            "login": "ant-design"
+        },
+        "createdAt": "2015-04-24T15:37:24Z",
+        "stargazerCount": 92139,
+        "pullRequests": {
+            "totalCount": 18175
+        },
+        "nameWithOwner": "ant-design/ant-design",
+        "url": "https://github.com/ant-design/ant-design"
+    },
+    {
+        "name": "HelloGitHub",
+        "owner": {
+            "login": "521xueweihan"
+        },
+        "createdAt": "2016-05-04T06:24:11Z",
+        "stargazerCount": 91764,
+        "pullRequests": {
+            "totalCount": 43
+        },
+        "nameWithOwner": "521xueweihan/HelloGitHub",
+        "url": "https://github.com/521xueweihan/HelloGitHub"
+    },
+    {
+        "name": "clean-code-javascript",
+        "owner": {
+            "login": "ryanmcdermott"
+        },
+        "createdAt": "2016-11-25T22:25:41Z",
+        "stargazerCount": 91490,
+        "pullRequests": {
+            "totalCount": 252
+        },
+        "nameWithOwner": "ryanmcdermott/clean-code-javascript",
+        "url": "https://github.com/ryanmcdermott/clean-code-javascript"
+    },
+    {
+        "name": "godot",
+        "owner": {
+            "login": "godotengine"
+        },
+        "createdAt": "2014-01-04T16:05:36Z",
+        "stargazerCount": 90143,
+        "pullRequests": {
+            "totalCount": 41193
+        },
+        "nameWithOwner": "godotengine/godot",
+        "url": "https://github.com/godotengine/godot"
+    },
+    {
+        "name": "java-design-patterns",
+        "owner": {
+            "login": "iluwatar"
+        },
+        "createdAt": "2014-08-09T16:45:18Z",
+        "stargazerCount": 89645,
+        "pullRequests": {
+            "totalCount": 2072
+        },
+        "nameWithOwner": "iluwatar/java-design-patterns",
+        "url": "https://github.com/iluwatar/java-design-patterns"
+    },
+    {
+        "name": "free-for-dev",
+        "owner": {
+            "login": "ripienaar"
+        },
+        "createdAt": "2015-03-18T21:06:26Z",
+        "stargazerCount": 89176,
+        "pullRequests": {
+            "totalCount": 3374
+        },
+        "nameWithOwner": "ripienaar/free-for-dev",
+        "url": "https://github.com/ripienaar/free-for-dev"
+    },
+    {
+        "name": "puppeteer",
+        "owner": {
+            "login": "puppeteer"
+        },
+        "createdAt": "2017-05-09T22:16:13Z",
+        "stargazerCount": 88473,
+        "pullRequests": {
+            "totalCount": 6076
+        },
+        "nameWithOwner": "puppeteer/puppeteer",
+        "url": "https://github.com/puppeteer/puppeteer"
+    },
+    {
+        "name": "vue-element-admin",
+        "owner": {
+            "login": "PanJiaChen"
+        },
+        "createdAt": "2017-04-17T03:35:49Z",
+        "stargazerCount": 87724,
+        "pullRequests": {
+            "totalCount": 476
+        },
+        "nameWithOwner": "PanJiaChen/vue-element-admin",
+        "url": "https://github.com/PanJiaChen/vue-element-admin"
+    },
+    {
+        "name": "papers-we-love",
+        "owner": {
+            "login": "papers-we-love"
+        },
+        "createdAt": "2013-12-15T14:31:41Z",
+        "stargazerCount": 87436,
+        "pullRequests": {
+            "totalCount": 516
+        },
+        "nameWithOwner": "papers-we-love/papers-we-love",
+        "url": "https://github.com/papers-we-love/papers-we-love"
+    },
+    {
+        "name": "frp",
+        "owner": {
+            "login": "fatedier"
+        },
+        "createdAt": "2015-12-21T15:24:59Z",
+        "stargazerCount": 85286,
+        "pullRequests": {
+            "totalCount": 897
+        },
+        "nameWithOwner": "fatedier/frp",
+        "url": "https://github.com/fatedier/frp"
+    },
+    {
+        "name": "iptv",
+        "owner": {
+            "login": "iptv-org"
+        },
+        "createdAt": "2018-11-14T22:00:57Z",
+        "stargazerCount": 85270,
+        "pullRequests": {
+            "totalCount": 7115
+        },
+        "nameWithOwner": "iptv-org/iptv",
+        "url": "https://github.com/iptv-org/iptv"
+    },
+    {
+        "name": "thefuck",
+        "owner": {
+            "login": "nvbn"
+        },
+        "createdAt": "2015-04-08T15:08:04Z",
+        "stargazerCount": 85026,
+        "pullRequests": {
+            "totalCount": 609
+        },
+        "nameWithOwner": "nvbn/thefuck",
+        "url": "https://github.com/nvbn/thefuck"
+    },
+    {
+        "name": "yt-dlp",
+        "owner": {
+            "login": "yt-dlp"
+        },
+        "createdAt": "2020-10-26T04:22:55Z",
+        "stargazerCount": 84727,
+        "pullRequests": {
+            "totalCount": 2852
+        },
+        "nameWithOwner": "yt-dlp/yt-dlp",
+        "url": "https://github.com/yt-dlp/yt-dlp"
+    },
+    {
+        "name": "storybook",
+        "owner": {
+            "login": "storybookjs"
+        },
+        "createdAt": "2016-03-18T04:23:44Z",
+        "stargazerCount": 84212,
+        "pullRequests": {
+            "totalCount": 12715
+        },
+        "nameWithOwner": "storybookjs/storybook",
+        "url": "https://github.com/storybookjs/storybook"
+    },
+    {
+        "name": "Awesome-Hacking",
+        "owner": {
+            "login": "Hack-with-Github"
+        },
+        "createdAt": "2016-03-30T15:47:10Z",
+        "stargazerCount": 83835,
+        "pullRequests": {
+            "totalCount": 108
+        },
+        "nameWithOwner": "Hack-with-Github/Awesome-Hacking",
+        "url": "https://github.com/Hack-with-Github/Awesome-Hacking"
+    },
+    {
+        "name": "tauri",
+        "owner": {
+            "login": "tauri-apps"
+        },
+        "createdAt": "2019-07-13T09:09:37Z",
+        "stargazerCount": 83328,
+        "pullRequests": {
+            "totalCount": 4943
+        },
+        "nameWithOwner": "tauri-apps/tauri",
+        "url": "https://github.com/tauri-apps/tauri"
+    },
+    {
+        "name": "Web-Dev-For-Beginners",
+        "owner": {
+            "login": "microsoft"
+        },
+        "createdAt": "2020-11-10T02:44:00Z",
+        "stargazerCount": 83262,
+        "pullRequests": {
+            "totalCount": 811
+        },
+        "nameWithOwner": "microsoft/Web-Dev-For-Beginners",
+        "url": "https://github.com/microsoft/Web-Dev-For-Beginners"
+    },
+    {
+        "name": "every-programmer-should-know",
+        "owner": {
+            "login": "mtdvio"
+        },
+        "createdAt": "2017-08-24T13:18:26Z",
+        "stargazerCount": 83044,
+        "pullRequests": {
+            "totalCount": 144
+        },
+        "nameWithOwner": "mtdvio/every-programmer-should-know",
+        "url": "https://github.com/mtdvio/every-programmer-should-know"
+    },
+    {
+        "name": "pytorch",
+        "owner": {
+            "login": "pytorch"
+        },
+        "createdAt": "2016-08-13T05:26:41Z",
+        "stargazerCount": 82910,
+        "pullRequests": {
+            "totalCount": 90808
+        },
+        "nameWithOwner": "pytorch/pytorch",
+        "url": "https://github.com/pytorch/pytorch"
+    },
+    {
+        "name": "excalidraw",
+        "owner": {
+            "login": "excalidraw"
+        },
+        "createdAt": "2020-01-02T01:04:43Z",
+        "stargazerCount": 82728,
+        "pullRequests": {
+            "totalCount": 4344
+        },
+        "nameWithOwner": "excalidraw/excalidraw",
+        "url": "https://github.com/excalidraw/excalidraw"
+    },
+    {
+        "name": "neovim",
+        "owner": {
+            "login": "neovim"
+        },
+        "createdAt": "2014-01-31T13:39:22Z",
+        "stargazerCount": 82484,
+        "pullRequests": {
+            "totalCount": 18169
+        },
+        "nameWithOwner": "neovim/neovim",
+        "url": "https://github.com/neovim/neovim"
+    },
+    {
+        "name": "tailwindcss",
+        "owner": {
+            "login": "tailwindlabs"
+        },
+        "createdAt": "2017-10-06T14:59:14Z",
+        "stargazerCount": 82469,
+        "pullRequests": {
+            "totalCount": 2884
+        },
+        "nameWithOwner": "tailwindlabs/tailwindcss",
+        "url": "https://github.com/tailwindlabs/tailwindcss"
+    },
+    {
+        "name": "animate.css",
+        "owner": {
+            "login": "animate-css"
+        },
+        "createdAt": "2011-10-12T10:07:38Z",
+        "stargazerCount": 80677,
+        "pullRequests": {
+            "totalCount": 887
+        },
+        "nameWithOwner": "animate-css/animate.css",
+        "url": "https://github.com/animate-css/animate.css"
+    },
+    {
+        "name": "realworld",
+        "owner": {
+            "login": "gothinkster"
+        },
+        "createdAt": "2016-02-26T20:49:53Z",
+        "stargazerCount": 80422,
+        "pullRequests": {
+            "totalCount": 835
+        },
+        "nameWithOwner": "gothinkster/realworld",
+        "url": "https://github.com/gothinkster/realworld"
+    },
+    {
+        "name": "app-ideas",
+        "owner": {
+            "login": "florinpop17"
+        },
+        "createdAt": "2019-02-25T18:36:56Z",
+        "stargazerCount": 79805,
+        "pullRequests": {
+            "totalCount": 337
+        },
+        "nameWithOwner": "florinpop17/app-ideas",
+        "url": "https://github.com/florinpop17/app-ideas"
+    },
+    {
+        "name": "django",
+        "owner": {
+            "login": "django"
+        },
+        "createdAt": "2012-04-28T02:47:18Z",
+        "stargazerCount": 79609,
+        "pullRequests": {
+            "totalCount": 18353
+        },
+        "nameWithOwner": "django/django",
+        "url": "https://github.com/django/django"
+    },
+    {
+        "name": "nvm",
+        "owner": {
+            "login": "nvm-sh"
+        },
+        "createdAt": "2010-04-15T17:47:47Z",
+        "stargazerCount": 79501,
+        "pullRequests": {
+            "totalCount": 1017
+        },
+        "nameWithOwner": "nvm-sh/nvm",
+        "url": "https://github.com/nvm-sh/nvm"
+    },
+    {
+        "name": "bitcoin",
+        "owner": {
+            "login": "bitcoin"
+        },
+        "createdAt": "2010-12-19T15:16:43Z",
+        "stargazerCount": 78853,
+        "pullRequests": {
+            "totalCount": 21110
+        },
+        "nameWithOwner": "bitcoin/bitcoin",
+        "url": "https://github.com/bitcoin/bitcoin"
+    },
+    {
+        "name": "svelte",
+        "owner": {
+            "login": "sveltejs"
+        },
+        "createdAt": "2016-11-20T18:13:05Z",
+        "stargazerCount": 78755,
+        "pullRequests": {
+            "totalCount": 5889
+        },
+        "nameWithOwner": "sveltejs/svelte",
+        "url": "https://github.com/sveltejs/svelte"
+    },
+    {
+        "name": "opencv",
+        "owner": {
+            "login": "opencv"
+        },
+        "createdAt": "2012-07-19T09:40:17Z",
+        "stargazerCount": 78501,
+        "pullRequests": {
+            "totalCount": 15202
+        },
+        "nameWithOwner": "opencv/opencv",
+        "url": "https://github.com/opencv/opencv"
+    },
+    {
+        "name": "laravel",
+        "owner": {
+            "login": "laravel"
+        },
+        "createdAt": "2011-06-08T03:06:08Z",
+        "stargazerCount": 78486,
+        "pullRequests": {
+            "totalCount": 4806
+        },
+        "nameWithOwner": "laravel/laravel",
+        "url": "https://github.com/laravel/laravel"
+    },
+    {
+        "name": "gin",
+        "owner": {
+            "login": "gin-gonic"
+        },
+        "createdAt": "2014-06-16T23:57:25Z",
+        "stargazerCount": 78390,
+        "pullRequests": {
+            "totalCount": 1607
+        },
+        "nameWithOwner": "gin-gonic/gin",
+        "url": "https://github.com/gin-gonic/gin"
+    },
+    {
+        "name": "mall",
+        "owner": {
+            "login": "macrozheng"
+        },
+        "createdAt": "2018-04-04T01:11:44Z",
+        "stargazerCount": 77608,
+        "pullRequests": {
+            "totalCount": 117
+        },
+        "nameWithOwner": "macrozheng/mall",
+        "url": "https://github.com/macrozheng/mall"
+    },
+    {
+        "name": "models",
+        "owner": {
+            "login": "tensorflow"
+        },
+        "createdAt": "2016-02-05T01:15:20Z",
+        "stargazerCount": 77003,
+        "pullRequests": {
+            "totalCount": 3642
+        },
+        "nameWithOwner": "tensorflow/models",
+        "url": "https://github.com/tensorflow/models"
+    },
+    {
+        "name": "FiraCode",
+        "owner": {
+            "login": "tonsky"
+        },
+        "createdAt": "2014-11-11T19:32:38Z",
+        "stargazerCount": 76995,
+        "pullRequests": {
+            "totalCount": 184
+        },
+        "nameWithOwner": "tonsky/FiraCode",
+        "url": "https://github.com/tonsky/FiraCode"
+    },
+    {
+        "name": "fastapi",
+        "owner": {
+            "login": "fastapi"
+        },
+        "createdAt": "2018-12-08T08:21:47Z",
+        "stargazerCount": 76516,
+        "pullRequests": {
+            "totalCount": 3374
+        },
+        "nameWithOwner": "fastapi/fastapi",
+        "url": "https://github.com/fastapi/fastapi"
+    },
+    {
+        "name": "advanced-java",
+        "owner": {
+            "login": "doocs"
+        },
+        "createdAt": "2018-10-06T11:38:30Z",
+        "stargazerCount": 75837,
+        "pullRequests": {
+            "totalCount": 126
+        },
+        "nameWithOwner": "doocs/advanced-java",
+        "url": "https://github.com/doocs/advanced-java"
+    },
+    {
+        "name": "awesome-mac",
+        "owner": {
+            "login": "jaywcjlove"
+        },
+        "createdAt": "2016-07-17T15:33:47Z",
+        "stargazerCount": 75708,
+        "pullRequests": {
+            "totalCount": 1004
+        },
+        "nameWithOwner": "jaywcjlove/awesome-mac",
+        "url": "https://github.com/jaywcjlove/awesome-mac"
+    },
+    {
+        "name": "ChatGPT-Next-Web",
+        "owner": {
+            "login": "ChatGPTNextWeb"
+        },
+        "createdAt": "2023-03-10T18:27:54Z",
+        "stargazerCount": 75660,
+        "pullRequests": {
+            "totalCount": 2118
+        },
+        "nameWithOwner": "ChatGPTNextWeb/ChatGPT-Next-Web",
+        "url": "https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web"
+    },
+    {
+        "name": "LeetCodeAnimation",
+        "owner": {
+            "login": "MisterBooo"
+        },
+        "createdAt": "2018-12-06T08:01:22Z",
+        "stargazerCount": 75419,
+        "pullRequests": {
+            "totalCount": 75
+        },
+        "nameWithOwner": "MisterBooo/LeetCodeAnimation",
+        "url": "https://github.com/MisterBooo/LeetCodeAnimation"
+    },
+    {
+        "name": "hugo",
+        "owner": {
+            "login": "gohugoio"
+        },
+        "createdAt": "2013-07-04T15:26:26Z",
+        "stargazerCount": 75265,
+        "pullRequests": {
+            "totalCount": 5323
+        },
+        "nameWithOwner": "gohugoio/hugo",
+        "url": "https://github.com/gohugoio/hugo"
+    },
+    {
+        "name": "spring-boot",
+        "owner": {
+            "login": "spring-projects"
+        },
+        "createdAt": "2012-10-19T15:02:57Z",
+        "stargazerCount": 74860,
+        "pullRequests": {
+            "totalCount": 6414
+        },
+        "nameWithOwner": "spring-projects/spring-boot",
+        "url": "https://github.com/spring-projects/spring-boot"
+    },
+    {
+        "name": "rustdesk",
+        "owner": {
+            "login": "rustdesk"
+        },
+        "createdAt": "2020-09-28T15:36:08Z",
+        "stargazerCount": 74075,
+        "pullRequests": {
+            "totalCount": 3469
+        },
+        "nameWithOwner": "rustdesk/rustdesk",
+        "url": "https://github.com/rustdesk/rustdesk"
+    },
+    {
+        "name": "bun",
+        "owner": {
+            "login": "oven-sh"
+        },
+        "createdAt": "2021-04-14T00:48:17Z",
+        "stargazerCount": 73713,
+        "pullRequests": {
+            "totalCount": 4716
+        },
+        "nameWithOwner": "oven-sh/bun",
+        "url": "https://github.com/oven-sh/bun"
+    },
+    {
+        "name": "Font-Awesome",
+        "owner": {
+            "login": "FortAwesome"
+        },
+        "createdAt": "2012-02-17T14:19:43Z",
+        "stargazerCount": 73607,
+        "pullRequests": {
+            "totalCount": 669
+        },
+        "nameWithOwner": "FortAwesome/Font-Awesome",
+        "url": "https://github.com/FortAwesome/Font-Awesome"
+    },
+    {
+        "name": "json-server",
+        "owner": {
+            "login": "typicode"
+        },
+        "createdAt": "2013-11-27T13:21:13Z",
+        "stargazerCount": 72747,
+        "pullRequests": {
+            "totalCount": 316
+        },
+        "nameWithOwner": "typicode/json-server",
+        "url": "https://github.com/typicode/json-server"
+    },
+    {
+        "name": "supabase",
+        "owner": {
+            "login": "supabase"
+        },
+        "createdAt": "2019-10-12T05:56:49Z",
+        "stargazerCount": 72596,
+        "pullRequests": {
+            "totalCount": 11629
+        },
+        "nameWithOwner": "supabase/supabase",
+        "url": "https://github.com/supabase/supabase"
+    },
+    {
+        "name": "core",
+        "owner": {
+            "login": "home-assistant"
+        },
+        "createdAt": "2013-09-17T07:29:48Z",
+        "stargazerCount": 72479,
+        "pullRequests": {
+            "totalCount": 74296
+        },
+        "nameWithOwner": "home-assistant/core",
+        "url": "https://github.com/home-assistant/core"
+    },
+    {
+        "name": "awesome-vue",
+        "owner": {
+            "login": "vuejs"
+        },
+        "createdAt": "2015-10-20T00:16:14Z",
+        "stargazerCount": 72029,
+        "pullRequests": {
+            "totalCount": 3888
+        },
+        "nameWithOwner": "vuejs/awesome-vue",
+        "url": "https://github.com/vuejs/awesome-vue"
+    },
+    {
+        "name": "ui",
+        "owner": {
+            "login": "shadcn-ui"
+        },
+        "createdAt": "2023-01-04T12:43:27Z",
+        "stargazerCount": 71575,
+        "pullRequests": {
+            "totalCount": 837
+        },
+        "nameWithOwner": "shadcn-ui/ui",
+        "url": "https://github.com/shadcn-ui/ui"
+    },
+    {
+        "name": "netdata",
+        "owner": {
+            "login": "netdata"
+        },
+        "createdAt": "2013-06-17T18:39:10Z",
+        "stargazerCount": 71461,
+        "pullRequests": {
+            "totalCount": 10273
+        },
+        "nameWithOwner": "netdata/netdata",
+        "url": "https://github.com/netdata/netdata"
+    },
+    {
+        "name": "mermaid",
+        "owner": {
+            "login": "mermaid-js"
+        },
+        "createdAt": "2014-11-01T23:52:32Z",
+        "stargazerCount": 71394,
+        "pullRequests": {
+            "totalCount": 2581
+        },
+        "nameWithOwner": "mermaid-js/mermaid",
+        "url": "https://github.com/mermaid-js/mermaid"
+    },
+    {
+        "name": "awesome-interview-questions",
+        "owner": {
+            "login": "DopplerHQ"
+        },
+        "createdAt": "2015-11-28T09:48:17Z",
+        "stargazerCount": 70914,
+        "pullRequests": {
+            "totalCount": 209
+        },
+        "nameWithOwner": "DopplerHQ/awesome-interview-questions",
+        "url": "https://github.com/DopplerHQ/awesome-interview-questions"
+    },
+    {
+        "name": "gpt4all",
+        "owner": {
+            "login": "nomic-ai"
+        },
+        "createdAt": "2023-03-27T18:49:32Z",
+        "stargazerCount": 69969,
+        "pullRequests": {
+            "totalCount": 1000
+        },
+        "nameWithOwner": "nomic-ai/gpt4all",
+        "url": "https://github.com/nomic-ai/gpt4all"
+    },
+    {
+        "name": "elasticsearch",
+        "owner": {
+            "login": "elastic"
+        },
+        "createdAt": "2010-02-08T13:20:56Z",
+        "stargazerCount": 69846,
+        "pullRequests": {
+            "totalCount": 76993
+        },
+        "nameWithOwner": "elastic/elasticsearch",
+        "url": "https://github.com/elastic/elasticsearch"
+    },
+    {
+        "name": "ML-For-Beginners",
+        "owner": {
+            "login": "microsoft"
+        },
+        "createdAt": "2021-03-03T01:34:05Z",
+        "stargazerCount": 69421,
+        "pullRequests": {
+            "totalCount": 497
+        },
+        "nameWithOwner": "microsoft/ML-For-Beginners",
+        "url": "https://github.com/microsoft/ML-For-Beginners"
+    },
+    {
+        "name": "whisper",
+        "owner": {
+            "login": "openai"
+        },
+        "createdAt": "2022-09-16T20:02:54Z",
+        "stargazerCount": 69383,
+        "pullRequests": {
+            "totalCount": 180
+        },
+        "nameWithOwner": "openai/whisper",
+        "url": "https://github.com/openai/whisper"
+    },
+    {
+        "name": "github-readme-stats",
+        "owner": {
+            "login": "anuraghazra"
+        },
+        "createdAt": "2020-07-09T10:34:22Z",
+        "stargazerCount": 68860,
+        "pullRequests": {
+            "totalCount": 2159
+        },
+        "nameWithOwner": "anuraghazra/github-readme-stats",
+        "url": "https://github.com/anuraghazra/github-readme-stats"
+    },
+    {
+        "name": "Front-End-Checklist",
+        "owner": {
+            "login": "thedaviddias"
+        },
+        "createdAt": "2017-10-16T10:12:36Z",
+        "stargazerCount": 68813,
+        "pullRequests": {
+            "totalCount": 301
+        },
+        "nameWithOwner": "thedaviddias/Front-End-Checklist",
+        "url": "https://github.com/thedaviddias/Front-End-Checklist"
+    },
+    {
+        "name": "moby",
+        "owner": {
+            "login": "moby"
+        },
+        "createdAt": "2013-01-18T18:10:57Z",
+        "stargazerCount": 68606,
+        "pullRequests": {
+            "totalCount": 24974
+        },
+        "nameWithOwner": "moby/moby",
+        "url": "https://github.com/moby/moby"
+    },
+    {
+        "name": "awesome-for-beginners",
+        "owner": {
+            "login": "MunGell"
+        },
+        "createdAt": "2015-10-24T19:53:36Z",
+        "stargazerCount": 68350,
+        "pullRequests": {
+            "totalCount": 1151
+        },
+        "nameWithOwner": "MunGell/awesome-for-beginners",
+        "url": "https://github.com/MunGell/awesome-for-beginners"
+    },
+    {
+        "name": "funNLP",
+        "owner": {
+            "login": "fighting41love"
+        },
+        "createdAt": "2018-08-21T11:20:39Z",
+        "stargazerCount": 68273,
+        "pullRequests": {
+            "totalCount": 23
+        },
+        "nameWithOwner": "fighting41love/funNLP",
+        "url": "https://github.com/fighting41love/funNLP"
+    },
+    {
+        "name": "node",
+        "owner": {
+            "login": "base-org"
+        },
+        "createdAt": "2023-02-01T13:55:02Z",
+        "stargazerCount": 68184,
+        "pullRequests": {
+            "totalCount": 153
+        },
+        "nameWithOwner": "base-org/node",
+        "url": "https://github.com/base-org/node"
+    },
+    {
+        "name": "v2rayN",
+        "owner": {
+            "login": "2dust"
+        },
+        "createdAt": "2019-07-30T03:47:24Z",
+        "stargazerCount": 68101,
+        "pullRequests": {
+            "totalCount": 295
+        },
+        "nameWithOwner": "2dust/v2rayN",
+        "url": "https://github.com/2dust/v2rayN"
+    },
+    {
+        "name": "code-server",
+        "owner": {
+            "login": "coder"
+        },
+        "createdAt": "2019-02-27T16:50:41Z",
+        "stargazerCount": 68017,
+        "pullRequests": {
+            "totalCount": 1886
+        },
+        "nameWithOwner": "coder/code-server",
+        "url": "https://github.com/coder/code-server"
+    },
+    {
+        "name": "stable-diffusion",
+        "owner": {
+            "login": "CompVis"
+        },
+        "createdAt": "2022-08-10T14:36:44Z",
+        "stargazerCount": 67902,
+        "pullRequests": {
+            "totalCount": 76
+        },
+        "nameWithOwner": "CompVis/stable-diffusion",
+        "url": "https://github.com/CompVis/stable-diffusion"
+    },
+    {
+        "name": "vite",
+        "owner": {
+            "login": "vitejs"
+        },
+        "createdAt": "2020-04-21T05:03:57Z",
+        "stargazerCount": 67874,
+        "pullRequests": {
+            "totalCount": 6002
+        },
+        "nameWithOwner": "vitejs/vite",
+        "url": "https://github.com/vitejs/vite"
+    },
+    {
+        "name": "flask",
+        "owner": {
+            "login": "pallets"
+        },
+        "createdAt": "2010-04-06T11:11:59Z",
+        "stargazerCount": 67823,
+        "pullRequests": {
+            "totalCount": 2580
+        },
+        "nameWithOwner": "pallets/flask",
+        "url": "https://github.com/pallets/flask"
+    },
+    {
+        "name": "reveal.js",
+        "owner": {
+            "login": "hakimel"
+        },
+        "createdAt": "2011-06-07T18:54:22Z",
+        "stargazerCount": 67721,
+        "pullRequests": {
+            "totalCount": 982
+        },
+        "nameWithOwner": "hakimel/reveal.js",
+        "url": "https://github.com/hakimel/reveal.js"
+    },
+    {
+        "name": "swift",
+        "owner": {
+            "login": "swiftlang"
+        },
+        "createdAt": "2015-10-23T21:15:07Z",
+        "stargazerCount": 67462,
+        "pullRequests": {
+            "totalCount": 56690
+        },
+        "nameWithOwner": "swiftlang/swift",
+        "url": "https://github.com/swiftlang/swift"
+    },
+    {
+        "name": "nest",
+        "owner": {
+            "login": "nestjs"
+        },
+        "createdAt": "2017-02-04T20:12:52Z",
+        "stargazerCount": 67242,
+        "pullRequests": {
+            "totalCount": 8240
+        },
+        "nameWithOwner": "nestjs/nest",
+        "url": "https://github.com/nestjs/nest"
+    },
+    {
+        "name": "cs-video-courses",
+        "owner": {
+            "login": "Developer-Y"
+        },
+        "createdAt": "2016-10-21T17:02:11Z",
+        "stargazerCount": 66939,
+        "pullRequests": {
+            "totalCount": 199
+        },
+        "nameWithOwner": "Developer-Y/cs-video-courses",
+        "url": "https://github.com/Developer-Y/cs-video-courses"
+    },
+    {
+        "name": "HowToCook",
+        "owner": {
+            "login": "Anduin2017"
+        },
+        "createdAt": "2020-02-29T10:43:49Z",
+        "stargazerCount": 66839,
+        "pullRequests": {
+            "totalCount": 679
+        },
+        "nameWithOwner": "Anduin2017/HowToCook",
+        "url": "https://github.com/Anduin2017/HowToCook"
+    },
+    {
+        "name": "redis",
+        "owner": {
+            "login": "redis"
+        },
+        "createdAt": "2009-03-21T22:32:25Z",
+        "stargazerCount": 66650,
+        "pullRequests": {
+            "totalCount": 6241
+        },
+        "nameWithOwner": "redis/redis",
+        "url": "https://github.com/redis/redis"
+    },
+    {
+        "name": "devops-exercises",
+        "owner": {
+            "login": "bregman-arie"
+        },
+        "createdAt": "2019-10-03T17:31:21Z",
+        "stargazerCount": 66258,
+        "pullRequests": {
+            "totalCount": 368
+        },
+        "nameWithOwner": "bregman-arie/devops-exercises",
+        "url": "https://github.com/bregman-arie/devops-exercises"
+    },
+    {
+        "name": "playwright",
+        "owner": {
+            "login": "microsoft"
+        },
+        "createdAt": "2019-11-15T18:32:42Z",
+        "stargazerCount": 66247,
+        "pullRequests": {
+            "totalCount": 15160
+        },
+        "nameWithOwner": "microsoft/playwright",
+        "url": "https://github.com/microsoft/playwright"
+    },
+    {
+        "name": "llama.cpp",
+        "owner": {
+            "login": "ggerganov"
+        },
+        "createdAt": "2023-03-10T18:58:00Z",
+        "stargazerCount": 66221,
+        "pullRequests": {
+            "totalCount": 4065
+        },
+        "nameWithOwner": "ggerganov/llama.cpp",
+        "url": "https://github.com/ggerganov/llama.cpp"
+    },
+    {
+        "name": "manim",
+        "owner": {
+            "login": "3b1b"
+        },
+        "createdAt": "2015-03-22T18:50:58Z",
+        "stargazerCount": 65777,
+        "pullRequests": {
+            "totalCount": 816
+        },
+        "nameWithOwner": "3b1b/manim",
+        "url": "https://github.com/3b1b/manim"
+    },
+    {
+        "name": "awesome-machine-learning",
+        "owner": {
+            "login": "josephmisiti"
+        },
+        "createdAt": "2014-07-15T19:11:19Z",
+        "stargazerCount": 65683,
+        "pullRequests": {
+            "totalCount": 897
+        },
+        "nameWithOwner": "josephmisiti/awesome-machine-learning",
+        "url": "https://github.com/josephmisiti/awesome-machine-learning"
+    },
+    {
+        "name": "protobuf",
+        "owner": {
+            "login": "protocolbuffers"
+        },
+        "createdAt": "2014-08-26T15:52:15Z",
+        "stargazerCount": 65441,
+        "pullRequests": {
+            "totalCount": 12156
+        },
+        "nameWithOwner": "protocolbuffers/protobuf",
+        "url": "https://github.com/protocolbuffers/protobuf"
+    },
+    {
+        "name": "express",
+        "owner": {
+            "login": "expressjs"
+        },
+        "createdAt": "2009-06-26T18:56:01Z",
+        "stargazerCount": 65375,
+        "pullRequests": {
+            "totalCount": 1531
+        },
+        "nameWithOwner": "expressjs/express",
+        "url": "https://github.com/expressjs/express"
+    },
+    {
+        "name": "awesome-react",
+        "owner": {
+            "login": "enaqx"
+        },
+        "createdAt": "2014-08-06T05:31:44Z",
+        "stargazerCount": 65052,
+        "pullRequests": {
+            "totalCount": 1298
+        },
+        "nameWithOwner": "enaqx/awesome-react",
+        "url": "https://github.com/enaqx/awesome-react"
+    },
+    {
+        "name": "gpt_academic",
+        "owner": {
+            "login": "binary-husky"
+        },
+        "createdAt": "2023-03-20T09:05:13Z",
+        "stargazerCount": 64761,
+        "pullRequests": {
+            "totalCount": 290
+        },
+        "nameWithOwner": "binary-husky/gpt_academic",
+        "url": "https://github.com/binary-husky/gpt_academic"
+    },
+    {
+        "name": "webpack",
+        "owner": {
+            "login": "webpack"
+        },
+        "createdAt": "2012-03-10T10:08:14Z",
+        "stargazerCount": 64631,
+        "pullRequests": {
+            "totalCount": 6893
+        },
+        "nameWithOwner": "webpack/webpack",
+        "url": "https://github.com/webpack/webpack"
+    },
+    {
+        "name": "Chart.js",
+        "owner": {
+            "login": "chartjs"
+        },
+        "createdAt": "2013-03-17T23:56:36Z",
+        "stargazerCount": 64562,
+        "pullRequests": {
+            "totalCount": 3795
+        },
+        "nameWithOwner": "chartjs/Chart.js",
+        "url": "https://github.com/chartjs/Chart.js"
+    },
+    {
+        "name": "syncthing",
+        "owner": {
+            "login": "syncthing"
+        },
+        "createdAt": "2013-11-26T09:48:21Z",
+        "stargazerCount": 64522,
+        "pullRequests": {
+            "totalCount": 4170
+        },
+        "nameWithOwner": "syncthing/syncthing",
+        "url": "https://github.com/syncthing/syncthing"
+    },
+    {
+        "name": "fzf",
+        "owner": {
+            "login": "junegunn"
+        },
+        "createdAt": "2013-10-23T16:04:23Z",
+        "stargazerCount": 64513,
+        "pullRequests": {
+            "totalCount": 880
+        },
+        "nameWithOwner": "junegunn/fzf",
+        "url": "https://github.com/junegunn/fzf"
+    },
+    {
+        "name": "grafana",
+        "owner": {
+            "login": "grafana"
+        },
+        "createdAt": "2013-12-11T15:59:56Z",
+        "stargazerCount": 64363,
+        "pullRequests": {
+            "totalCount": 54085
+        },
+        "nameWithOwner": "grafana/grafana",
+        "url": "https://github.com/grafana/grafana"
+    },
+    {
+        "name": "hoppscotch",
+        "owner": {
+            "login": "hoppscotch"
+        },
+        "createdAt": "2019-08-21T13:15:24Z",
+        "stargazerCount": 64360,
+        "pullRequests": {
+            "totalCount": 2401
+        },
+        "nameWithOwner": "hoppscotch/hoppscotch",
+        "url": "https://github.com/hoppscotch/hoppscotch"
+    },
+    {
+        "name": "generative-ai-for-beginners",
+        "owner": {
+            "login": "microsoft"
+        },
+        "createdAt": "2023-06-19T16:28:59Z",
+        "stargazerCount": 64094,
+        "pullRequests": {
+            "totalCount": 378
+        },
+        "nameWithOwner": "microsoft/generative-ai-for-beginners",
+        "url": "https://github.com/microsoft/generative-ai-for-beginners"
+    },
+    {
+        "name": "system-design-101",
+        "owner": {
+            "login": "ByteByteGoHq"
+        },
+        "createdAt": "2023-09-18T20:52:03Z",
+        "stargazerCount": 63691,
+        "pullRequests": {
+            "totalCount": 29
+        },
+        "nameWithOwner": "ByteByteGoHq/system-design-101",
+        "url": "https://github.com/ByteByteGoHq/system-design-101"
+    },
+    {
+        "name": "interviews",
+        "owner": {
+            "login": "kdn251"
+        },
+        "createdAt": "2017-02-14T18:19:25Z",
+        "stargazerCount": 63509,
+        "pullRequests": {
+            "totalCount": 88
+        },
+        "nameWithOwner": "kdn251/interviews",
+        "url": "https://github.com/kdn251/interviews"
+    },
+    {
+        "name": "33-js-concepts",
+        "owner": {
+            "login": "leonardomso"
+        },
+        "createdAt": "2018-09-04T13:27:04Z",
+        "stargazerCount": 63472,
+        "pullRequests": {
+            "totalCount": 393
+        },
+        "nameWithOwner": "leonardomso/33-js-concepts",
+        "url": "https://github.com/leonardomso/33-js-concepts"
+    },
+    {
+        "name": "strapi",
+        "owner": {
+            "login": "strapi"
+        },
+        "createdAt": "2015-09-30T15:34:48Z",
+        "stargazerCount": 63312,
+        "pullRequests": {
+            "totalCount": 10706
+        },
+        "nameWithOwner": "strapi/strapi",
+        "url": "https://github.com/strapi/strapi"
+    },
+    {
+        "name": "cpython",
+        "owner": {
+            "login": "python"
+        },
+        "createdAt": "2017-02-10T19:23:51Z",
+        "stargazerCount": 62939,
+        "pullRequests": {
+            "totalCount": 53458
+        },
+        "nameWithOwner": "python/cpython",
+        "url": "https://github.com/python/cpython"
+    },
+    {
+        "name": "sway",
+        "owner": {
+            "login": "FuelLabs"
+        },
+        "createdAt": "2021-01-19T20:54:33Z",
+        "stargazerCount": 62655,
+        "pullRequests": {
+            "totalCount": 3502
+        },
+        "nameWithOwner": "FuelLabs/sway",
+        "url": "https://github.com/FuelLabs/sway"
+    },
+    {
+        "name": "ansible",
+        "owner": {
+            "login": "ansible"
+        },
+        "createdAt": "2012-03-06T14:58:02Z",
+        "stargazerCount": 62600,
+        "pullRequests": {
+            "totalCount": 50951
+        },
+        "nameWithOwner": "ansible/ansible",
+        "url": "https://github.com/ansible/ansible"
+    },
+    {
+        "name": "javascript-questions",
+        "owner": {
+            "login": "lydiahallie"
+        },
+        "createdAt": "2019-06-12T08:26:27Z",
+        "stargazerCount": 62595,
+        "pullRequests": {
+            "totalCount": 512
+        },
+        "nameWithOwner": "lydiahallie/javascript-questions",
+        "url": "https://github.com/lydiahallie/javascript-questions"
+    },
+    {
+        "name": "d2l-zh",
+        "owner": {
+            "login": "d2l-ai"
+        },
+        "createdAt": "2017-08-23T04:40:24Z",
+        "stargazerCount": 62429,
+        "pullRequests": {
+            "totalCount": 1256
+        },
+        "nameWithOwner": "d2l-ai/d2l-zh",
+        "url": "https://github.com/d2l-ai/d2l-zh"
+    },
+    {
+        "name": "superset",
+        "owner": {
+            "login": "apache"
+        },
+        "createdAt": "2015-07-21T18:55:34Z",
+        "stargazerCount": 62235,
+        "pullRequests": {
+            "totalCount": 16578
+        },
+        "nameWithOwner": "apache/superset",
+        "url": "https://github.com/apache/superset"
+    },
+    {
+        "name": "Ventoy",
+        "owner": {
+            "login": "ventoy"
+        },
+        "createdAt": "2020-03-10T15:19:19Z",
+        "stargazerCount": 62203,
+        "pullRequests": {
+            "totalCount": 417
+        },
+        "nameWithOwner": "ventoy/Ventoy",
+        "url": "https://github.com/ventoy/Ventoy"
+    },
+    {
+        "name": "the-algorithm",
+        "owner": {
+            "login": "twitter"
+        },
+        "createdAt": "2023-03-27T14:57:57Z",
+        "stargazerCount": 62169,
+        "pullRequests": {
+            "totalCount": 344
+        },
+        "nameWithOwner": "twitter/the-algorithm",
+        "url": "https://github.com/twitter/the-algorithm"
+    },
+    {
+        "name": "resume.github.com",
+        "owner": {
+            "login": "resume"
+        },
+        "createdAt": "2011-02-06T13:39:55Z",
+        "stargazerCount": 61933,
+        "pullRequests": {
+            "totalCount": 172
+        },
+        "nameWithOwner": "resume/resume.github.com",
+        "url": "https://github.com/resume/resume.github.com"
+    },
+    {
+        "name": "keras",
+        "owner": {
+            "login": "keras-team"
+        },
+        "createdAt": "2015-03-28T00:35:42Z",
+        "stargazerCount": 61860,
+        "pullRequests": {
+            "totalCount": 7469
+        },
+        "nameWithOwner": "keras-team/keras",
+        "url": "https://github.com/keras-team/keras"
+    },
+    {
+        "name": "tesseract",
+        "owner": {
+            "login": "tesseract-ocr"
+        },
+        "createdAt": "2014-08-12T18:04:59Z",
+        "stargazerCount": 61629,
+        "pullRequests": {
+            "totalCount": 1611
+        },
+        "nameWithOwner": "tesseract-ocr/tesseract",
+        "url": "https://github.com/tesseract-ocr/tesseract"
+    },
+    {
+        "name": "Best-websites-a-programmer-should-visit",
+        "owner": {
+            "login": "sdmg15"
+        },
+        "createdAt": "2017-03-05T20:25:17Z",
+        "stargazerCount": 61379,
+        "pullRequests": {
+            "totalCount": 903
+        },
+        "nameWithOwner": "sdmg15/Best-websites-a-programmer-should-visit",
+        "url": "https://github.com/sdmg15/Best-websites-a-programmer-should-visit"
+    },
+    {
+        "name": "socket.io",
+        "owner": {
+            "login": "socketio"
+        },
+        "createdAt": "2010-03-11T18:24:48Z",
+        "stargazerCount": 61032,
+        "pullRequests": {
+            "totalCount": 855
+        },
+        "nameWithOwner": "socketio/socket.io",
+        "url": "https://github.com/socketio/socket.io"
+    },
+    {
+        "name": "redux",
+        "owner": {
+            "login": "reduxjs"
+        },
+        "createdAt": "2015-05-29T23:53:15Z",
+        "stargazerCount": 60857,
+        "pullRequests": {
+            "totalCount": 2548
+        },
+        "nameWithOwner": "reduxjs/redux",
+        "url": "https://github.com/reduxjs/redux"
+    },
+    {
+        "name": "PayloadsAllTheThings",
+        "owner": {
+            "login": "swisskyrepo"
+        },
+        "createdAt": "2016-10-18T07:29:07Z",
+        "stargazerCount": 60652,
+        "pullRequests": {
+            "totalCount": 633
+        },
+        "nameWithOwner": "swisskyrepo/PayloadsAllTheThings",
+        "url": "https://github.com/swisskyrepo/PayloadsAllTheThings"
+    },
+    {
+        "name": "nocode",
+        "owner": {
+            "login": "kelseyhightower"
+        },
+        "createdAt": "2018-02-06T23:54:00Z",
+        "stargazerCount": 60553,
+        "pullRequests": {
+            "totalCount": 166
+        },
+        "nameWithOwner": "kelseyhightower/nocode",
+        "url": "https://github.com/kelseyhightower/nocode"
+    },
+    {
+        "name": "imgui",
+        "owner": {
+            "login": "ocornut"
+        },
+        "createdAt": "2014-07-21T14:29:47Z",
+        "stargazerCount": 60475,
+        "pullRequests": {
+            "totalCount": 1233
+        },
+        "nameWithOwner": "ocornut/imgui",
+        "url": "https://github.com/ocornut/imgui"
+    },
+    {
+        "name": "awesome-public-datasets",
+        "owner": {
+            "login": "awesomedata"
+        },
+        "createdAt": "2014-11-20T06:20:50Z",
+        "stargazerCount": 60475,
+        "pullRequests": {
+            "totalCount": 282
+        },
+        "nameWithOwner": "awesomedata/awesome-public-datasets",
+        "url": "https://github.com/awesomedata/awesome-public-datasets"
+    },
+    {
+        "name": "echarts",
+        "owner": {
+            "login": "apache"
+        },
+        "createdAt": "2013-04-03T03:18:59Z",
+        "stargazerCount": 60361,
+        "pullRequests": {
+            "totalCount": 1751
+        },
+        "nameWithOwner": "apache/echarts",
+        "url": "https://github.com/apache/echarts"
+    },
+    {
+        "name": "gpt4free",
+        "owner": {
+            "login": "xtekky"
+        },
+        "createdAt": "2023-03-29T17:00:43Z",
+        "stargazerCount": 60317,
+        "pullRequests": {
+            "totalCount": 723
+        },
+        "nameWithOwner": "xtekky/gpt4free",
+        "url": "https://github.com/xtekky/gpt4free"
+    },
+    {
+        "name": "atom",
+        "owner": {
+            "login": "atom"
+        },
+        "createdAt": "2012-01-20T18:18:21Z",
+        "stargazerCount": 60186,
+        "pullRequests": {
+            "totalCount": 5249
+        },
+        "nameWithOwner": "atom/atom",
+        "url": "https://github.com/atom/atom"
+    },
+    {
+        "name": "scikit-learn",
+        "owner": {
+            "login": "scikit-learn"
+        },
+        "createdAt": "2010-08-17T09:43:38Z",
+        "stargazerCount": 59755,
+        "pullRequests": {
+            "totalCount": 17292
+        },
+        "nameWithOwner": "scikit-learn/scikit-learn",
+        "url": "https://github.com/scikit-learn/scikit-learn"
+    },
+    {
+        "name": "lodash",
+        "owner": {
+            "login": "lodash"
+        },
+        "createdAt": "2012-04-07T04:11:46Z",
+        "stargazerCount": 59738,
+        "pullRequests": {
+            "totalCount": 1383
+        },
+        "nameWithOwner": "lodash/lodash",
+        "url": "https://github.com/lodash/lodash"
+    },
+    {
+        "name": "architect-awesome",
+        "owner": {
+            "login": "xingshaocheng"
+        },
+        "createdAt": "2018-04-06T13:30:58Z",
+        "stargazerCount": 59727,
+        "pullRequests": {
+            "totalCount": 64
+        },
+        "nameWithOwner": "xingshaocheng/architect-awesome",
+        "url": "https://github.com/xingshaocheng/architect-awesome"
+    },
+    {
+        "name": "obs-studio",
+        "owner": {
+            "login": "obsproject"
+        },
+        "createdAt": "2013-10-01T02:40:31Z",
+        "stargazerCount": 59700,
+        "pullRequests": {
+            "totalCount": 6626
+        },
+        "nameWithOwner": "obsproject/obs-studio",
+        "url": "https://github.com/obsproject/obs-studio"
+    },
+    {
+        "name": "markdown-here",
+        "owner": {
+            "login": "adam-p"
+        },
+        "createdAt": "2012-05-13T03:27:22Z",
+        "stargazerCount": 59646,
+        "pullRequests": {
+            "totalCount": 60
+        },
+        "nameWithOwner": "adam-p/markdown-here",
+        "url": "https://github.com/adam-p/markdown-here"
+    },
+    {
+        "name": "Front-end-Developer-Interview-Questions",
+        "owner": {
+            "login": "h5bp"
+        },
+        "createdAt": "2012-02-09T23:34:10Z",
+        "stargazerCount": 59620,
+        "pullRequests": {
+            "totalCount": 701
+        },
+        "nameWithOwner": "h5bp/Front-end-Developer-Interview-Questions",
+        "url": "https://github.com/h5bp/Front-end-Developer-Interview-Questions"
+    },
+    {
+        "name": "Java",
+        "owner": {
+            "login": "TheAlgorithms"
+        },
+        "createdAt": "2016-07-16T10:21:02Z",
+        "stargazerCount": 59556,
+        "pullRequests": {
+            "totalCount": 4387
+        },
+        "nameWithOwner": "TheAlgorithms/Java",
+        "url": "https://github.com/TheAlgorithms/Java"
+    },
+    {
+        "name": "sherlock",
+        "owner": {
+            "login": "sherlock-project"
+        },
+        "createdAt": "2018-12-24T14:30:48Z",
+        "stargazerCount": 59509,
+        "pullRequests": {
+            "totalCount": 1002
+        },
+        "nameWithOwner": "sherlock-project/sherlock",
+        "url": "https://github.com/sherlock-project/sherlock"
+    },
+    {
+        "name": "awesome-cpp",
+        "owner": {
+            "login": "fffaraz"
+        },
+        "createdAt": "2014-07-17T08:51:11Z",
+        "stargazerCount": 59265,
+        "pullRequests": {
+            "totalCount": 890
+        },
+        "nameWithOwner": "fffaraz/awesome-cpp",
+        "url": "https://github.com/fffaraz/awesome-cpp"
+    },
+    {
+        "name": "jquery",
+        "owner": {
+            "login": "jquery"
+        },
+        "createdAt": "2009-04-03T15:20:14Z",
+        "stargazerCount": 59186,
+        "pullRequests": {
+            "totalCount": 3023
+        },
+        "nameWithOwner": "jquery/jquery",
+        "url": "https://github.com/jquery/jquery"
+    },
+    {
+        "name": "openai-cookbook",
+        "owner": {
+            "login": "openai"
+        },
+        "createdAt": "2022-03-11T02:08:53Z",
+        "stargazerCount": 59065,
+        "pullRequests": {
+            "totalCount": 837
+        },
+        "nameWithOwner": "openai/openai-cookbook",
+        "url": "https://github.com/openai/openai-cookbook"
+    },
+    {
+        "name": "angular.js",
+        "owner": {
+            "login": "angular"
+        },
+        "createdAt": "2010-01-06T00:34:37Z",
+        "stargazerCount": 58826,
+        "pullRequests": {
+            "totalCount": 7923
+        },
+        "nameWithOwner": "angular/angular.js",
+        "url": "https://github.com/angular/angular.js"
+    },
+    {
+        "name": "tabby",
+        "owner": {
+            "login": "Eugeny"
+        },
+        "createdAt": "2016-12-23T09:06:10Z",
+        "stargazerCount": 58798,
+        "pullRequests": {
+            "totalCount": 3913
+        },
+        "nameWithOwner": "Eugeny/tabby",
+        "url": "https://github.com/Eugeny/tabby"
+    },
+    {
+        "name": "design-resources-for-developers",
+        "owner": {
+            "login": "bradtraversy"
+        },
+        "createdAt": "2020-05-06T14:40:35Z",
+        "stargazerCount": 58582,
+        "pullRequests": {
+            "totalCount": 1340
+        },
+        "nameWithOwner": "bradtraversy/design-resources-for-developers",
+        "url": "https://github.com/bradtraversy/design-resources-for-developers"
+    },
+    {
+        "name": "awesome-scalability",
+        "owner": {
+            "login": "binhnguyennus"
+        },
+        "createdAt": "2017-12-27T03:46:40Z",
+        "stargazerCount": 58563,
+        "pullRequests": {
+            "totalCount": 74
+        },
+        "nameWithOwner": "binhnguyennus/awesome-scalability",
+        "url": "https://github.com/binhnguyennus/awesome-scalability"
+    },
+    {
+        "name": "shadowsocks-windows",
+        "owner": {
+            "login": "shadowsocks"
+        },
+        "createdAt": "2013-01-14T07:54:16Z",
+        "stargazerCount": 58379,
+        "pullRequests": {
+            "totalCount": 481
+        },
+        "nameWithOwner": "shadowsocks/shadowsocks-windows",
+        "url": "https://github.com/shadowsocks/shadowsocks-windows"
+    },
+    {
+        "name": "awesome-nodejs",
+        "owner": {
+            "login": "sindresorhus"
+        },
+        "createdAt": "2014-07-11T13:35:34Z",
+        "stargazerCount": 58169,
+        "pullRequests": {
+            "totalCount": 1107
+        },
+        "nameWithOwner": "sindresorhus/awesome-nodejs",
+        "url": "https://github.com/sindresorhus/awesome-nodejs"
+    },
+    {
+        "name": "fuel-core",
+        "owner": {
+            "login": "FuelLabs"
+        },
+        "createdAt": "2020-08-27T21:12:14Z",
+        "stargazerCount": 58025,
+        "pullRequests": {
+            "totalCount": 1382
+        },
+        "nameWithOwner": "FuelLabs/fuel-core",
+        "url": "https://github.com/FuelLabs/fuel-core"
+    },
+    {
+        "name": "caddy",
+        "owner": {
+            "login": "caddyserver"
+        },
+        "createdAt": "2015-01-13T19:45:03Z",
+        "stargazerCount": 57699,
+        "pullRequests": {
+            "totalCount": 2393
+        },
+        "nameWithOwner": "caddyserver/caddy",
+        "url": "https://github.com/caddyserver/caddy"
+    },
+    {
+        "name": "Apollo-11",
+        "owner": {
+            "login": "chrislgarry"
+        },
+        "createdAt": "2014-04-03T15:45:02Z",
+        "stargazerCount": 57623,
+        "pullRequests": {
+            "totalCount": 438
+        },
+        "nameWithOwner": "chrislgarry/Apollo-11",
+        "url": "https://github.com/chrislgarry/Apollo-11"
+    },
+    {
+        "name": "SecLists",
+        "owner": {
+            "login": "danielmiessler"
+        },
+        "createdAt": "2012-02-19T01:30:18Z",
+        "stargazerCount": 57430,
+        "pullRequests": {
+            "totalCount": 767
+        },
+        "nameWithOwner": "danielmiessler/SecLists",
+        "url": "https://github.com/danielmiessler/SecLists"
+    }
+]

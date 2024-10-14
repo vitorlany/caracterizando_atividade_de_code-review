@@ -1,0 +1,27 @@
+[
+    {
+        "node": {
+            "title": "Minor improvement",
+            "url": "https://github.com/TheAlgorithms/Python/pull/1",
+            "state": "MERGED",
+            "createdAt": "2016-07-26T16:54:19Z",
+            "mergedAt": "2016-07-26T17:03:21Z",
+            "closedAt": "2016-07-26T17:03:21Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 4,
+            "deletions": 3,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    }
+]

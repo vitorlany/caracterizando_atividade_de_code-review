@@ -1,0 +1,402 @@
+[
+    {
+        "node": {
+            "title": "Add N queens problem bitwise solution",
+            "url": "https://github.com/trekhleb/javascript-algorithms/pull/15",
+            "state": "MERGED",
+            "createdAt": "2018-05-24T11:13:23Z",
+            "mergedAt": "2018-08-20T12:57:02Z",
+            "closedAt": "2018-08-20T12:57:02Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 3
+            },
+            "additions": 68,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 5
+            },
+            "comments": {
+                "totalCount": 5
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Radix sort",
+            "url": "https://github.com/trekhleb/javascript-algorithms/pull/28",
+            "state": "MERGED",
+            "createdAt": "2018-05-28T18:29:39Z",
+            "mergedAt": "2018-05-29T05:38:20Z",
+            "closedAt": "2018-05-29T05:38:20Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 5
+            },
+            "additions": 150,
+            "deletions": 0,
+            "body": "Let me know if you want me to stop with these, but thought I'd add another sorting algorithm that I find very interesting. ",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix typos",
+            "url": "https://github.com/trekhleb/javascript-algorithms/pull/59",
+            "state": "MERGED",
+            "createdAt": "2018-06-09T08:25:57Z",
+            "mergedAt": "2018-06-12T14:46:40Z",
+            "closedAt": "2018-06-12T14:46:40Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 8
+            },
+            "additions": 19,
+            "deletions": 19,
+            "body": "Miscellaneous typos fixed.",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "added Bidirectional Conditional Insertion Sort",
+            "url": "https://github.com/trekhleb/javascript-algorithms/pull/67",
+            "state": "CLOSED",
+            "createdAt": "2018-06-13T20:22:41Z",
+            "mergedAt": null,
+            "closedAt": "2018-06-14T15:45:28Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 5
+            },
+            "additions": 1605,
+            "deletions": 1386,
+            "body": "This is a Bidirectional Conditional Sort. \r\n\r\nNote on stability with custom compare function. \r\n\r\n```\r\nlet comp = new Comparator(function (a, b) {\r\n    let x = a;\r\n    let y = b;\r\n    if (typeof a === \"string\") {\r\n        x = a.length;\r\n    }\r\n    if (typeof b === \"string\") {\r\n        y = b.length;\r\n    }\r\n    if (x === y) {\r\n        return 0;\r\n    }\r\n    return x < y ? -1 : 1;\r\n})\r\n```\r\n\r\n\r\ni.e. \r\n**Without**\r\na, cc, bbb --> a, bbb, cc\r\n**With**\r\na, cc, bbb --> a, cc, bbb\r\n\r\nEven with the custom compare, you are not always guaranteed a stable sort\r\nExample: Given: [aa, q, a, bbbb, ccc] \r\nThe algorithm will start with a SWAP from the right most index and the middle of the array.\r\n1. START SWAP \"ccc\", \"a\"\r\nEND SWAP (New Array: aa,q,ccc,bbbb,a)\r\n2. \"aa\" is greater than \"a\"\r\n3. START SWAP \"aa\", \"a\"\r\nEND SWAP a,q,ccc,bbbb,aa\r\n4. \"ccc\" is greater than \"aa\"\r\n5. START INSRIGHT  (Given: a,q,bbbb,bbbb,aa)\r\nEND INSRIGHT (New Array: a,q,bbbb,aa,ccc)\r\n6. \"bbbb\"is greater than \"aa\"\r\n7. START INSRIGHT (Given: a,q,bbbb,aa,ccc)\r\nEND INSRIGHT  (New Array: a,q,aa,ccc,bbbb)\r\n\r\nFinished:\r\n[ 'a', 'q', 'aa', 'ccc', 'bbbb' ]\r\n",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix the insertion sort",
+            "url": "https://github.com/trekhleb/javascript-algorithms/pull/86",
+            "state": "MERGED",
+            "createdAt": "2018-07-01T12:57:01Z",
+            "mergedAt": "2018-07-03T08:56:35Z",
+            "closedAt": "2018-07-03T08:56:35Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "Hi, this is fixing the situation when we have an unsorted array with negative numbers and zeroes.",
+            "participants": {
+                "totalCount": 6
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Complex Number and Vector Class added",
+            "url": "https://github.com/trekhleb/javascript-algorithms/pull/88",
+            "state": "CLOSED",
+            "createdAt": "2018-07-03T14:38:54Z",
+            "mergedAt": null,
+            "closedAt": "2018-07-24T10:07:47Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 8
+            },
+            "additions": 910,
+            "deletions": 137,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix knuthMorrisPratt for empty word request",
+            "url": "https://github.com/trekhleb/javascript-algorithms/pull/101",
+            "state": "MERGED",
+            "createdAt": "2018-07-20T23:44:03Z",
+            "mergedAt": "2018-07-24T09:26:23Z",
+            "closedAt": "2018-07-24T09:26:23Z",
+            "reviews": {
+                "totalCount": 5
+            },
+            "files": {
+                "totalCount": 2
+            },
+            "additions": 6,
+            "deletions": 2,
+            "body": "While running property based tests - *based on fast-check* - on the implementation of knuthMorrisPratt I discovered what seems to be an inconsistency:\r\n\r\n```javascript\r\nknuthMorrisPratt(\"\", \"\") === -1\r\nknuthMorrisPratt(\"a\", \"a\") === 0\r\n```\r\n\r\nThe tests that discovered the issue are available in the commit: https://github.com/dubzzz/javascript-algorithms/commit/87329dd9b0215683018a346694cc2bf387fe32b4\r\nIf you are interested in this test method, I can issue another pull request for those property based tests.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Refactor Rabin-Karp",
+            "url": "https://github.com/trekhleb/javascript-algorithms/pull/110",
+            "state": "MERGED",
+            "createdAt": "2018-07-24T19:02:53Z",
+            "mergedAt": "2018-07-30T09:20:41Z",
+            "closedAt": "2018-07-30T09:20:41Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 4
+            },
+            "additions": 139,
+            "deletions": 88,
+            "body": "Created Rabin hash function module.\r\nTransitioned Rabin-Karp string matching function to Rabin hash function family.",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 17
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Refactored disjoint set data structure",
+            "url": "https://github.com/trekhleb/javascript-algorithms/pull/113",
+            "state": "CLOSED",
+            "createdAt": "2018-07-25T19:37:37Z",
+            "mergedAt": null,
+            "closedAt": "2018-07-26T14:33:41Z",
+            "reviews": {
+                "totalCount": 11
+            },
+            "files": {
+                "totalCount": 7
+            },
+            "additions": 82,
+            "deletions": 449,
+            "body": "Refactored disjoint set data structure\r\nUpdated dependencies (Kruskal, Detect Cycles) for new interface.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "New function 'fromArray'",
+            "url": "https://github.com/trekhleb/javascript-algorithms/pull/125",
+            "state": "CLOSED",
+            "createdAt": "2018-07-30T13:08:00Z",
+            "mergedAt": null,
+            "closedAt": "2018-08-06T13:19:25Z",
+            "reviews": {
+                "totalCount": 5
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 7,
+            "deletions": 0,
+            "body": "Function gor through array and add all nodes to linked list.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "fibonacci logn iterative implementation",
+            "url": "https://github.com/trekhleb/javascript-algorithms/pull/136",
+            "state": "CLOSED",
+            "createdAt": "2018-08-03T03:11:31Z",
+            "mergedAt": null,
+            "closedAt": "2018-10-29T22:09:22Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 3
+            },
+            "additions": 58,
+            "deletions": 4,
+            "body": "This implements the `fib(n)` function that completes in `log(n)` number of iterations.\r\nFound in SICP https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-11.html#%_thm_1.19",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add karatsubaMultiplication",
+            "url": "https://github.com/trekhleb/javascript-algorithms/pull/159",
+            "state": "CLOSED",
+            "createdAt": "2018-08-11T17:38:42Z",
+            "mergedAt": null,
+            "closedAt": "2019-10-14T13:01:34Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 3
+            },
+            "additions": 55,
+            "deletions": 0,
+            "body": "This adds implementation of Karatsuba multiplication.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix method Trie::doesWordExist()",
+            "url": "https://github.com/trekhleb/javascript-algorithms/pull/175",
+            "state": "MERGED",
+            "createdAt": "2018-08-21T19:35:12Z",
+            "mergedAt": "2018-08-21T20:00:11Z",
+            "closedAt": "2018-08-21T20:00:11Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 2
+            },
+            "additions": 5,
+            "deletions": 2,
+            "body": "Method Trie::doesWordExist() return `true` when word is complete otherwise `false`",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add LinkedList traversal and reverse implementations",
+            "url": "https://github.com/trekhleb/javascript-algorithms/pull/194",
+            "state": "MERGED",
+            "createdAt": "2018-08-31T15:42:52Z",
+            "mergedAt": "2018-09-08T08:55:52Z",
+            "closedAt": "2018-09-08T08:55:52Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 3
+            },
+            "additions": 104,
+            "deletions": 5,
+            "body": "**Changes:**\r\n- Add LinkedList traverse implementation\r\n- Add LinkedList reverse implementations (reverseTraversal and reverse)\r\n- Update their pseudocode",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 5
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Improved the countSetBit",
+            "url": "https://github.com/trekhleb/javascript-algorithms/pull/198",
+            "state": "CLOSED",
+            "createdAt": "2018-09-03T15:54:54Z",
+            "mergedAt": null,
+            "closedAt": "2018-09-04T16:03:50Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 7
+            },
+            "additions": 82,
+            "deletions": 4,
+            "body": "It's fast counting set bits algo because uses less number of comparison",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Properly detect min and max element in array",
+            "url": "https://github.com/trekhleb/javascript-algorithms/pull/224",
+            "state": "MERGED",
+            "createdAt": "2018-10-13T09:23:18Z",
+            "mergedAt": "2018-10-17T03:19:14Z",
+            "closedAt": "2018-10-17T03:19:14Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 6,
+            "body": "",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 6
+            }
+        }
+    }
+]
