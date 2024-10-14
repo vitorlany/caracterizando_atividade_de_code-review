@@ -1,18 +1,40 @@
 import requests
 import math
+import time
 from utils import data
 
 GITHUB_API_URL = "https://api.github.com/graphql"
 MINIMUM_PR_COUNT = 100
 
-def run_query(query, auth_token):
+def run_query(query, auth_token, max_retries=4, initial_delay=1):
     headers = {"Authorization": f"Bearer {auth_token}"}
-    response = requests.post(GITHUB_API_URL, json={'query': query}, headers=headers)
+    retries = 0
+    delay = initial_delay
+    while retries < max_retries:
+        response = requests.post(GITHUB_API_URL, json={'query': query}, headers=headers, timeout=15)
+        if response.status_code == 200:
+            return response.json()
+        elif response.status_code == 429:  # Rate limit exceeded
+            print(f"Rate limit exceeded. Retrying in {delay} seconds.")
+            time.sleep(delay)
+            delay *= 2  # Double the delay
+            retries += 1
+        elif response.status_code in [502, 503]:  # Server-side errors (502 - Bad Gateway, 503 - Service Unavailable)
+            print(f"Server error ({response.status_code}). Retrying in {delay} seconds.")
+            time.sleep(delay)
+            delay *= 2
+            retries += 1
+        else:
+            print(f"Request failed with status code: {response.status_code} \n {response.json()}")
+            break  # Give up on other errors
+
+    print(f"Failed to fetch repositories after {max_retries} retries.")
+    response = requests.post(GITHUB_API_URL, json={'query': query}, headers=headers, timeout=15)
     if response.status_code == 200:
         return response.json()
     else:
-        raise Exception(f"Failed to fetch repositories: {response.status_code} {response.json()}")
-    
+        return run_query(query, auth_token,)
+
 def build_repository_query(number, cursor):
     return f"""
     {{
