@@ -1,13 +1,19 @@
 import os
+import time
 from utils import github, data
 
 auth_token = os.getenv("GITHUB_TOKEN")
 
-# REPOSITORIES_NUMBER = 200
-REPOSITORIES_NUMBER = 5
+REPOSITORIES_NUMBER = 200
+
+start_time = time.time()
 
 if not data.is_file_exists('repositories'):
     repositories = github.get_repositories(REPOSITORIES_NUMBER, auth_token)
     data.save_data(repositories, 'repositories')
 repositories = data.load_data('repositories')
 github.get_pull_requests(repositories, auth_token)
+
+end_time = time.time()
+run_time = end_time - start_time
+print(f"Tempo de execução: {run_time:.2f} segundos")
