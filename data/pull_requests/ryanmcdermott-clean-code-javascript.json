@@ -1,0 +1,852 @@
+[
+    {
+        "node": {
+            "title": "Number of arguments section.",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/12",
+            "state": "CLOSED",
+            "createdAt": "2017-01-04T22:26:03Z",
+            "mergedAt": null,
+            "closedAt": "2017-01-10T03:29:22Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "I might be wrong, but ideally you would want one argument (Unary function). Zero arguments implies that it isn't receiving the data in a pure way. And a function that isn't honest in its signature should be avoided.\r\n\r\nBTW, thanks for creating this repo, it's very helpful.",
+            "participants": {
+                "totalCount": 5
+            },
+            "comments": {
+                "totalCount": 5
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Rephrase default value advice",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/34",
+            "state": "MERGED",
+            "createdAt": "2017-01-06T04:16:49Z",
+            "mergedAt": "2017-01-11T03:23:09Z",
+            "closedAt": "2017-01-11T03:23:09Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 7,
+            "deletions": 28,
+            "body": "- The original document asserted that \"Short-circuiting is cleaner than conditionals\"\r\n- ...only to override this assertion later with \"Use default arguments instead of short circuiting.\"\r\n- This is a poor design-choice for an advisory document.\r\n\r\n    - If you are going to say x > y,\r\n    - then later say z > x,\r\n    - you should just say z > x > y upfront.\r\n    - Otherwise, many people might not see the z > x later on,\r\n    - because many people will probably use this as a referential document. They probably won't read the entire work.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Use destructuring for explanatory variables",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/37",
+            "state": "MERGED",
+            "createdAt": "2017-01-06T08:52:10Z",
+            "mergedAt": "2017-01-11T03:29:28Z",
+            "closedAt": "2017-01-11T03:29:28Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 6,
+            "deletions": 6,
+            "body": "This use the ES2015 way.\r\n\r\nI removed the match because it's not used and we could also declare a const all to grab the first item of the match if needed.",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 5
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Feature/change var",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/38",
+            "state": "CLOSED",
+            "createdAt": "2017-01-06T12:02:18Z",
+            "mergedAt": null,
+            "closedAt": "2017-01-08T16:58:10Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 70,
+            "deletions": 70,
+            "body": "We should update most of var in let.\r\n\r\nI changed few var to const because i though it was more appropriate ",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add: Error Handling Section",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/43",
+            "state": "MERGED",
+            "createdAt": "2017-01-06T16:42:18Z",
+            "mergedAt": "2017-01-07T03:13:30Z",
+            "closedAt": "2017-01-07T03:13:30Z",
+            "reviews": {
+                "totalCount": 4
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 78,
+            "deletions": 4,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Change var and let where necessary",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/51",
+            "state": "MERGED",
+            "createdAt": "2017-01-06T22:02:49Z",
+            "mergedAt": "2017-01-08T16:42:27Z",
+            "closedAt": "2017-01-08T16:42:27Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 109,
+            "deletions": 110,
+            "body": "As discussed in #31 here my implementation of `const` and `let`.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Open/Closed Principle (OCP) example change",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/77",
+            "state": "CLOSED",
+            "createdAt": "2017-01-08T13:28:48Z",
+            "mergedAt": null,
+            "closedAt": "2017-01-11T02:52:59Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 5,
+            "body": "Changed the mutation of data to be passed-in to the constructor\r\n\r\n`Decoupled Dependency` best practices is to make sure that inputs are dynamically configured in initializing hook (out of the class scope).\r\n\r\nParticularly in this example where HTTP methods are not commonly get changed it's prefered to configure outside the scope of the class",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 10
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "parenthesize arrow function arguments consistently",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/81",
+            "state": "MERGED",
+            "createdAt": "2017-01-09T01:19:11Z",
+            "mergedAt": "2017-01-11T03:17:45Z",
+            "closedAt": "2017-01-11T03:17:45Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 8,
+            "deletions": 8,
+            "body": "(Here comes a bunch of PRs after a code fragments mass test with ESLint checks and Node.js runnings.)\r\n",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fill missing commas",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/83",
+            "state": "MERGED",
+            "createdAt": "2017-01-09T02:35:01Z",
+            "mergedAt": "2017-01-13T04:26:54Z",
+            "closedAt": "2017-01-13T04:26:54Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 0
+            },
+            "additions": 0,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "address anonymous functions",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/95",
+            "state": "MERGED",
+            "createdAt": "2017-01-09T17:56:33Z",
+            "mergedAt": "2017-01-11T03:16:05Z",
+            "closedAt": "2017-01-11T03:16:05Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 25,
+            "deletions": 30,
+            "body": "(Here comes a bunch of PRs after a code fragments mass test with ESLint checks and Node.js runnings.)\r\n\r\n1. Add function name if it can't be inferred from the context. See [func-names](http://eslint.org/docs/rules/func-names).\r\n2. Replace anonymous functions with arrow functions when appropriate. See [prefer-arrow-callback](http://eslint.org/docs/rules/prefer-arrow-callback).\r\n3. Replace anonymous functions with method shorthand notation when appropriate. See [object-shorthand](http://eslint.org/docs/rules/object-shorthand).\r\n4. Remove a redundant IIFE. Fixes #30 temporarily.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix/getter setter",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/101",
+            "state": "MERGED",
+            "createdAt": "2017-01-10T09:28:57Z",
+            "mergedAt": "2017-01-11T03:05:02Z",
+            "closedAt": "2017-01-11T03:05:02Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 33,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Functions are cleaner than subclasses",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/116",
+            "state": "CLOSED",
+            "createdAt": "2017-01-11T15:25:02Z",
+            "mergedAt": null,
+            "closedAt": "2017-01-24T03:59:06Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 10,
+            "deletions": 7,
+            "body": "A drawback with a class extending the Array global, is that you are required to instantiate it using the 'new' keyword. Also, the 'diff' feature is limited to the subclass only.",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 10
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Rename state to zipCode to avoid confusion",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/118",
+            "state": "MERGED",
+            "createdAt": "2017-01-11T18:20:11Z",
+            "mergedAt": "2017-01-13T03:29:40Z",
+            "closedAt": "2017-01-13T03:29:40Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 5,
+            "deletions": 5,
+            "body": "Pretty minor. But destructuring state using the regex was a little bit ambiguous since there is no state in the address (zip code instead).",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add Side Effects pt.2",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/123",
+            "state": "MERGED",
+            "createdAt": "2017-01-12T09:51:53Z",
+            "mergedAt": "2017-01-17T03:48:44Z",
+            "closedAt": "2017-01-17T03:48:44Z",
+            "reviews": {
+                "totalCount": 6
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 33,
+            "deletions": 1,
+            "body": "Regarding #108. Is the example clear? ",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "feature: iterator variable names",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/127",
+            "state": "CLOSED",
+            "createdAt": "2017-01-12T18:09:24Z",
+            "mergedAt": null,
+            "closedAt": "2021-05-24T15:52:46Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 44,
+            "deletions": 0,
+            "body": "Pull request as discussed in issue #49 \r\n\r\n- adds a new subsection \"Avoid Mental Mapping of iterator states\"\r\n- preview is available here: https://github.com/cookiengineer/clean-code-javascript/tree/iterator-names#avoid-mental-mapping-of-iterator-states\r\n",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "[Update] \"Prefer composition over inheritance\" section content",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/139",
+            "state": "CLOSED",
+            "createdAt": "2017-01-14T18:59:57Z",
+            "mergedAt": null,
+            "closedAt": "2021-05-24T15:52:40Z",
+            "reviews": {
+                "totalCount": 6
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 101,
+            "deletions": 43,
+            "body": "This PR is regarding a discussion developers had on the issue #40.\r\n\r\nAs there was more positive reactions than negative ones I have decided to change the code example and description for the section to be more appropriate for JavaScript language and its features.\r\n\r\n@ryanmcdermott if there is anything I can improve, fire away ;)",
+            "participants": {
+                "totalCount": 7
+            },
+            "comments": {
+                "totalCount": 16
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Composition over inheritance suggestions",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/174",
+            "state": "CLOSED",
+            "createdAt": "2017-01-24T13:15:39Z",
+            "mergedAt": null,
+            "closedAt": "2017-01-27T04:36:16Z",
+            "reviews": {
+                "totalCount": 8
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 15,
+            "deletions": 16,
+            "body": "Functions returning objects instead of classes may simplify composition, syntax and reuse.\r\n\r\nAlso, by using maker functions, the `this` keyword can be avoided when referencing to varables within the scope (closure).",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fixes some typo issues",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/188",
+            "state": "MERGED",
+            "createdAt": "2017-02-04T09:30:35Z",
+            "mergedAt": "2017-02-05T20:35:27Z",
+            "closedAt": "2017-02-05T20:35:27Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 3,
+            "deletions": 3,
+            "body": "Fixes some typo and logic issues",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "fix: code style",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/193",
+            "state": "MERGED",
+            "createdAt": "2017-02-10T09:07:15Z",
+            "mergedAt": "2017-02-11T01:31:20Z",
+            "closedAt": "2017-02-11T01:31:20Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 22,
+            "deletions": 22,
+            "body": "\r\nfixed code style.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "translate to chinese.",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/194",
+            "state": "CLOSED",
+            "createdAt": "2017-02-13T03:52:02Z",
+            "mergedAt": null,
+            "closedAt": "2017-02-13T16:48:21Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 2
+            },
+            "additions": 2340,
+            "deletions": 1,
+            "body": "translate to chinese.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 5
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add Object Spread example to 'Set default objects' section",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/204",
+            "state": "CLOSED",
+            "createdAt": "2017-04-20T00:27:26Z",
+            "mergedAt": null,
+            "closedAt": "2021-05-24T15:52:20Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 25,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 5
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update README.md to include explanatory function names per #200",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/206",
+            "state": "MERGED",
+            "createdAt": "2017-04-20T17:14:57Z",
+            "mergedAt": "2017-05-11T16:23:24Z",
+            "closedAt": "2017-05-11T16:23:24Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 3,
+            "deletions": 3,
+            "body": "updating function name per #200 thanks to @marzelin to clean up some issues",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 5
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update function name in \"Don't add unneeded context\"",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/209",
+            "state": "CLOSED",
+            "createdAt": "2017-04-27T22:44:52Z",
+            "mergedAt": null,
+            "closedAt": "2021-05-23T18:53:23Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 4,
+            "deletions": 4,
+            "body": "Was reading through the README and spotted the function name in \"Don't add unneeded context\" breaks the rule \"Function names should say what they do\". Want to throw a quick PR up for you!\r\n\r\nThanks!",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "fix code sample in \"Use Promises, not callbacks\" section",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/211",
+            "state": "CLOSED",
+            "createdAt": "2017-04-28T21:46:55Z",
+            "mergedAt": null,
+            "closedAt": "2021-05-23T18:50:49Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 2,
+            "body": "I fixed package names in good code sample in \"Use Promises, not callbacks\" section. ",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 5
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Capital letters in const, remove default data in class Car",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/220",
+            "state": "MERGED",
+            "createdAt": "2017-06-02T16:32:15Z",
+            "mergedAt": "2017-06-09T21:19:42Z",
+            "closedAt": "2017-06-09T21:19:42Z",
+            "reviews": {
+                "totalCount": 4
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 12,
+            "deletions": 16,
+            "body": "Capital letters in const, remove default data in class Car",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Spanish",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/223",
+            "state": "CLOSED",
+            "createdAt": "2017-07-13T19:18:57Z",
+            "mergedAt": null,
+            "closedAt": "2017-07-16T21:14:00Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "My translation",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Spanish",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/224",
+            "state": "CLOSED",
+            "createdAt": "2017-07-14T20:37:13Z",
+            "mergedAt": null,
+            "closedAt": "2020-10-07T20:18:15Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 6
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Change argument name of \"Use default arguments instead of short circu\u2026",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/238",
+            "state": "MERGED",
+            "createdAt": "2018-01-15T11:06:52Z",
+            "mergedAt": "2018-01-20T17:19:05Z",
+            "closedAt": "2018-01-20T17:19:05Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "\u2026iting or conditionals\".\r\n\r\nDid not adhere to \"Don't add unneeded context\".",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "excess comma removed",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/248",
+            "state": "CLOSED",
+            "createdAt": "2018-11-09T18:28:09Z",
+            "mergedAt": null,
+            "closedAt": "2019-01-24T02:55:23Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "This is how i remove commas",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Feature/add spanish translation",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/255",
+            "state": "CLOSED",
+            "createdAt": "2019-01-23T18:15:30Z",
+            "mergedAt": null,
+            "closedAt": "2019-02-02T10:20:54Z",
+            "reviews": {
+                "totalCount": 4
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 16,
+            "deletions": 15,
+            "body": "Added Spanish translations!\r\n\r\nSorry for the git history hahah I had some issues xD",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Change argument name from inner variable name",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/288",
+            "state": "MERGED",
+            "createdAt": "2020-01-21T08:29:03Z",
+            "mergedAt": "2020-07-31T03:09:46Z",
+            "closedAt": "2020-07-31T03:09:46Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 2,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add Serbian translation.",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/326",
+            "state": "MERGED",
+            "createdAt": "2020-10-10T16:08:01Z",
+            "mergedAt": "2021-01-21T03:27:40Z",
+            "closedAt": "2021-01-21T03:27:40Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "added 'Use let/const instead of var'",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/333",
+            "state": "CLOSED",
+            "createdAt": "2021-01-06T03:20:09Z",
+            "mergedAt": null,
+            "closedAt": "2021-05-23T18:04:41Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 36,
+            "deletions": 0,
+            "body": "Hay there,\r\n\r\nI have just added \"Use let/const instead of var\" under the category \"Variables\". Let me know your thoughts on that.\r\n\r\nThanks,",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "replace avoid conditionals with a more Gaurd Cluases",
+            "url": "https://github.com/ryanmcdermott/clean-code-javascript/pull/347",
+            "state": "CLOSED",
+            "createdAt": "2021-04-28T03:53:59Z",
+            "mergedAt": null,
+            "closedAt": "2021-05-23T18:34:36Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 20,
+            "deletions": 43,
+            "body": "replace `avoid conditionals` with a more explicit & simple example  based on\r\nhttps://refactoring.com/catalog/replaceNestedConditionalWithGuardClauses.html",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    }
+]
