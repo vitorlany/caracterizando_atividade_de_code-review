@@ -1,0 +1,2377 @@
+[
+    {
+        "node": {
+            "title": "Document how to install on Fedora",
+            "url": "https://github.com/Genymobile/scrcpy/pull/29",
+            "state": "CLOSED",
+            "createdAt": "2018-03-10T11:11:28Z",
+            "mergedAt": null,
+            "closedAt": "2018-03-11T21:10:02Z",
+            "reviews": {
+                "totalCount": 5
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 8,
+            "deletions": 0,
+            "body": "Add `dnf` packages for Fedora.\r\n~I need to double check with a vanilla Fedora installation because I already had some dev tools installed.~\r\nChecked with a vanilla install and updated the script.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 7
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "macOS specific README changes",
+            "url": "https://github.com/Genymobile/scrcpy/pull/56",
+            "state": "CLOSED",
+            "createdAt": "2018-03-13T03:02:04Z",
+            "mergedAt": null,
+            "closedAt": "2018-03-28T12:17:22Z",
+            "reviews": {
+                "totalCount": 5
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 39,
+            "deletions": 4,
+            "body": "- First of all, gcc is not needed to build it -- clang works fine\r\n- There is Java8 cask, and recommending it to users would make life easier for them\r\n\r\n\r\nActually, second commit might be not really fitting, especially Homebrew part. ",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add support for CTRL+S to send hardware \"shake\" to device",
+            "url": "https://github.com/Genymobile/scrcpy/pull/85",
+            "state": "MERGED",
+            "createdAt": "2018-03-21T01:14:46Z",
+            "mergedAt": "2018-03-23T09:15:10Z",
+            "closedAt": "2018-03-23T09:15:10Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 3
+            },
+            "additions": 11,
+            "deletions": 0,
+            "body": "When developing for React Native, shaking the physical Android device is how you pull up the React Native debug menu, which is a very common task.\r\n\r\nThis catches the CTRL+S key combination and maps it to the \"shake\" keycode (keycode 82, AKEYCODE_MENU).\r\n",
+            "participants": {
+                "totalCount": 5
+            },
+            "comments": {
+                "totalCount": 9
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "[Feature] Drag and drop to install apk files from your computer",
+            "url": "https://github.com/Genymobile/scrcpy/pull/133",
+            "state": "CLOSED",
+            "createdAt": "2018-04-28T22:28:38Z",
+            "mergedAt": null,
+            "closedAt": "2018-05-28T20:58:57Z",
+            "reviews": {
+                "totalCount": 4
+            },
+            "files": {
+                "totalCount": 6
+            },
+            "additions": 229,
+            "deletions": 0,
+            "body": "I have just added a little feature to install apk files by using drag and drop.\r\n\r\nSo, just drag and drop an apk file and wait for its installation to complete.\r\n\r\n",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 14
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Added a useful guide link for the FAQ",
+            "url": "https://github.com/Genymobile/scrcpy/pull/142",
+            "state": "CLOSED",
+            "createdAt": "2018-05-04T01:56:26Z",
+            "mergedAt": null,
+            "closedAt": "2018-08-15T13:24:38Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 4,
+            "deletions": 0,
+            "body": "it may belong somewhere else, but I thought that this video guide (linked above) would be a better explanation for n00bs than reading a block of text. lmk..",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "support drag & drop file to device /sdcard",
+            "url": "https://github.com/Genymobile/scrcpy/pull/226",
+            "state": "CLOSED",
+            "createdAt": "2018-08-11T13:59:58Z",
+            "mergedAt": null,
+            "closedAt": "2018-08-15T15:25:45Z",
+            "reviews": {
+                "totalCount": 9
+            },
+            "files": {
+                "totalCount": 7
+            },
+            "additions": 278,
+            "deletions": 231,
+            "body": "Hi, folks\r\n\r\nWith drop & drag file to device /sdcard, it will be very convenient to app developer to test app which need some file in the device.\r\n\r\nIn this patch, if people drop & drag an apk file, it will remain the same behavior. Otherwise, it will push the file to /sdcard.\r\n\r\nThanks.\r\n\r\nSigned-off-by: npes87184 <npes87184@gmail.com>",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 6
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "check adb runnable before starting scrcpy",
+            "url": "https://github.com/Genymobile/scrcpy/pull/236",
+            "state": "CLOSED",
+            "createdAt": "2018-08-21T13:34:33Z",
+            "mergedAt": null,
+            "closedAt": "2018-09-04T06:50:12Z",
+            "reviews": {
+                "totalCount": 12
+            },
+            "files": {
+                "totalCount": 4
+            },
+            "additions": 93,
+            "deletions": 14,
+            "body": "There are many user who encounters missing adb.\r\nTo stop things happens again, we check it and show\r\nsexy response to user.\r\n\r\nIn the first version, I only check in linux. If you like this idea, I will continue to finish windows part.\r\nThanks.\r\n\r\nSigned-off-by: yuchenlin <npes87184@gmail.com>",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 8
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Work around for multiple displays with respective scales",
+            "url": "https://github.com/Genymobile/scrcpy/pull/245",
+            "state": "CLOSED",
+            "createdAt": "2018-08-26T11:52:13Z",
+            "mergedAt": null,
+            "closedAt": "2019-10-31T20:29:39Z",
+            "reviews": {
+                "totalCount": 12
+            },
+            "files": {
+                "totalCount": 3
+            },
+            "additions": 37,
+            "deletions": 0,
+            "body": "It's just a workaround to resolve #15\r\n\r\nWhat this pr did is to re-set a new logical size when the window scale factor got changed.\r\nIn consequence, the subsequent SDL events will get the coordinates what we wants,\r\nwhich are consistent across all the displays even if there are different scales.\r\n",
+            "participants": {
+                "totalCount": 8
+            },
+            "comments": {
+                "totalCount": 23
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Added new command line parameter to start in fullscreen",
+            "url": "https://github.com/Genymobile/scrcpy/pull/252",
+            "state": "CLOSED",
+            "createdAt": "2018-09-04T13:57:59Z",
+            "mergedAt": null,
+            "closedAt": "2018-09-04T16:49:56Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 3
+            },
+            "additions": 15,
+            "deletions": 1,
+            "body": "I needed the option to automatically start scrcpy in fullscreen mode. I therefore added a new command line parameter --fullscreen. This solves my opened issue #250 ",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Return specific error for missing adb binary on Windows",
+            "url": "https://github.com/Genymobile/scrcpy/pull/254",
+            "state": "CLOSED",
+            "createdAt": "2018-09-08T01:24:31Z",
+            "mergedAt": null,
+            "closedAt": "2018-09-09T13:36:34Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 2
+            },
+            "additions": 10,
+            "deletions": 1,
+            "body": "Hi, @rom1v \r\n\r\nWindows has `GetLastError()` to show what happen when `CreateProcess()` failed.\r\n\r\nReference:\r\n* [CreateProcess](https://docs.microsoft.com/en-us/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa)\r\n* [GetLastError](https://msdn.microsoft.com/zh-tw/library/windows/desktop/ms679360(v=vs.85).aspx)\r\n* [Error code](https://docs.microsoft.com/zh-tw/windows/desktop/Debug/system-error-codes--0-499-)\r\n\r\nIn this series, I also prevent console closing immediately when error occurs by adding `pause` in windows console mode. It helps to show error message to user.\r\n\r\nRelated pr: #236.\r\n\r\nThanks.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "prevent closing console right after process error in windows",
+            "url": "https://github.com/Genymobile/scrcpy/pull/261",
+            "state": "MERGED",
+            "createdAt": "2018-09-14T12:37:43Z",
+            "mergedAt": "2018-09-18T06:56:41Z",
+            "closedAt": "2018-09-18T06:56:41Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 6,
+            "deletions": 0,
+            "body": "Signed-off-by: yuchenlin <npes87184@gmail.com>",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Record screen to file",
+            "url": "https://github.com/Genymobile/scrcpy/pull/292",
+            "state": "CLOSED",
+            "createdAt": "2018-10-09T02:25:14Z",
+            "mergedAt": null,
+            "closedAt": "2018-11-11T22:40:26Z",
+            "reviews": {
+                "totalCount": 4
+            },
+            "files": {
+                "totalCount": 5
+            },
+            "additions": 74,
+            "deletions": 9,
+            "body": "This change enables writing AV packets received from the target to a video file without re-encoding.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 21
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Desktop entry file for Linux app launchers (resolves #295)",
+            "url": "https://github.com/Genymobile/scrcpy/pull/296",
+            "state": "CLOSED",
+            "createdAt": "2018-10-14T08:57:43Z",
+            "mergedAt": null,
+            "closedAt": "2022-09-09T17:13:53Z",
+            "reviews": {
+                "totalCount": 6
+            },
+            "files": {
+                "totalCount": 2
+            },
+            "additions": 16,
+            "deletions": 0,
+            "body": "Adds the ability to launch scrcpy using your preferred application launcher on Linux.\r\n\r\nSee: https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html",
+            "participants": {
+                "totalCount": 6
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "app: add always_on_top",
+            "url": "https://github.com/Genymobile/scrcpy/pull/412",
+            "state": "MERGED",
+            "createdAt": "2019-01-27T11:10:58Z",
+            "mergedAt": "2019-01-27T13:09:19Z",
+            "closedAt": "2019-01-27T13:09:19Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 6
+            },
+            "additions": 44,
+            "deletions": 15,
+            "body": "Fix #391 \r\n\r\nIt is very convenient when I play mobile game and watch video at the\r\nsame time.\r\n\r\nTested on Linux mint Cinnamon as well as Windows 10.\r\n\r\nSigned-off-by: Yu-Chen Lin <npes87184@gmail.com>",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Added a new option : -n/--no-window",
+            "url": "https://github.com/Genymobile/scrcpy/pull/418",
+            "state": "CLOSED",
+            "createdAt": "2019-02-01T22:22:54Z",
+            "mergedAt": null,
+            "closedAt": "2019-03-02T17:42:37Z",
+            "reviews": {
+                "totalCount": 5
+            },
+            "files": {
+                "totalCount": 4
+            },
+            "additions": 32,
+            "deletions": 4,
+            "body": "This option allows scrcpy to be run withou showing preview window : we can now use\r\nscrcpy only for screen recording as an example",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 12
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "add KeyCharacterMap.UnavailableException",
+            "url": "https://github.com/Genymobile/scrcpy/pull/478",
+            "state": "CLOSED",
+            "createdAt": "2019-03-27T08:10:47Z",
+            "mergedAt": null,
+            "closedAt": "2019-10-31T20:19:53Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 11,
+            "deletions": 1,
+            "body": "add KeyCharacterMap.UnavailableException in charMap",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 6
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Return success count in injectText",
+            "url": "https://github.com/Genymobile/scrcpy/pull/542",
+            "state": "CLOSED",
+            "createdAt": "2019-05-19T01:04:14Z",
+            "mergedAt": null,
+            "closedAt": "2019-05-20T07:06:09Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 5,
+            "deletions": 3,
+            "body": "It will insert as many text as possible now.\r\nFix #509, tested on Windows 10 and Arch Linux.\r\n\r\nSigned-off-by: Yu-Chen Lin <npes87184@gmail.com>",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Turn screen off when closing scrcpy",
+            "url": "https://github.com/Genymobile/scrcpy/pull/824",
+            "state": "CLOSED",
+            "createdAt": "2019-09-28T03:47:33Z",
+            "mergedAt": null,
+            "closedAt": "2021-03-16T20:16:06Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 15
+            },
+            "additions": 207,
+            "deletions": 138,
+            "body": "Fix #714 ",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 16
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "fix for resizing HIDPI MacOS windows",
+            "url": "https://github.com/Genymobile/scrcpy/pull/848",
+            "state": "CLOSED",
+            "createdAt": "2019-10-07T21:36:15Z",
+            "mergedAt": null,
+            "closedAt": "2020-05-23T12:22:21Z",
+            "reviews": {
+                "totalCount": 6
+            },
+            "files": {
+                "totalCount": 3
+            },
+            "additions": 97,
+            "deletions": 29,
+            "body": "Workaround for https://github.com/Genymobile/scrcpy/issues/15\r\n\r\nThe bug manifests in multi-monitor configurations mixing HiDPI and non-HiDPI monitors.\r\n\r\nThis fix is a little brute force - it reinitializes the SDL_Renderer context after each resize.  But it seems to work in every combination of resizing, fullscreening, window dragging, etc I could think of.\r\n\r\nTesting in an ASAN debugging build too just to check the initialization isn't leaking stuff.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 13
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "fix typo and link",
+            "url": "https://github.com/Genymobile/scrcpy/pull/927",
+            "state": "CLOSED",
+            "createdAt": "2019-11-15T08:49:21Z",
+            "mergedAt": null,
+            "closedAt": "2019-11-18T16:46:59Z",
+            "reviews": {
+                "totalCount": 10
+            },
+            "files": {
+                "totalCount": 4
+            },
+            "additions": 5,
+            "deletions": 5,
+            "body": " I fixed a typo as an annotation of server.c and links of command.c , checkstyle.xml, gradle-wrapper.properties. Please check :)",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "translate README.md and FAQ.md into Korean",
+            "url": "https://github.com/Genymobile/scrcpy/pull/934",
+            "state": "CLOSED",
+            "createdAt": "2019-11-18T06:53:23Z",
+            "mergedAt": null,
+            "closedAt": "2019-11-24T10:10:43Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 2
+            },
+            "additions": 582,
+            "deletions": 0,
+            "body": "Added the note about frequent update as requested at the issue #893 ",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 5
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update BUILD.md to add ADB install",
+            "url": "https://github.com/Genymobile/scrcpy/pull/965",
+            "state": "CLOSED",
+            "createdAt": "2019-11-29T22:36:41Z",
+            "mergedAt": null,
+            "closedAt": "2019-12-03T15:08:07Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add some test",
+            "url": "https://github.com/Genymobile/scrcpy/pull/967",
+            "state": "CLOSED",
+            "createdAt": "2019-11-30T04:35:46Z",
+            "mergedAt": null,
+            "closedAt": "2019-12-04T20:23:48Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 4
+            },
+            "additions": 99,
+            "deletions": 2,
+            "body": "- test_strquote\r\n- test_buffer_util",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix utf-8 char path in windows",
+            "url": "https://github.com/Genymobile/scrcpy/pull/1002",
+            "state": "CLOSED",
+            "createdAt": "2019-12-12T12:39:14Z",
+            "mergedAt": null,
+            "closedAt": "2019-12-15T12:26:15Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 4
+            },
+            "additions": 41,
+            "deletions": 14,
+            "body": "The file 'E:\\\u5b89\u5b89\\scrcpy-win64-v1.12.1-1-g31bd950\\scrcpy-server'\r\nexists, however, it will show msg as follow:\r\n\r\nINFO: scrcpy 1.12.1 <https://github.com/Genymobile/scrcpy>\r\nstat: No such file or directory\r\nERROR: 'E:\\\u5b89\u5b89\\scrcpy-win64-v1.12.1-1-g31bd950\\scrcpy-server' does not\r\nexist or is not a regular file\r\nPress any key to continue...\r\n\r\nThis patch fixes it.\r\n\r\nSigned-off-by: Yu-Chen Lin <npes87184@gmail.com>",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 6
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update BUILD.md to make Prebuilt Server Meson configuration simpler for newer users",
+            "url": "https://github.com/Genymobile/scrcpy/pull/1031",
+            "state": "CLOSED",
+            "createdAt": "2019-12-20T05:23:28Z",
+            "mergedAt": null,
+            "closedAt": "2019-12-21T20:07:11Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 7,
+            "deletions": 3,
+            "body": "If for example a user is not knowledged in Meson, they might not know that if they run:\r\n```\r\nmeson x --buildtype release --strip -Db_lto=true -Dprebuilt_server=/path/to/scrcpy-server\r\n```\r\nand use the path `~/Downloads/scrcpy-server`, Meson look in `/root/scrcpy/~/Downloads/scrcpy-server` giving this message:\r\n```\r\nWARNING: Custom target input '/root/scrcpy/~/Downloads/scrcpy-server' can't be converted to File object(s).\r\nThis will become a hard error in the future.\r\n```\r\n\r\nMeson can then be difficult/annoying for some newer users to reconfigure correctly, and this pull request mitigates that risk",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 5
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Client orientation (resolves #218)",
+            "url": "https://github.com/Genymobile/scrcpy/pull/1151",
+            "state": "CLOSED",
+            "createdAt": "2020-02-16T12:11:02Z",
+            "mergedAt": null,
+            "closedAt": "2020-02-27T20:29:42Z",
+            "reviews": {
+                "totalCount": 7
+            },
+            "files": {
+                "totalCount": 17
+            },
+            "additions": 180,
+            "deletions": 75,
+            "body": "I've added an option to keep the client window in a specific orientation. This helps in recording and in utilizing small screens.\r\n\r\nI've tried my best to update any relevant documentation and test files. I could not update the Korean documentation files though.\r\n\r\nThanks,\r\nGeorge",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 13
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add feature: select display to mirror",
+            "url": "https://github.com/Genymobile/scrcpy/pull/1177",
+            "state": "CLOSED",
+            "createdAt": "2020-02-25T08:35:50Z",
+            "mergedAt": null,
+            "closedAt": "2020-03-23T09:50:22Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 14
+            },
+            "additions": 151,
+            "deletions": 22,
+            "body": "Hello I've added a small feature that allows to configure scrcpy server with the optional parameter \"display id\" that should be mirrored.\r\nIt simply gets layerStack field from DisplayInfo for appropriate dispayId and passes it \"setDisplayLayerStack\" method\r\nHope it could be useful for others.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 13
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Handle events on NumPad when NumLock is disabled",
+            "url": "https://github.com/Genymobile/scrcpy/pull/1188",
+            "state": "CLOSED",
+            "createdAt": "2020-02-29T17:46:25Z",
+            "mergedAt": null,
+            "closedAt": "2020-03-15T16:08:46Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 17,
+            "deletions": 0,
+            "body": "Hello, I tried to fix the issue #1048. \r\nI mapped the NumPad keys as follow when both SHIFT and NUM aren't set:\r\n- SDLK_KP_6 --> AKEYCODE_DPAD_RIGHT\r\n- SDLK_KP_4 --> AKEYCODE_DPAD_LEFT\r\n- SDLK_KP_2 --> AKEYCODE_DPAD_DOWN\r\n- SDLK_KP_8 --> AKEYCODE_DPAD_UP\r\n- SDLK_KP_7 --> AKEYCODE_MOVE_HOME\r\n- SDLK_KP_1 --> AKEYCODE_MOVE_END\r\n- SDLK_KP_3 --> AKEYCODE_PAGE_DOWN\r\n- SDLK_KP_9 --> AKEYCODE_PAGE_UP\r\n- SDLK_KP_0 --> AKEYCODE_INSERT\r\n- SDLK_KP_PERIOD --> AKEYCODE_FORWARD_DEL",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 8
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Added display-id option to mirror displays that are not displayId=0",
+            "url": "https://github.com/Genymobile/scrcpy/pull/1223",
+            "state": "CLOSED",
+            "createdAt": "2020-03-19T02:04:34Z",
+            "mergedAt": null,
+            "closedAt": "2020-04-02T21:18:37Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 12
+            },
+            "additions": 81,
+            "deletions": 14,
+            "body": "Added display-id option so devices with multiple displays can be mirrored.",
+            "participants": {
+                "totalCount": 5
+            },
+            "comments": {
+                "totalCount": 11
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Encoding profile option",
+            "url": "https://github.com/Genymobile/scrcpy/pull/1226",
+            "state": "CLOSED",
+            "createdAt": "2020-03-19T18:33:57Z",
+            "mergedAt": null,
+            "closedAt": "2020-05-24T12:56:29Z",
+            "reviews": {
+                "totalCount": 5
+            },
+            "files": {
+                "totalCount": 9
+            },
+            "additions": 97,
+            "deletions": 12,
+            "body": "There are some decoders like [Broadway](https://github.com/emersion/Broadway) that can accept only H.264 Baseline profile streams.\r\nThis profile is considered the most generic and is available on most Android devices.\r\nTo allow selecting a profile new option has been added to client and server.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 22
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update build dependencies",
+            "url": "https://github.com/Genymobile/scrcpy/pull/1263",
+            "state": "CLOSED",
+            "createdAt": "2020-04-03T15:03:47Z",
+            "mergedAt": null,
+            "closedAt": "2020-04-03T17:15:09Z",
+            "reviews": {
+                "totalCount": 4
+            },
+            "files": {
+                "totalCount": 6
+            },
+            "additions": 26,
+            "deletions": 21,
+            "body": "Confirmed that the resultant binaries build on Linux host and run correctly on Android 10 and R DP2.1.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 6
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Encoding options",
+            "url": "https://github.com/Genymobile/scrcpy/pull/1296",
+            "state": "CLOSED",
+            "createdAt": "2020-04-17T17:35:08Z",
+            "mergedAt": null,
+            "closedAt": "2020-04-26T12:15:23Z",
+            "reviews": {
+                "totalCount": 9
+            },
+            "files": {
+                "totalCount": 11
+            },
+            "additions": 211,
+            "deletions": 20,
+            "body": "Introduced options arguments for the Android MediaCodec library.\r\n\r\nThere are some decoders like Broadway that can accept only H.264 Baseline profile streams.\r\nThis profile is considered the most generic and is available on most Android devices.\r\nTo allow selecting a profile new option has been added to client and server.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Readme Portuguese-Brazil",
+            "url": "https://github.com/Genymobile/scrcpy/pull/1313",
+            "state": "CLOSED",
+            "createdAt": "2020-04-23T23:03:02Z",
+            "mergedAt": null,
+            "closedAt": "2020-05-09T18:14:22Z",
+            "reviews": {
+                "totalCount": 7
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 529,
+            "deletions": 0,
+            "body": "* Created a portuguese version of the file.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 5
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Codec options",
+            "url": "https://github.com/Genymobile/scrcpy/pull/1325",
+            "state": "CLOSED",
+            "createdAt": "2020-04-26T12:29:33Z",
+            "mergedAt": null,
+            "closedAt": "2020-05-24T12:56:05Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 9
+            },
+            "additions": 75,
+            "deletions": 12,
+            "body": "Introduced options arguments for the Android MediaCodec library.\r\n\r\n**The original need:**\r\nThere are some decoders like Broadway that can accept only H.264 Baseline profile streams.\r\nThis profile is considered the most generic and is available on most Android devices.\r\nTo allow selecting a profile new option has been added to client and server.",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 8
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix build_without_gradle.sh",
+            "url": "https://github.com/Genymobile/scrcpy/pull/1482",
+            "state": "CLOSED",
+            "createdAt": "2020-06-06T22:06:27Z",
+            "mergedAt": null,
+            "closedAt": "2020-06-07T20:06:27Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 3,
+            "deletions": 0,
+            "body": "Fixes #1481\r\n\r\nSigned-off-by: Louis Leseur <louis.leseur@gmail.com>",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Traditional Chinese translation for README",
+            "url": "https://github.com/Genymobile/scrcpy/pull/1626",
+            "state": "CLOSED",
+            "createdAt": "2020-07-27T14:16:23Z",
+            "mergedAt": null,
+            "closedAt": "2020-08-10T18:54:24Z",
+            "reviews": {
+                "totalCount": 14
+            },
+            "files": {
+                "totalCount": 2
+            },
+            "additions": 717,
+            "deletions": 1,
+            "body": "- Added Traditional Chinese translation for README.md",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 18
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Send wakeup keycode alongside trying to turn screen on when restoring",
+            "url": "https://github.com/Genymobile/scrcpy/pull/1670",
+            "state": "CLOSED",
+            "createdAt": "2020-08-13T06:34:08Z",
+            "mergedAt": null,
+            "closedAt": "2020-08-29T22:40:10Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 6,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix server build script by using more portable and safer bash and rely on PATH when no ANDROID_HOME",
+            "url": "https://github.com/Genymobile/scrcpy/pull/1716",
+            "state": "CLOSED",
+            "createdAt": "2020-08-27T17:14:38Z",
+            "mergedAt": null,
+            "closedAt": "2022-06-06T10:51:58Z",
+            "reviews": {
+                "totalCount": 4
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 19,
+            "deletions": 7,
+            "body": "See the commit messages.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add Simplified Chinese translation for README.md.",
+            "url": "https://github.com/Genymobile/scrcpy/pull/1723",
+            "state": "CLOSED",
+            "createdAt": "2020-08-30T16:38:35Z",
+            "mergedAt": null,
+            "closedAt": "2020-09-17T11:11:36Z",
+            "reviews": {
+                "totalCount": 8
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 727,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 13
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Improved stability of making connections in reverse mode",
+            "url": "https://github.com/Genymobile/scrcpy/pull/1745",
+            "state": "CLOSED",
+            "createdAt": "2020-09-07T18:53:23Z",
+            "mergedAt": null,
+            "closedAt": "2020-09-07T19:14:39Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Changed output to be give clearer instructions",
+            "url": "https://github.com/Genymobile/scrcpy/pull/1783",
+            "state": "CLOSED",
+            "createdAt": "2020-09-22T22:06:25Z",
+            "mergedAt": null,
+            "closedAt": "2020-10-01T12:53:19Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "I changed the output to ask the user to press enter instead of any key which does not work.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Changed type of got _picture to boolean",
+            "url": "https://github.com/Genymobile/scrcpy/pull/1828",
+            "state": "CLOSED",
+            "createdAt": "2020-10-12T10:47:47Z",
+            "mergedAt": null,
+            "closedAt": "2020-10-12T11:07:21Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 5,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Use win64 ffmpeg built from BtbN",
+            "url": "https://github.com/Genymobile/scrcpy/pull/1838",
+            "state": "CLOSED",
+            "createdAt": "2020-10-18T03:16:10Z",
+            "mergedAt": null,
+            "closedAt": "2022-02-22T14:06:06Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 5
+            },
+            "additions": 29,
+            "deletions": 14,
+            "body": "There are three changes in this PR.\r\n\r\n1. In script `prepare-dep` the third parameter will be the output folder name now.\r\n2. Stop building win32 version due to lack of ffmpeg libs\r\n3. Use BtbN built ffmpeg (win64-lgpl-shared)\r\n\r\nThere are two problems still need to be solved. First, it looks like BtbN is an auto build server, it is hard to guarantee the built ffmpeg is stable. Second, it lacks of win32 version.\r\n\r\nThanks.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Document Windows command line usage",
+            "url": "https://github.com/Genymobile/scrcpy/pull/1973",
+            "state": "CLOSED",
+            "createdAt": "2020-12-14T09:17:22Z",
+            "mergedAt": null,
+            "closedAt": "2020-12-22T00:47:16Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 33,
+            "deletions": 0,
+            "body": "I wrote a very small tutorial for Windows users who don't know how to use the command line.\r\n\r\nRendered: https://github.com/Genymobile/scrcpy/blob/wincli/FAQ.md#command-line-on-windows\r\n\r\nReviews welcome.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update Chinese Simplified translation for README",
+            "url": "https://github.com/Genymobile/scrcpy/pull/2029",
+            "state": "CLOSED",
+            "createdAt": "2021-01-12T05:59:22Z",
+            "mergedAt": null,
+            "closedAt": "2021-01-15T15:22:32Z",
+            "reviews": {
+                "totalCount": 4
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 227,
+            "deletions": 218,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update README's Brazilian Portuguese translation to 1.17 version",
+            "url": "https://github.com/Genymobile/scrcpy/pull/2034",
+            "state": "CLOSED",
+            "createdAt": "2021-01-14T04:06:27Z",
+            "mergedAt": null,
+            "closedAt": "2021-01-15T09:19:31Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 2
+            },
+            "additions": 392,
+            "deletions": 128,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Pass arguments through to scrcpy.exe",
+            "url": "https://github.com/Genymobile/scrcpy/pull/2052",
+            "state": "CLOSED",
+            "createdAt": "2021-01-20T19:14:02Z",
+            "mergedAt": null,
+            "closedAt": "2021-03-16T20:05:26Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 14,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Remove unnecessary escape characters in manpage",
+            "url": "https://github.com/Genymobile/scrcpy/pull/2123",
+            "state": "CLOSED",
+            "createdAt": "2021-02-15T16:54:58Z",
+            "mergedAt": null,
+            "closedAt": "2021-02-27T16:54:58Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 4,
+            "deletions": 4,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Support game controllers",
+            "url": "https://github.com/Genymobile/scrcpy/pull/2130",
+            "state": "CLOSED",
+            "createdAt": "2021-02-18T21:19:41Z",
+            "mergedAt": null,
+            "closedAt": "2024-05-05T17:18:41Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 21
+            },
+            "additions": 1159,
+            "deletions": 5,
+            "body": "closes #99 \r\n\r\n## What it does\r\n\r\n- Handles events from connected game controllers;\r\n- Transfers game controller events to Android device;\r\n- Emulates an Xbox 360 game controller input device.\r\n\r\n## Important stuff\r\n\r\n- In order to emulate input devices, we need a few system calls (`open`, `ioctl`, `write` and `close`). Since we can't use most of these directly from Java (AFAIK), we need either native code or a library that allows us to call these functions. To avoid depending on the NDK, I'm using the Java Native Access library;\r\n- JNA requires a native library (libjnidispatch.so). For some reason, `app_process` doesn't want to load it, so right now it's extracted to `/data/local/tmp` on initialization and cleaned up later.\r\n\r\n## Things you can help with\r\n\r\n- Testing:\r\n    - Comment whether it works on your device or not, so I can keep a list;\r\n    - Axes behavior;\r\n    - Multiple controllers.\r\n- Find a way to use the `ioctl` syscall without native code;\r\n- Load native libraries without extracting them;\r\n- Figure out multiple controllers with event injection.\r\n\r\n## To-do\r\n\r\n- [x] Add command line option for disabling game controllers\r\n- [x] Write tests\r\n- [x] Isolate uinput related stuff into another class (so other types of devices can be implemented)\r\n- [x] Fix input not working when uinput fails\r\n- [x] Support legacy uinput\r\n- [x] Look into event injection (for when uinput is unavailable)\r\n- [ ] Look into getting games to recognize axis movement when using event injection\r\n- [ ] Implement controller through event injection\r\n\r\n## Out of scope\r\n\r\nI probably won't be adding some special features to this pull request, such as:\r\n- Vibration\r\n- Battery reporting\r\n- Lights\r\n- Touchpad\r\n\r\n## Feedback\r\n\r\nIf you have any feedback (suggestions, complaints, new info, ...), please don't hesitate to write it down below.\r\n\r\n## Tested devices\r\n\r\nManufacturer | Model | Android version | Last tested on | Tested by | Supported | Supported with root\r\n:-:|:-:|:-:|:-:|:-:|:-:|:-:\r\nMotorola | Moto G<sup>5</sup> Plus | 8.1 | 2021-04-30 | @LHLaurini | :x: | :grey_question:\r\nMotorola | moto g(6) play | 9 | 2021-04-30 | @LHLaurini | :x: | :grey_question:\r\nSamsung | Galaxy A7 2018 | 10 | 2021-04-06 | @Fablo020 | :x: | :grey_question:\r\nSamsung | Galaxy M21s | 11 | 2021-04-30 | @LHLaurini | :heavy_check_mark: | :grey_question:\r\nHuawei | Honor Play COR-L29 | 9 | 2021-05-01 | @Cannahawk | :x: | :grey_question:\r\nXiaomi | Pocophone F1 | 11 | 2021-05-23 | @Nightm4res | :grey_question: | :heavy_check_mark:\r\nSony | Xperia XZ1 Compact | 11 | 2021-06-14 | @Schlumpf7 | :heavy_check_mark: | :grey_question:\r\nSony | Xperia XZ | :grey_question: | 2021-06-15 | @Schlumpf7 | :heavy_check_mark: | :grey_question:\r\nBlackview | BV6000 | :grey_question: | 2021-06-15 | @Schlumpf7 | :heavy_check_mark: | :grey_question:\r\nXiaomi | Mi A3 | 11 | 2021-06-17 | @RuiGuilherme | :heavy_check_mark: | :grey_question:\r\nNvidia | Shield TV | 11 | 2022-02-12 | @scaldav | :heavy_check_mark: | :grey_question:\r\nBlackview | BV6300 Pro | 10 | 2022-05-02 | @Fancy2209 | :heavy_check_mark: | :grey_question:\r\nGoogle | Pixel 6 | 12 | 2022-06-02 | @AntoninHuaut | :heavy_check_mark: | :grey_question:\r\nRedmi | Note 9 Pro 5G | 12 | 2022-06-18 | @esec | :heavy_check_mark: | :grey_question:\r\nRedmi | Note 5 Pro | 11[*](#issuecomment-1160959261 \"LineageOS 18\") | 2022-06-20 | @Sigmacringe | :heavy_check_mark: | :grey_question:\r\n\r\nThe list of (un)supported devices can change anytime.\r\n\r\n### Reporting a new device\r\n\r\nIf you have tested with a device not on the list, please report it by writing a comment below. Please follow (more or less) the following format:\r\n\r\n    **Manufacturer**: Foo\r\n    **Model**: Bar 12\r\n    **Android version**: 123.4 (specify if not stock)\r\n    **Root**: Y/N\r\n\r\n## NEW: Windows and Linux releases \r\n\r\nPrebuilt versions of scrcpy with the new patches can be found [here](https://github.com/LHLaurini/scrcpy/releases). Remember to set the `SCRCPY_SERVER_PATH` variable.",
+            "participants": {
+                "totalCount": 27
+            },
+            "comments": {
+                "totalCount": 153
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Create README.jp.md",
+            "url": "https://github.com/Genymobile/scrcpy/pull/2195",
+            "state": "CLOSED",
+            "createdAt": "2021-03-13T15:30:05Z",
+            "mergedAt": null,
+            "closedAt": "2021-03-28T19:39:29Z",
+            "reviews": {
+                "totalCount": 10
+            },
+            "files": {
+                "totalCount": 2
+            },
+            "additions": 729,
+            "deletions": 0,
+            "body": "I added Japanese translation for REDME.md",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 10
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Actions for 4th and 5th mouse buttons",
+            "url": "https://github.com/Genymobile/scrcpy/pull/2258",
+            "state": "CLOSED",
+            "createdAt": "2021-04-16T15:21:33Z",
+            "mergedAt": null,
+            "closedAt": "2021-04-17T16:06:29Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 8
+            },
+            "additions": 82,
+            "deletions": 15,
+            "body": "For now, the 4th and 5th mouse buttons have erratic behavior from misinterpretation as being either 1st or 3rd buttons.\r\n\r\nNowadays, non-basic mice have, at least, 4 buttons, so, for me, makes most sense that those buttons are assigned. In this case, they are assigned based on my perceived difficulty in activating the feature using the mouse and how often used.\r\n\r\nGiven such, I decided that app switch to be the 4th button and notifications panel to be the 5th button.\r\nThese are what I believe to be the best use for these two. The 4th button being the app switch should be close to the no-brainer.\r\nAs for the notifications being the 5th, that one is more open for discussion. IMO, the major competitors being:\r\n\r\n1. Notifications panel\r\n2. Pinch-to-zoom\r\n3. paste\r\n\r\nNo more buttons are assigned because SDL doesn't support them. \r\nFor now, I would present this way, as a way to start a discussion",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 15
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Ctrl+n+n for settings panel",
+            "url": "https://github.com/Genymobile/scrcpy/pull/2260",
+            "state": "CLOSED",
+            "createdAt": "2021-04-17T16:10:35Z",
+            "mergedAt": null,
+            "closedAt": "2021-04-25T13:02:57Z",
+            "reviews": {
+                "totalCount": 6
+            },
+            "files": {
+                "totalCount": 13
+            },
+            "additions": 155,
+            "deletions": 34,
+            "body": "Show the settings panel if pressing `CTRL`+`n` and then, without releasing CTRL, press `n` again\r\n\r\nStill not done/updated:\r\nREADME: \r\n\r\n- [x] New shortcut\r\n- [x] Rename what `CTRL`+`SHIFT`+`n` does\r\n\r\nCloses: #2264 \r\n",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 11
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix bad rebase of #2258",
+            "url": "https://github.com/Genymobile/scrcpy/pull/2261",
+            "state": "CLOSED",
+            "createdAt": "2021-04-17T16:37:59Z",
+            "mergedAt": null,
+            "closedAt": "2021-04-17T16:40:06Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 10,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 1
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix typos",
+            "url": "https://github.com/Genymobile/scrcpy/pull/2263",
+            "state": "CLOSED",
+            "createdAt": "2021-04-18T11:41:39Z",
+            "mergedAt": null,
+            "closedAt": "2021-04-18T12:38:59Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 5
+            },
+            "additions": 5,
+            "deletions": 5,
+            "body": "Hi guys,\r\n   thanks a lot for your work.\r\n\r\n   Just a stupid typo fix patch.\r\n\r\nThanks again,\r\nAndrea",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Intents on start & exit",
+            "url": "https://github.com/Genymobile/scrcpy/pull/2265",
+            "state": "CLOSED",
+            "createdAt": "2021-04-18T18:52:46Z",
+            "mergedAt": null,
+            "closedAt": "2022-04-16T13:58:01Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 11
+            },
+            "additions": 216,
+            "deletions": 7,
+            "body": "Send intents when scrcpy starts and when scrcpy exits\r\n\r\nStill missing (will be added if feature accepted)\r\n\r\n- [x] Mention feature in README\r\n- [x] Create command line option to choose whether to send the intents (defaulting to off)\r\n\r\nExtra: video showing a visual use:\r\n\r\nhttps://www.mediafire.com/file/ktcxs0exclvoqha/intent_demo.mp4/file\r\n\r\n(I was unable to attach the file in this post)\r\n\r\n",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 29
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Serialize clean-up configuration",
+            "url": "https://github.com/Genymobile/scrcpy/pull/2286",
+            "state": "CLOSED",
+            "createdAt": "2021-04-30T22:23:12Z",
+            "mergedAt": null,
+            "closedAt": "2021-06-11T07:36:43Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 2
+            },
+            "additions": 119,
+            "deletions": 21,
+            "body": "@npes87184 in response to https://github.com/Genymobile/scrcpy/pull/824#issuecomment-780319422\r\n\r\nWhat do you think?",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Spanish README.md translation",
+            "url": "https://github.com/Genymobile/scrcpy/pull/2318",
+            "state": "CLOSED",
+            "createdAt": "2021-05-15T07:14:49Z",
+            "mergedAt": null,
+            "closedAt": "2021-05-28T08:22:20Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 2
+            },
+            "additions": 744,
+            "deletions": 0,
+            "body": "Well, this took longer than expected...\r\n\r\nMaybe another day I might translate the FAQ.md too :)",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Log input event details to verbose log",
+            "url": "https://github.com/Genymobile/scrcpy/pull/2371",
+            "state": "CLOSED",
+            "createdAt": "2021-06-08T16:19:09Z",
+            "mergedAt": null,
+            "closedAt": "2021-06-20T14:45:53Z",
+            "reviews": {
+                "totalCount": 16
+            },
+            "files": {
+                "totalCount": 14
+            },
+            "additions": 240,
+            "deletions": 33,
+            "body": "I wanted to automate a few actions using 'adb shell input' commands, but\r\nit requires pixel coordinates. Logging input event details from scrcpy is\r\nhelpful for achieving that.\r\n",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 18
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Initial work done on making it work natively on all platforms/buildsystems ",
+            "url": "https://github.com/Genymobile/scrcpy/pull/2397",
+            "state": "CLOSED",
+            "createdAt": "2021-06-17T06:21:16Z",
+            "mergedAt": null,
+            "closedAt": "2021-06-17T19:08:55Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 27
+            },
+            "additions": 1727,
+            "deletions": 94,
+            "body": "Tried to make it less platform-dependent, the only bug so far is pts assertion at line 45, stream.c if you try to close the window. Not sure what causes it. By integrating vcpkg and cmake manifest adding more libraries will be more trivial too. A review would be nice. \r\nAll changes narrow down to removing gcc function macros by turning them into comma operator ones, removing C11 stdatmic and using SDL atomics instead, also removed VLAs and used size_t instead of ssize_t since there's no real need to use ssize_t at all.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 5
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Vla/static buffer removal",
+            "url": "https://github.com/Genymobile/scrcpy/pull/2405",
+            "state": "CLOSED",
+            "createdAt": "2021-06-19T15:01:03Z",
+            "mergedAt": null,
+            "closedAt": "2021-06-20T19:59:20Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 3
+            },
+            "additions": 43,
+            "deletions": 23,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 6
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "add plugin system",
+            "url": "https://github.com/Genymobile/scrcpy/pull/2519",
+            "state": "CLOSED",
+            "createdAt": "2021-07-26T12:17:04Z",
+            "mergedAt": null,
+            "closedAt": "2024-10-01T13:25:34Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 5
+            },
+            "additions": 94,
+            "deletions": 2,
+            "body": "###  You can use `PostMessage` to operate the device on the windows platform\r\n\r\n`````python\r\n \r\nimport win32api,win32gui,win32con\r\n\r\nhld = win32gui.FindWindow(\"SDL_app\", None)\r\nif hld > 0:\r\n    SDL_FINGERDOWN      = 0x700\r\n    WM_PLUGIN_BASE     = win32con.WM_USER\r\n    x = int( (55 / 270) * (1000*1000) )\r\n    y = int( (515 / 555) * (1000*1000) )\r\n    win32gui.PostMessage(hld, WM_PLUGIN_BASE + SDL_FINGERDOWN ,x, y)\r\n    win32gui.PostMessage(hld, WM_PLUGIN_BASE + SDL_FINGERDOWN +1  ,x, y)\r\n\r\n \r\n`````",
+            "participants": {
+                "totalCount": 5
+            },
+            "comments": {
+                "totalCount": 6
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix typo",
+            "url": "https://github.com/Genymobile/scrcpy/pull/2606",
+            "state": "CLOSED",
+            "createdAt": "2021-09-02T15:12:31Z",
+            "mergedAt": null,
+            "closedAt": "2021-09-07T19:42:25Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add HID keyboard simulation via USB HID over AoAv2",
+            "url": "https://github.com/Genymobile/scrcpy/pull/2632",
+            "state": "CLOSED",
+            "createdAt": "2021-09-15T09:53:29Z",
+            "mergedAt": null,
+            "closedAt": "2024-02-08T18:43:56Z",
+            "reviews": {
+                "totalCount": 7
+            },
+            "files": {
+                "totalCount": 18
+            },
+            "additions": 931,
+            "deletions": 23,
+            "body": "Add HID keyboard simulation via USB HID over AoAv2, which provides better input experience if connected with USB cable.\r\n\r\nCurrently this needs `--serial` to provide USB serial, we may update it to fetch serial via adb automatically.\r\n\r\nA new option `--input-mode` is added, by default is `auto`, try HID first and fallback to old input injection, user can set `hid` or `inject` manually, it will fail if user's selection not work.\r\n\r\nPlease add your comments if you have any advice and I'll try to update it.\r\n\r\nFixes <https://github.com/Genymobile/scrcpy/issues/279>.",
+            "participants": {
+                "totalCount": 5
+            },
+            "comments": {
+                "totalCount": 48
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update Readme.pt-br.md",
+            "url": "https://github.com/Genymobile/scrcpy/pull/2686",
+            "state": "CLOSED",
+            "createdAt": "2021-10-06T16:27:32Z",
+            "mergedAt": null,
+            "closedAt": "2021-10-08T19:49:57Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 2
+            },
+            "additions": 147,
+            "deletions": 60,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update Japanese translation from v1.17 to v1.19.",
+            "url": "https://github.com/Genymobile/scrcpy/pull/2740",
+            "state": "CLOSED",
+            "createdAt": "2021-10-30T09:36:05Z",
+            "mergedAt": null,
+            "closedAt": "2021-10-31T12:04:44Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 2
+            },
+            "additions": 104,
+            "deletions": 29,
+            "body": "Update Japanese translation from v1.17 to v1.19",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix compilation errors with old SDL versions",
+            "url": "https://github.com/Genymobile/scrcpy/pull/2781",
+            "state": "CLOSED",
+            "createdAt": "2021-11-14T14:19:24Z",
+            "mergedAt": null,
+            "closedAt": "2021-11-14T14:38:43Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 8,
+            "deletions": 0,
+            "body": "`SDL_PixelFormatEnum` has been introduced in SDL 2.0.10: <https://github.com/libsdl-org/SDL/commit/cc6a8ac87e41d0df68075081dbf5cd2ba46f8fd4>\r\n\r\n`SDL_PIXELFORMAT_BGR444` has been introduced in SDL 2.0.12: <https://github.com/libsdl-org/SDL/commit/a1c11854f28b7186a744df412aa6273862459c31>\r\n\r\nFixes #2777",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add --raw-key-events",
+            "url": "https://github.com/Genymobile/scrcpy/pull/2831",
+            "state": "MERGED",
+            "createdAt": "2021-11-26T21:17:13Z",
+            "mergedAt": "2021-11-29T20:19:43Z",
+            "closedAt": "2021-11-29T20:19:43Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 12
+            },
+            "additions": 277,
+            "deletions": 90,
+            "body": "This option allows to inject all input keys as key events, and ignore text events.\r\n\r\nFixes #2816.\r\n\r\n---\r\n\r\nThis feature is available in scrcpy v1.21.\r\n\r\n<details><summary>obsolete</summary>\r\n\r\nHere are binaries so that you can test easily. Please replace these files in your v1.20 release:\r\n\r\n - [`scrcpy.exe`](https://tmp.rom1v.com/scrcpy/2827/4/scrcpy.exe) _sha256:c3d96408d81d4c3f17259a8d99bd2e343f6c9758dc85e6317b114f6cdc95fd00_\r\n - [`scrcpy-server`](https://tmp.rom1v.com/scrcpy/2827/4/scrcpy-server) _sha256:e08e9aa4796c213bf601f6323b5e9f4fce250b1f3b1d46441289824cb4af294a_\r\n\r\n<details><summary>old binaries v1</summary>\r\n\r\n - [`scrcpy.exe`](https://tmp.rom1v.com/scrcpy/2831/1/scrcpy.exe) _sha256:848fc28d0b2e864fabcd82f327ddb1ee987fc364f441deed262b8f733fe7298d_\r\n - [`scrcpy-server`](https://tmp.rom1v.com/scrcpy/2831/1/scrcpy-server) _sha256:e08e9aa4796c213bf601f6323b5e9f4fce250b1f3b1d46441289824cb4af294a_\r\n\r\n</details>\r\n\r\nThis is based on the development branch, and includes #2827, so this is almost a release candidate for scrcpy 1.21.\r\n\r\nPlease test and report any issue you might encounter. In particular, please test the `--tcpip` option detailed in #2827.\r\n\r\nThank you.\r\n\r\n</details>",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Upgrade FFmpeg (5.0) for Windows 64-bit ",
+            "url": "https://github.com/Genymobile/scrcpy/pull/2952",
+            "state": "MERGED",
+            "createdAt": "2022-01-17T18:13:44Z",
+            "mergedAt": "2022-01-18T09:15:24Z",
+            "closedAt": "2022-01-18T09:15:24Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 6
+            },
+            "additions": 39,
+            "deletions": 34,
+            "body": "Use FFmpeg win64 binaries from gyan.dev (referenced from ffmpeg.org):\r\n\r\n - https://www.gyan.dev/ffmpeg/builds/\r\n - https://ffmpeg.org/download.html#build-windows\r\n\r\nKeep the old FFmpeg prebuilt binaries (4.3.1) for win32 builds.\r\n\r\nFixes #1753\r\nRefs #1838\r\nRefs #2583\r\n\r\n@npes87184 @nkh0472 This is partially a mix of your PR #1838 and #2583, so I added:\r\n\r\n```\r\nCo-authored-by: Yu-Chen Lin <npes87184@gmail.com>\r\nCo-authored-by: nkh0472 <nkh0472@hotmail.com>\r\n```",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update README.zh-Hans.md to 1.21",
+            "url": "https://github.com/Genymobile/scrcpy/pull/2978",
+            "state": "CLOSED",
+            "createdAt": "2022-01-28T08:10:50Z",
+            "mergedAt": null,
+            "closedAt": "2022-01-29T14:11:53Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 2
+            },
+            "additions": 128,
+            "deletions": 35,
+            "body": "Update README.zh-Hans.md to 1.21.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update README & Ln.java comment",
+            "url": "https://github.com/Genymobile/scrcpy/pull/3065",
+            "state": "CLOSED",
+            "createdAt": "2022-02-25T22:10:48Z",
+            "mergedAt": null,
+            "closedAt": "2022-08-29T22:24:52Z",
+            "reviews": {
+                "totalCount": 4
+            },
+            "files": {
+                "totalCount": 3
+            },
+            "additions": 44,
+            "deletions": 65,
+            "body": "- `###` Summary\r\n- `##` Custom paths\n...\r\n\r\n#3063",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update README.zh-Hans.md",
+            "url": "https://github.com/Genymobile/scrcpy/pull/3126",
+            "state": "CLOSED",
+            "createdAt": "2022-03-18T03:54:08Z",
+            "mergedAt": null,
+            "closedAt": "2022-03-25T07:40:25Z",
+            "reviews": {
+                "totalCount": 22
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 3,
+            "deletions": 3,
+            "body": "Fix misleading zoom instruction, which gave opposite action steps.\r\n\r\n\u64cd\u4f5c\u8bf4\u660e\u5199\u53cd\u4e86\uff0c\u9020\u6210\u8bef\u5bfc\u3002",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update README.it.md",
+            "url": "https://github.com/Genymobile/scrcpy/pull/3151",
+            "state": "CLOSED",
+            "createdAt": "2022-03-26T05:20:00Z",
+            "mergedAt": null,
+            "closedAt": "2022-04-14T08:12:38Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 306,
+            "deletions": 59,
+            "body": "Updated the Italian translation of README.md to v1.23 and a few minor modifications.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 7
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix a few minor README issues",
+            "url": "https://github.com/Genymobile/scrcpy/pull/3174",
+            "state": "CLOSED",
+            "createdAt": "2022-04-09T14:46:18Z",
+            "mergedAt": null,
+            "closedAt": "2022-04-14T08:19:29Z",
+            "reviews": {
+                "totalCount": 4
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 5,
+            "deletions": 5,
+            "body": "Hi. I have corrected a few typos/grammar issues, and added a link to Shortcuts for the first time MOD is mentioned",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Many improvements to documentation",
+            "url": "https://github.com/Genymobile/scrcpy/pull/3177",
+            "state": "CLOSED",
+            "createdAt": "2022-04-10T15:45:54Z",
+            "mergedAt": null,
+            "closedAt": "2022-04-22T07:30:43Z",
+            "reviews": {
+                "totalCount": 12
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 71,
+            "deletions": 72,
+            "body": "Improved clarity, grammar, consistency, punctuation, and formatting.\r\n\r\nThank you for the great tool!",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Desktop entry file for Linux app launchers #295",
+            "url": "https://github.com/Genymobile/scrcpy/pull/3351",
+            "state": "CLOSED",
+            "createdAt": "2022-06-27T03:45:20Z",
+            "mergedAt": null,
+            "closedAt": "2022-09-09T17:09:46Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 3
+            },
+            "additions": 41,
+            "deletions": 3,
+            "body": "See: https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html\r\n\r\n* Address review comments\r\n\r\nSeems #296 is stale, so I created a replacement with fixes. Differences from the previous pull request are in the second commit.",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 15
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Support smooth scrolling on notebook touchpads.",
+            "url": "https://github.com/Genymobile/scrcpy/pull/3369",
+            "state": "CLOSED",
+            "createdAt": "2022-07-06T05:36:21Z",
+            "mergedAt": null,
+            "closedAt": "2022-08-28T13:46:45Z",
+            "reviews": {
+                "totalCount": 11
+            },
+            "files": {
+                "totalCount": 10
+            },
+            "additions": 98,
+            "deletions": 29,
+            "body": "Fixes #3363\r\n\r\nHID mode doesn't support this smooth scrolling, because sending fractional scrolling distance over standard HID mouse protocol seems complicated. I may investigate more in the future (plus horizontal scrolling support).\r\n\r\nOnly tested on Windows with both mouse and touchpad.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 8
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add -s auto-complete option",
+            "url": "https://github.com/Genymobile/scrcpy/pull/3523",
+            "state": "CLOSED",
+            "createdAt": "2022-10-07T14:27:17Z",
+            "mergedAt": null,
+            "closedAt": "2022-10-15T12:35:40Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 2
+            },
+            "additions": 6,
+            "deletions": 2,
+            "body": "Add -s auto-complete option.\r\n\r\nCommented at the following issue: https://github.com/Genymobile/scrcpy/issues/3522",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Support wchar_t in argv in windows",
+            "url": "https://github.com/Genymobile/scrcpy/pull/3547",
+            "state": "CLOSED",
+            "createdAt": "2022-10-23T06:21:04Z",
+            "mergedAt": null,
+            "closedAt": "2022-10-25T20:05:58Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 53,
+            "deletions": 2,
+            "body": "This MR will fix #2932.\r\n\r\nThere are various approaches that can be used to address this issue, such as the usage of `wmain` with link flag `-municode`. Only the applied method, however, was successful.\r\n\r\nSigned-off-by: Yu-Chen Lin <npes87184@gmail.com>",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 6
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Use current adb port (if any) for --tcpip",
+            "url": "https://github.com/Genymobile/scrcpy/pull/3592",
+            "state": "CLOSED",
+            "createdAt": "2022-11-24T08:13:19Z",
+            "mergedAt": null,
+            "closedAt": "2022-12-02T18:13:10Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 0
+            },
+            "additions": 0,
+            "deletions": 0,
+            "body": "If the current adb port is not 5555 (typically it is 0 because it is not in TCP/IP mode), --tcpip automatically executes (among other commands):\r\n\r\n    adb tcpip 5555\r\n\r\nIn case adb was already listening on another port, this command forced to listen on 5555, and the connection should still succeed.\r\n\r\nBut this reconfiguration might be inconvenient for the user. If adb is already in TCP/IP mode and listens on another port, use that port without reconfiguration.\r\n\r\nFixes #3591",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix chrome when --forward-all-clicks is enabled",
+            "url": "https://github.com/Genymobile/scrcpy/pull/3704",
+            "state": "MERGED",
+            "createdAt": "2023-01-29T22:20:00Z",
+            "mergedAt": "2023-01-30T19:59:36Z",
+            "closedAt": "2023-01-30T19:59:36Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 10
+            },
+            "additions": 112,
+            "deletions": 14,
+            "body": "This is a mix of two branches made by @yume-chan to fix #3635:\r\n - https://github.com/Genymobile/scrcpy/issues/3635#issuecomment-1371833716\r\n - https://github.com/Genymobile/scrcpy/issues/3635#issuecomment-1375001124\r\n\r\n---\r\n\r\n@yume-chan Thank you, great work :+1:\r\n\r\nOn `fix-chrome-mouse` (the branch with events synthesized on the server), I like that the client don't have to handle the Android-specific sequence `ACTION_DOWN`, `ACTION_BUTTON_PRESS`, `ACTION_BUTTON_RELEASE`, `ACTION_UP` (IMO, this should be done on the server).\r\n\r\nHowever, on `fix-chrome-mouse-v2` (the branch with events synthesized on the client), I like that the `action_button` forwarded by the client to the server (since it provided by the client, it's better than let the server \"guess\" using a diff of buttons state).\r\n\r\nThis is a mix of these two branches.\r\n\r\nIt works fine on my device. Please review and test before I merge.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 5
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add GitHub actions for scrcpy server",
+            "url": "https://github.com/Genymobile/scrcpy/pull/3721",
+            "state": "CLOSED",
+            "createdAt": "2023-02-05T14:52:23Z",
+            "mergedAt": null,
+            "closedAt": "2024-09-19T12:53:57Z",
+            "reviews": {
+                "totalCount": 4
+            },
+            "files": {
+                "totalCount": 2
+            },
+            "additions": 17,
+            "deletions": 0,
+            "body": "This PR adds a GitHub action which:\r\n- Builds the latest version of the scrcpy server, using a Circle CI container\r\n- Publishes that as a build artifact\r\n\r\nThis can be useful as CI (making sure the server compiles) and for folks that want to build the scrcpy server using CI infrastructure.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Get better OpenGL version than 2.1 on macOS",
+            "url": "https://github.com/Genymobile/scrcpy/pull/3895",
+            "state": "CLOSED",
+            "createdAt": "2023-04-05T14:34:06Z",
+            "mergedAt": null,
+            "closedAt": "2023-04-12T19:29:12Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 2
+            },
+            "additions": 24,
+            "deletions": 0,
+            "body": "Normally macOS gives us only OpenGL 2.1, but if we request 3.3 and create a new context, we get the best OpenGL version it has to offer.\r\n\r\nBefore:\r\nINFO: Renderer: opengl\r\nINFO: OpenGL version: 2.1 NVIDIA-14.0.32 355.11.11.10.10.143\r\nWARN: Trilinear filtering disabled (OpenGL 3.0+ or ES 2.0+ required)\r\n\r\nAfter:\r\nINFO: Renderer: opengl\r\nDEBUG: Creating GL Context\r\nINFO: OpenGL version: 4.1 NVIDIA-14.0.32 355.11.11.10.10.143\r\nINFO: Trilinear filtering enabled\r\n\r\nwhen running with\r\n--verbosity=verbose --render-driver=opengl\r\n\r\nNote:\r\nSince SDL_CreateRenderer causes a fallback to OpenGL 2.1, the profile and version attributes have to be set and the context created _after_.\r\nThis took a while to figure out.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 9
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Notify ScreenEncoder when a folding event occurs",
+            "url": "https://github.com/Genymobile/scrcpy/pull/3979",
+            "state": "CLOSED",
+            "createdAt": "2023-05-07T20:17:03Z",
+            "mergedAt": null,
+            "closedAt": "2023-06-01T07:20:48Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 4
+            },
+            "additions": 72,
+            "deletions": 1,
+            "body": "Hello :wave: \r\nIt's been a while since my last contribution, it's a pleasure to be able to contribute again to this amazing project!\r\n\r\nI'm a lucky owner of a foldable phone ( Z fold 4 ) and I've seen that scrcpy does not handle the fold events ( The SDL Window does not update its size when I bend my phone ). \r\n\r\nI just fixed this issue ( it is implemented the same way as RotationWatcher ).\r\n\r\nBtw I have a little concern about the naming of the boolean `ScreenEncoder.rotationChanged` which may not have a good name after this PR.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Installing on Windows with winget",
+            "url": "https://github.com/Genymobile/scrcpy/pull/4005",
+            "state": "CLOSED",
+            "createdAt": "2023-05-16T10:54:07Z",
+            "mergedAt": null,
+            "closedAt": "2023-05-17T17:37:29Z",
+            "reviews": {
+                "totalCount": 4
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 9,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add --pause-on-exit to simplify launchers",
+            "url": "https://github.com/Genymobile/scrcpy/pull/4130",
+            "state": "MERGED",
+            "createdAt": "2023-06-29T19:47:01Z",
+            "mergedAt": "2023-10-11T07:45:04Z",
+            "closedAt": "2023-10-11T07:45:04Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 8
+            },
+            "additions": 127,
+            "deletions": 11,
+            "body": "`scrcpy-console.bat` and `scrcpy-console.desktop` must keep the terminal open if scrcpy fails with an error.\r\n\r\nIt was implemented in cmd and shell respectively, which added complexity.\r\n\r\nAdd an option `--pause-on-exit` in scrcpy to simplify.\r\n\r\nThree behaviors are possible:\r\n  - always pause on exit:\r\n    - `--pause-on-exit`\r\n    - `--pause-on-exit=true`\r\n - never pause on exit:\r\n    - _(no option)_\r\n    - `--pause-on-exit=false`\r\n - pause when scrcpy returns with an error (a non-zero exit code):\r\n    - `--pause-on-exit=if-error`\r\n\r\nOne problem to consider is that an error in command line parsing could occur before `--pause-on-error` was taken into account. For that purpose, if getopt did not detect it, this parameter is searched in the whole `argv` array \"manually\" (without getopt) so that it works in all cases.\r\n\r\nRefs #3817 #3822",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add option to mirror camera",
+            "url": "https://github.com/Genymobile/scrcpy/pull/4213",
+            "state": "CLOSED",
+            "createdAt": "2023-08-03T06:39:56Z",
+            "mergedAt": null,
+            "closedAt": "2023-11-01T17:57:18Z",
+            "reviews": {
+                "totalCount": 4
+            },
+            "files": {
+                "totalCount": 15
+            },
+            "additions": 924,
+            "deletions": 274,
+            "body": "Closes #241\r\n\r\nI can imagine this becoming another compatibility hell. \r\n\r\nI can only test on emulators and XiaoMi devices, so there isn't much more I can do, for example to the bug report in https://github.com/Genymobile/scrcpy/issues/241#issuecomment-1662119167.",
+            "participants": {
+                "totalCount": 6
+            },
+            "comments": {
+                "totalCount": 38
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Some more small fixes",
+            "url": "https://github.com/Genymobile/scrcpy/pull/4373",
+            "state": "CLOSED",
+            "createdAt": "2023-10-24T13:25:15Z",
+            "mergedAt": null,
+            "closedAt": "2023-10-24T21:28:16Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 5
+            },
+            "additions": 12,
+            "deletions": 15,
+            "body": "This PR also changes patterns like `memset(&a[b], ...)` to `memset(a + b, ...)` for consistency. Currently, we have the mix of both.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 7
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "[WIP] UHID mouse/keyboard input",
+            "url": "https://github.com/Genymobile/scrcpy/pull/4473",
+            "state": "CLOSED",
+            "createdAt": "2023-11-28T09:26:26Z",
+            "mergedAt": null,
+            "closedAt": "2024-02-29T23:56:27Z",
+            "reviews": {
+                "totalCount": 8
+            },
+            "files": {
+                "totalCount": 38
+            },
+            "additions": 1200,
+            "deletions": 251,
+            "body": "Fixes #4034 \r\nFixes #3110\r\nFixes #3913\r\n\r\nCurrently only the keyboard part is implemented to get the overall architecture reviewed.\r\n\r\nAs described in https://github.com/Genymobile/scrcpy/issues/4034#issuecomment-1826714479, the client is responsible for creating and parsing UHID messages, and the server only do the reads and writes to UHID  file descriptors. This allows reusing existing AoA mouse/keyboard code to do the HID device emulation, and use native C code to handle UHID messages (which is also defined in C headers).\r\n\r\nThe new option is named `--keyboard-input-mode`, after its internal name. Available values are `disable`, `inject`, `aoa` and `uhid`. `aoa` deprecates the `-K`/`--hid-keyboard` option. When `--otg` is not specified, all values are accepted, except `aoa` doesn't work on Windows. When `--otg` is specified, only `disable` and `aoa` are accepted. When `--keyboard-input-mode` is not speficied, it defaults to `inject` in normal mode and `aoa` in OTG mode.\r\n\r\nThree new control messages are added: `UHID_OPEN`, `UHID_WRITE` and `UHID_CLOSE`. Each UHID device is a separate file descriptor, so all messages have an `int id` field, generated by client, maps to a file descriptor on server.\r\n\r\nCurrently `UHID_OPEN` and `UHID_WRITE` both have a `byte[] data` field (containing a `uhid_event` structure), so opening file and registering device can be done in one message. But this design is a little bit strange. Maybe we don't need `UHID_OPEN` at all.\r\n\r\nOne new device messages are added: `UHID_DATA`. It contains a `uhid_event` structure read from the file descriptor. In theory the client should wait for a `UHID_DATA` messages with `START` and `OPEN` UHID message types before starting to send inputs, but in practice these two arrives pretty quickly, so when user starts typing, UHID already finished initializing.\r\n\r\n`UHID_DATA` can also contain `OUTPUT` UHID messages, these are HID output reports defined in the device's report descriptor, for example LED status for keyboards and rumbles for gamepads. The code to handle these messages haven't been added to the client.",
+            "participants": {
+                "totalCount": 5
+            },
+            "comments": {
+                "totalCount": 29
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Build all dependencies for Windows releases",
+            "url": "https://github.com/Genymobile/scrcpy/pull/4713",
+            "state": "MERGED",
+            "createdAt": "2024-03-01T19:03:23Z",
+            "mergedAt": "2024-03-02T21:53:50Z",
+            "closedAt": "2024-03-02T21:53:50Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 15
+            },
+            "additions": 348,
+            "deletions": 184,
+            "body": "Remove the mechanism to download (and link against) pre-built dependencies, and add a new mechanism to download the dependencies sources and build them.\r\n\r\nExecuting `./release.sh` builds everything.\r\n\r\nHere are 32-bit and 64-bit Windows binaries for the current `dev` branch:\r\n- [`scrcpy-win32-builtdeps.zip`](https://tmp.rom1v.com/scrcpy/4713/1/scrcpy-win32-builtdeps.zip) <sub>`SHA-256: 7e07dd4a24e84988ec582360a92a0e06aa1d32ae5742347da6634d3fe32b18d`</sub>\r\n- [`scrcpy-win64-builtdeps.zip`](https://tmp.rom1v.com/scrcpy/4713/1/scrcpy-win64-builtdeps.zip) <sub>`SHA-256: e66cae74480ca0a90e08fc2c0a1808ce3ce138007ed30d7dcf698707ed41fa9`</sub>\r\n\r\nPlease test that it works correctly on your Windows.",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "feat: boss key",
+            "url": "https://github.com/Genymobile/scrcpy/pull/4830",
+            "state": "CLOSED",
+            "createdAt": "2024-04-09T11:51:26Z",
+            "mergedAt": null,
+            "closedAt": "2024-04-10T13:16:06Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 6
+            },
+            "additions": 97,
+            "deletions": 36,
+            "body": "Adds a feature to hide and resume the window by pressing <kbd>MOD</kbd>+<kbd>d</kbd>, the window can be resumed by pressing <kbd>Enter</kbd> in console.   \r\n```\r\nWindow hidden, press [Enter] to restore...\r\n\r\nWindow resumed\r\n```",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix: the server stopped when requesting the maximum integer value(2147483647) for 'videoBitRate'",
+            "url": "https://github.com/Genymobile/scrcpy/pull/4930",
+            "state": "CLOSED",
+            "createdAt": "2024-05-16T07:04:22Z",
+            "mergedAt": null,
+            "closedAt": "2024-05-28T02:39:52Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 2
+            },
+            "additions": 26,
+            "deletions": 2,
+            "body": "If the value of --video-bit-rate exceeds the supported range, the server is stopped.\r\n\r\n```\r\n$> scrcpy -s R59N102E8HT --video-bit-rate=2147483647 \r\nscrcpy 2.4 <https://github.com/Genymobile/scrcpy>\r\nINFO: ADB device found:\r\nINFO:     -->   (usb)  R59N102E8HT                     device  SM_A305N\r\nx/server/scrcpy-server: 1 file pushed, 0 skipped. 28.9 MB/s (69343 bytes in 0.002s)\r\n[server] INFO: Device: [samsung] samsung SM-A305N (Android 11)\r\nINFO: Renderer: metal\r\nINFO: Texture: 1080x2336\r\nWARN: Device disconnected\r\nAborted \r\n```\r\n\r\nI have added exception handling code for this issue.\r\n",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add --root option to bypass AID_SHELL secure display restriction starting in A12",
+            "url": "https://github.com/Genymobile/scrcpy/pull/5014",
+            "state": "CLOSED",
+            "createdAt": "2024-06-23T00:21:08Z",
+            "mergedAt": null,
+            "closedAt": "2024-07-11T00:29:04Z",
+            "reviews": {
+                "totalCount": 15
+            },
+            "files": {
+                "totalCount": 16
+            },
+            "additions": 65,
+            "deletions": 18,
+            "body": "Hello everyone! I am creating this pull request in hopes of merging this feature before the 2.5.x release window, as many would benefit from being able to use ```scrcpy``` with root access, without being able to run ```adb root``` since Android's new restrictions on the ```adbd``` daemon now being an APEX module. The initial idea and most of the groundwork was done by @RiggiG and I mainly just fixed up a few things that would have prevented it from merging with the current state of the ```dev``` branch, as well as a few things that caused other problems.\r\n\r\nDuring testing, I have found that on an Android 14 AVD rooted with Magisk (instead of ```adb root```), I was able to see bidirectional clipboard access working, along with display, audio, and even settings changes working without problems. The only thing that is somewhat janky about the settings changes is that since ```AID_SYSTEM``` does NOT have write access to the settings database, actual root access is required by ```AID_SYSTEM``` so the server-side executable can handle cleanup on exit properly. This was just rebased using ```git cherry-pick``` to be able to get the necessary changes pulled in, without having to see nearly 100 commits that duplicated the progress on the origin ```dev``` branch in the meantime.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 9
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fix typo",
+            "url": "https://github.com/Genymobile/scrcpy/pull/5171",
+            "state": "CLOSED",
+            "createdAt": "2024-08-05T14:02:55Z",
+            "mergedAt": null,
+            "closedAt": "2024-08-05T14:35:06Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 3
+            },
+            "additions": 8,
+            "deletions": 8,
+            "body": "Requested by https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1077968#27",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add gamepad support",
+            "url": "https://github.com/Genymobile/scrcpy/pull/5270",
+            "state": "MERGED",
+            "createdAt": "2024-09-06T21:18:15Z",
+            "mergedAt": "2024-09-15T19:17:54Z",
+            "closedAt": "2024-09-15T19:17:54Z",
+            "reviews": {
+                "totalCount": 5
+            },
+            "files": {
+                "totalCount": 58
+            },
+            "additions": 2460,
+            "deletions": 469,
+            "body": "This PR adds support for game controllers (gamepads).\r\n\r\nThere was a PR (#2130) implementing gamepad support using uinput on the device. However, this required to add a native dependency or to add native code (cf https://github.com/Genymobile/scrcpy/pull/2130#issuecomment-2276249226).\r\n\r\nThis PR uses HID instead, and provides support for AOA and UHID (like for keyboard and mouse).\r\nIt does not add any dependency, and it also works in OTG mode (via AOA), so even without USB debugging.\r\n\r\nTo enable it:\r\n\r\n```bash\r\n# UHID\r\nscrcpy --gamepad=uhid\r\nscrcpy -G  #\u00a0short option, equivalent\r\n\r\n# AOA\r\nscrcpy --gamepad=aoa\r\n\r\n# OTG\r\nscrcpy --otg --gamepad=aoa\r\nscrcpy --otg -G  # short option, equivalent\r\n```\r\n\r\nIt is not enabled by default because UHID is not supported on all devices (especially with old Android versions, I don't remember which version exactly, due to a permission error).\r\n\r\nI tested with PS4 and PS5 controllers connected by USB on my laptop, with gamepad tester apps, it seems to work.\r\n\r\nRumble is not implemented, because I don't know how to make it work. It probably requires to add the correct bytes to the report descriptor, and to parse the received HID outputs (the mechanism to receive them is already there). @yume-chan (or others) your help is welcome :wink:\r\n\r\n@LHLaurini I marked you as co-author of the commit named `Handle SDL gamepad events` (I don't give the SHA1 because it will change on every rebase), because your PR helped me to write this commit :+1:\r\n\r\n## TODO\r\n\r\n - [ ] ~Rumble~\r\n - [x] Review/rework/fix patchset\r\n - [x] User documentation\r\n\r\nFixes #99",
+            "participants": {
+                "totalCount": 6
+            },
+            "comments": {
+                "totalCount": 28
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Create main.yml",
+            "url": "https://github.com/Genymobile/scrcpy/pull/5357",
+            "state": "CLOSED",
+            "createdAt": "2024-10-09T03:39:21Z",
+            "mergedAt": null,
+            "closedAt": "2024-10-09T05:14:31Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    }
+]

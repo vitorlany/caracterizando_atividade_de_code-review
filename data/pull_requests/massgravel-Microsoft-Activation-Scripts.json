@@ -1,0 +1,52 @@
+[
+    {
+        "node": {
+            "title": "Fix typo error message",
+            "url": "https://github.com/massgravel/Microsoft-Activation-Scripts/pull/284",
+            "state": "CLOSED",
+            "createdAt": "2023-10-16T12:29:30Z",
+            "mergedAt": null,
+            "closedAt": "2023-10-21T00:12:15Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "Fix mistake in the admin privileges required error message",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Formatting improvements for `README.md`.",
+            "url": "https://github.com/massgravel/Microsoft-Activation-Scripts/pull/505",
+            "state": "CLOSED",
+            "createdAt": "2024-07-08T10:08:32Z",
+            "mergedAt": null,
+            "closedAt": "2024-07-08T10:23:35Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 31,
+            "deletions": 21,
+            "body": "Remediated formatting inconsistencies:\r\n\r\n1.  Differing and non-CommonMark list indentation.\r\n2.  Inadequate spacing between block and inline list content elements, like fenced code blocks.\r\n3.  No syntax highlighting declaration.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    }
+]
