@@ -1,0 +1,952 @@
+[
+    {
+        "node": {
+            "title": "add osx security awesome",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/6",
+            "state": "CLOSED",
+            "createdAt": "2017-03-12T21:33:27Z",
+            "mergedAt": null,
+            "closedAt": "2017-05-29T12:04:06Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "Another list of OSX/macOS/iOS security resources",
+            "participants": {
+                "totalCount": 5
+            },
+            "comments": {
+                "totalCount": 5
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add an Awesome Vulnerability Research",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/12",
+            "state": "MERGED",
+            "createdAt": "2017-07-23T23:27:34Z",
+            "mergedAt": "2017-07-25T17:36:56Z",
+            "closedAt": "2017-07-25T17:36:56Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "Very new but structured already. Are you open to add it as it is or I should wait a while?",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Added the How2Heap repository to the list of awesome repos",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/41",
+            "state": "CLOSED",
+            "createdAt": "2018-10-07T23:29:11Z",
+            "mergedAt": null,
+            "closedAt": "2021-07-31T15:43:21Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "Added this resource on various heap exploitation techniques.",
+            "participants": {
+                "totalCount": 7
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "README.md: header level should increment by 1",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/42",
+            "state": "MERGED",
+            "createdAt": "2018-10-15T22:53:28Z",
+            "mergedAt": "2018-10-25T06:33:58Z",
+            "closedAt": "2018-10-25T06:33:58Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 4,
+            "deletions": 4,
+            "body": "Change header level 3 (`###`) to 2 (`##`)",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update README.md",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/45",
+            "state": "CLOSED",
+            "createdAt": "2018-10-31T07:17:25Z",
+            "mergedAt": null,
+            "closedAt": "2018-11-07T12:06:14Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "Added https://github.com/jekil/awesome-hacking",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Added the awesome-serverless-security repo",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/48",
+            "state": "MERGED",
+            "createdAt": "2019-02-03T20:48:34Z",
+            "mergedAt": "2019-02-09T09:00:42Z",
+            "closedAt": "2019-02-09T09:00:42Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add: hacker-roadmap awesome repository",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/50",
+            "state": "MERGED",
+            "createdAt": "2019-04-13T21:51:32Z",
+            "mergedAt": "2019-04-26T03:31:38Z",
+            "closedAt": "2019-04-26T03:31:38Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Fixed gray-hacker-resources broken link",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/52",
+            "state": "MERGED",
+            "createdAt": "2019-07-19T17:52:59Z",
+            "mergedAt": "2019-07-31T16:43:23Z",
+            "closedAt": "2019-07-31T16:43:23Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Added link to Awesome-Asset-Discovery",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/54",
+            "state": "MERGED",
+            "createdAt": "2019-10-02T10:46:16Z",
+            "mergedAt": "2019-10-03T15:22:23Z",
+            "closedAt": "2019-10-03T15:22:23Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "List of  resources which help during asset discovery phase of a security assessment engagement.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Remove link to Malware Scripts due to 404",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/55",
+            "state": "MERGED",
+            "createdAt": "2019-10-02T10:57:24Z",
+            "mergedAt": "2019-10-03T15:21:17Z",
+            "closedAt": "2019-10-03T15:21:17Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 0,
+            "deletions": 1,
+            "body": "https://github.com/seifreed/malware-scripts is returning a 404.",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update README.md",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/72",
+            "state": "MERGED",
+            "createdAt": "2020-01-02T14:06:37Z",
+            "mergedAt": "2020-04-21T13:29:28Z",
+            "closedAt": "2020-04-21T13:29:28Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "Added Awesome Mainframe Hacking",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Adding some useful resources and tools",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/74",
+            "state": "CLOSED",
+            "createdAt": "2020-02-14T20:05:34Z",
+            "mergedAt": null,
+            "closedAt": "2020-03-17T19:06:46Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 4,
+            "deletions": 0,
+            "body": "- [x] Adding Pentest bookmarkz (https://github.com/SofianeHamlaoui/Pentest-Bookmarkz)\r\n- [x] Adding Lockdoor Framework (https://github.com/SofianeHamlaoui/Lockdoor-Framework)\r\n- [x] Adding CyberSec Resources (https://github.com/The-Art-of-Hacking/h4cker)\r\n- [x]  Adding Payloads all the things (https://github.com/swisskyrepo/PayloadsAllTheThings)",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "awesome embedded and IoT security list",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/86",
+            "state": "MERGED",
+            "createdAt": "2020-03-28T12:46:25Z",
+            "mergedAt": "2020-04-21T13:27:30Z",
+            "closedAt": "2020-04-21T13:27:30Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "Added an embedded and IoT security list",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Smart hacking",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/96",
+            "state": "CLOSED",
+            "createdAt": "2020-05-18T05:19:40Z",
+            "mergedAt": null,
+            "closedAt": "2020-05-29T11:42:06Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "android hacking awesom",
+            "participants": {
+                "totalCount": 5
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Create DDOS file",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/123",
+            "state": "CLOSED",
+            "createdAt": "2021-03-26T23:52:18Z",
+            "mergedAt": null,
+            "closedAt": "2021-07-31T15:58:11Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "https://www.facebook.com/profile.php?id=100049332442397",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/130",
+            "state": "CLOSED",
+            "createdAt": "2021-08-08T13:20:17Z",
+            "mergedAt": null,
+            "closedAt": "2021-10-18T13:42:29Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 21,
+            "deletions": 0,
+            "body": "for hack",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "add awesome-rl-for-cybersecurity",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/132",
+            "state": "MERGED",
+            "createdAt": "2021-12-16T12:21:21Z",
+            "mergedAt": "2022-08-27T11:18:00Z",
+            "closedAt": "2022-08-27T11:18:00Z",
+            "reviews": {
+                "totalCount": 4
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 8
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update README.md",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/133",
+            "state": "CLOSED",
+            "createdAt": "2022-02-05T12:34:18Z",
+            "mergedAt": null,
+            "closedAt": "2024-04-13T12:06:04Z",
+            "reviews": {
+                "totalCount": 19
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 1,
+            "body": "Add largest Cellular Hacking resource on the Internet",
+            "participants": {
+                "totalCount": 16
+            },
+            "comments": {
+                "totalCount": 6
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "added awesome-rtc-hacking to the list",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/134",
+            "state": "MERGED",
+            "createdAt": "2022-02-09T06:49:12Z",
+            "mergedAt": "2022-08-27T11:22:09Z",
+            "closedAt": "2022-08-27T11:22:09Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 5
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Create ayden lewis",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/135",
+            "state": "CLOSED",
+            "createdAt": "2022-02-14T00:27:41Z",
+            "mergedAt": null,
+            "closedAt": "2022-08-27T11:22:43Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "thanksk",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Create PayPal INC Support",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/136",
+            "state": "CLOSED",
+            "createdAt": "2022-02-17T22:31:19Z",
+            "mergedAt": null,
+            "closedAt": "2022-08-27T11:23:20Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 21,
+            "deletions": 0,
+            "body": "![D7A30E53-810B-4F39-8FEE-7EB9A1BF7BB1](https://user-images.githubusercontent.com/99913172/154581974-52555008-8817-4495-ba60-0f0cfe374bb9.png)\r\n",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add daily updated CVE PoC repository by Trickest",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/137",
+            "state": "MERGED",
+            "createdAt": "2022-03-07T18:09:13Z",
+            "mergedAt": "2023-12-10T07:24:03Z",
+            "closedAt": "2023-12-10T07:24:03Z",
+            "reviews": {
+                "totalCount": 7
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 9
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Capitalize headers to follow common styling",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/138",
+            "state": "MERGED",
+            "createdAt": "2022-06-30T00:01:22Z",
+            "mergedAt": "2023-12-10T07:26:11Z",
+            "closedAt": "2023-12-10T07:26:11Z",
+            "reviews": {
+                "totalCount": 11
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 2,
+            "body": "\"Other useful repositories\" --> \"Other Useful Repositories\"\r\n\r\n\"Need more?\"  --> \"Need More?\"",
+            "participants": {
+                "totalCount": 12
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update README.md",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/139",
+            "state": "CLOSED",
+            "createdAt": "2022-06-30T08:29:11Z",
+            "mergedAt": null,
+            "closedAt": "2022-08-27T11:28:04Z",
+            "reviews": {
+                "totalCount": 5
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 3,
+            "deletions": 0,
+            "body": "Added about some attacks and basic tips to prevent ourselves from hackers.",
+            "participants": {
+                "totalCount": 9
+            },
+            "comments": {
+                "totalCount": 9
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add files via upload",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/140",
+            "state": "CLOSED",
+            "createdAt": "2022-07-01T18:42:18Z",
+            "mergedAt": null,
+            "closedAt": "2022-07-03T10:53:17Z",
+            "reviews": {
+                "totalCount": 4
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 0,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 5
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "awsome has been changed to Awesome",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/143",
+            "state": "CLOSED",
+            "createdAt": "2022-11-07T16:35:17Z",
+            "mergedAt": null,
+            "closedAt": "2023-12-10T07:26:49Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 13,
+            "deletions": 13,
+            "body": "I am new on github. still now i am in the process of learning. I am just practising the fork option.",
+            "participants": {
+                "totalCount": 5
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Various fixes and additions",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/144",
+            "state": "CLOSED",
+            "createdAt": "2023-01-09T11:12:20Z",
+            "mergedAt": null,
+            "closedAt": "2024-08-22T10:37:33Z",
+            "reviews": {
+                "totalCount": 21
+            },
+            "files": {
+                "totalCount": 2
+            },
+            "additions": 93,
+            "deletions": 78,
+            "body": "- Fixed markdown issues per markdown linter.\r\n- Moved awesome repositories into the correct section and moved non-awesome repositories to the correct section.\r\n- Sorted lists.\r\n- Added a variety of repositories.\r\n- Added Track Awesome List.\r\n- Added Awesome button.\r\n- Minor fixes to contributions, added self to contributions.",
+            "participants": {
+                "totalCount": 20
+            },
+            "comments": {
+                "totalCount": 12
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add IPRanges repo",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/145",
+            "state": "CLOSED",
+            "createdAt": "2023-03-05T23:54:20Z",
+            "mergedAt": null,
+            "closedAt": "2023-03-30T04:23:08Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "Added my repository with a huge list of automatically updated IP address ranges for various cloud providers and services.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "my new contribution",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/149",
+            "state": "CLOSED",
+            "createdAt": "2023-07-05T19:18:28Z",
+            "mergedAt": null,
+            "closedAt": "2023-12-10T07:29:51Z",
+            "reviews": {
+                "totalCount": 8
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 0,
+            "body": "please ignore this PR i am just practicing the request ",
+            "participants": {
+                "totalCount": 9
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Rewrite properly",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/150",
+            "state": "CLOSED",
+            "createdAt": "2023-07-18T13:50:04Z",
+            "mergedAt": null,
+            "closedAt": "2023-12-10T07:31:15Z",
+            "reviews": {
+                "totalCount": 4
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 12,
+            "deletions": 10,
+            "body": "For better understanding to users i have arrange readme properly",
+            "participants": {
+                "totalCount": 5
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Suggestion to add iSpy to `Awesome Repositories` list.",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/151",
+            "state": "CLOSED",
+            "createdAt": "2023-07-31T14:23:14Z",
+            "mergedAt": null,
+            "closedAt": "2023-12-10T07:33:24Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "This is a pull request to add iSpy (A project I made) to the Awesome Repositories list.",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "feat: add new useful repository for pentest (Cognito Scanner)",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/152",
+            "state": "CLOSED",
+            "createdAt": "2023-08-08T10:17:20Z",
+            "mergedAt": null,
+            "closedAt": "2024-04-13T12:11:47Z",
+            "reviews": {
+                "totalCount": 10
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "Cognito Scanner is a CLI open-source tool. It enables to pentest Cognito AWS instance easily. It can be installed through a python package",
+            "participants": {
+                "totalCount": 9
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Added nand2tetris in other resources section",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/153",
+            "state": "CLOSED",
+            "createdAt": "2023-10-24T15:58:00Z",
+            "mergedAt": null,
+            "closedAt": "2024-04-13T12:16:38Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "Nand2Tetris is a open resource that teaches about everything about a computer from the basic logic gates to Operating System",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Added CyberChef",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/154",
+            "state": "CLOSED",
+            "createdAt": "2023-12-01T19:53:00Z",
+            "mergedAt": null,
+            "closedAt": "2024-08-22T10:49:49Z",
+            "reviews": {
+                "totalCount": 7
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "# CyberChef - The Cyber Swiss Army Knife\r\n\r\nA simple, intuitive web app for analysing and decoding data without having to deal with complex tools or programming languages. CyberChef encourages both technical and non-technical people to explore data formats, encryption and compression.",
+            "participants": {
+                "totalCount": 7
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Added the Cyberlopaedia",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/156",
+            "state": "CLOSED",
+            "createdAt": "2023-12-21T08:08:24Z",
+            "mergedAt": null,
+            "closedAt": "2024-08-22T10:36:18Z",
+            "reviews": {
+                "totalCount": 13
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 12
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update README.md",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/160",
+            "state": "MERGED",
+            "createdAt": "2024-04-13T12:29:40Z",
+            "mergedAt": "2024-04-13T12:39:36Z",
+            "closedAt": "2024-04-13T12:39:36Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "Added Web3 Security materials and resources.",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update README.md with BadUSB Scripts",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/161",
+            "state": "CLOSED",
+            "createdAt": "2024-05-26T16:35:58Z",
+            "mergedAt": null,
+            "closedAt": "2024-08-22T10:35:48Z",
+            "reviews": {
+                "totalCount": 9
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "Added a repository for BadUSB scripts to the README.md. The repository has a variety of badusb scripts ranging from a ransomware simulation script, to a credential harvester which extracts all saved passwords from chrome, Firefox, and edge. There is also a vulnerability scanning badusb script which gets information on a variety of potential vulnerabilities such as open ports, password policies, firewall rules, antivirus information, potential misconfigurations or missing updates, logs, and even more.",
+            "participants": {
+                "totalCount": 12
+            },
+            "comments": {
+                "totalCount": 8
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add crypto_pkg",
+            "url": "https://github.com/Hack-with-Github/Awesome-Hacking/pull/162",
+            "state": "CLOSED",
+            "createdAt": "2024-06-10T20:22:08Z",
+            "mergedAt": null,
+            "closedAt": "2024-08-22T10:35:13Z",
+            "reviews": {
+                "totalCount": 19
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "add crypto_pkg cryptanalysis package",
+            "participants": {
+                "totalCount": 13
+            },
+            "comments": {
+                "totalCount": 4
+            }
+        }
+    }
+]

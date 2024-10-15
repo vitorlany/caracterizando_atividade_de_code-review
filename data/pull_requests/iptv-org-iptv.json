@@ -1,0 +1,27 @@
+[
+    {
+        "node": {
+            "title": "Update in.m3u",
+            "url": "https://github.com/iptv-org/iptv/pull/2",
+            "state": "MERGED",
+            "createdAt": "2019-03-24T18:12:04Z",
+            "mergedAt": "2019-03-25T05:09:59Z",
+            "closedAt": "2019-03-25T05:09:59Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    }
+]
