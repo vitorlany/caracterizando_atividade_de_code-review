@@ -1,0 +1,577 @@
+[
+    {
+        "node": {
+            "title": "Fix Stackoverflow link",
+            "url": "https://github.com/mtdvio/every-programmer-should-know/pull/23",
+            "state": "MERGED",
+            "createdAt": "2017-09-07T01:08:31Z",
+            "mergedAt": "2017-09-07T15:57:54Z",
+            "closedAt": "2017-09-07T15:57:54Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add What Every Programmer Should Know About Memory",
+            "url": "https://github.com/mtdvio/every-programmer-should-know/pull/37",
+            "state": "MERGED",
+            "createdAt": "2017-09-14T21:34:42Z",
+            "mergedAt": "2017-09-16T16:16:12Z",
+            "closedAt": "2017-09-16T16:16:12Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "What Every Programmer Should Know About Memory is a modern classic. The paper explains in a really simple and interesting way how memory works and how a programmes should go about using memory.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Update README.md",
+            "url": "https://github.com/mtdvio/every-programmer-should-know/pull/51",
+            "state": "MERGED",
+            "createdAt": "2017-09-18T07:26:45Z",
+            "mergedAt": "2017-09-18T12:36:35Z",
+            "closedAt": "2017-09-18T12:36:35Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "Corrected broken link for \"The Ten Rules of a Zen Programmer\"",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Slight typo in CONTRIBUTING.md",
+            "url": "https://github.com/mtdvio/every-programmer-should-know/pull/67",
+            "state": "MERGED",
+            "createdAt": "2017-09-25T06:51:05Z",
+            "mergedAt": "2017-09-28T11:47:04Z",
+            "closedAt": "2017-09-28T11:47:04Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "Fix for two small typos",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "proof theory book for discrete math",
+            "url": "https://github.com/mtdvio/every-programmer-should-know/pull/70",
+            "state": "MERGED",
+            "createdAt": "2017-09-28T07:05:06Z",
+            "mergedAt": "2017-10-03T14:04:09Z",
+            "closedAt": "2017-10-03T14:04:09Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "This book is teaches the basics of organizing data and sets. Very useful book written by an MIT professor.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "add best-resume-ever",
+            "url": "https://github.com/mtdvio/every-programmer-should-know/pull/74",
+            "state": "CLOSED",
+            "createdAt": "2017-10-06T06:59:21Z",
+            "mergedAt": null,
+            "closedAt": "2020-03-10T21:14:02Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 5
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Added Code Complete book",
+            "url": "https://github.com/mtdvio/every-programmer-should-know/pull/77",
+            "state": "CLOSED",
+            "createdAt": "2017-10-06T11:47:01Z",
+            "mergedAt": null,
+            "closedAt": "2017-11-01T21:59:45Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 1,
+            "body": "Great classic book by Steve McConnell. Worth read whether you're a new developer or an experienced one.",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Create UX/Usability section ",
+            "url": "https://github.com/mtdvio/every-programmer-should-know/pull/78",
+            "state": "MERGED",
+            "createdAt": "2017-10-07T10:35:04Z",
+            "mergedAt": "2017-10-13T17:40:36Z",
+            "closedAt": "2017-10-13T17:40:36Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 0,
+            "body": "* Add Don't Make Me Think by Steve Krug, a great book on software usability, especially on web/mobile.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add Teach Yourself Programming in Ten Years",
+            "url": "https://github.com/mtdvio/every-programmer-should-know/pull/79",
+            "state": "MERGED",
+            "createdAt": "2017-10-07T11:36:48Z",
+            "mergedAt": "2017-10-13T17:39:02Z",
+            "closedAt": "2017-10-13T17:39:02Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 2,
+            "deletions": 0,
+            "body": "A useful post for someone learning to program",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "fix spelling error",
+            "url": "https://github.com/mtdvio/every-programmer-should-know/pull/88",
+            "state": "MERGED",
+            "createdAt": "2017-10-16T07:56:38Z",
+            "mergedAt": "2017-10-25T18:18:49Z",
+            "closedAt": "2017-10-25T18:18:49Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "i couldn't resist the fix, so here it goes!",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add \"How open source licenses work and how to add them to your projects\" to list",
+            "url": "https://github.com/mtdvio/every-programmer-should-know/pull/92",
+            "state": "MERGED",
+            "createdAt": "2017-10-18T10:24:58Z",
+            "mergedAt": "2020-03-11T10:52:11Z",
+            "closedAt": "2020-03-11T10:52:11Z",
+            "reviews": {
+                "totalCount": 3
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 8,
+            "deletions": 7,
+            "body": "I added two resources which will be useful for the programmer.\r\n\r\nSecurity Resources\r\n- [A collection of hacking/penetration testing resources to make you better!](https://github.com/vitalysim/Awesome-Hacking-Resources)\r\n\r\nLicenses\r\n- [How open source licenses work and how to add them to your projects](https://medium.freecodecamp.org/how-open-source-licenses-work-and-how-to-add-them-to-your-projects-34310c3cf94)\r\n\r\nBoth of them will help every programmer improve their skill better and kickstart their own opensource.",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add links \"How javascript works\"",
+            "url": "https://github.com/mtdvio/every-programmer-should-know/pull/103",
+            "state": "MERGED",
+            "createdAt": "2017-10-27T07:13:26Z",
+            "mergedAt": "2018-01-17T15:52:38Z",
+            "closedAt": "2018-01-17T15:52:38Z",
+            "reviews": {
+                "totalCount": 2
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "Every javascript programmer must know and care about it, no matter low level or high level. ",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 3
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "add lintcode.com",
+            "url": "https://github.com/mtdvio/every-programmer-should-know/pull/105",
+            "state": "MERGED",
+            "createdAt": "2017-10-31T05:42:07Z",
+            "mergedAt": "2018-01-17T15:44:48Z",
+            "closedAt": "2018-01-17T15:44:48Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "another coding interview online judgement service",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Few links for RegEx, Designers and UX",
+            "url": "https://github.com/mtdvio/every-programmer-should-know/pull/107",
+            "state": "CLOSED",
+            "createdAt": "2017-11-01T05:18:09Z",
+            "mergedAt": null,
+            "closedAt": "2020-07-01T12:58:16Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 6,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add toddmotto's public-apis list",
+            "url": "https://github.com/mtdvio/every-programmer-should-know/pull/131",
+            "state": "CLOSED",
+            "createdAt": "2018-10-10T21:05:40Z",
+            "mergedAt": null,
+            "closedAt": "2023-10-03T19:37:37Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "I add a nice repository which have a large amount of public apis",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add Google SRE Handbook",
+            "url": "https://github.com/mtdvio/every-programmer-should-know/pull/132",
+            "state": "MERGED",
+            "createdAt": "2018-10-26T01:04:47Z",
+            "mergedAt": "2018-12-05T21:09:18Z",
+            "closedAt": "2018-12-05T21:09:18Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Adding devdocs",
+            "url": "https://github.com/mtdvio/every-programmer-should-know/pull/146",
+            "state": "CLOSED",
+            "createdAt": "2019-10-05T15:09:38Z",
+            "mergedAt": null,
+            "closedAt": "2022-08-27T20:00:16Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 5,
+            "deletions": 3,
+            "body": "Devdocs.io, as a developer with unreliable internet connection, has been a real boon. It's helped me look up info about frameworks I usually use (express, django, laravel, bootstrap) pretty much a positive experience, not to mention it's all congregated to one little interface you can access offline. \r\n\r\nI'd pretty much wholeheartedly recommend it to anybody else, since it's worth using especially when you're new to the whole framework, and need to quickly look up a syntax or something.",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Added Abstract API",
+            "url": "https://github.com/mtdvio/every-programmer-should-know/pull/159",
+            "state": "MERGED",
+            "createdAt": "2020-09-14T22:18:37Z",
+            "mergedAt": "2021-04-19T13:49:37Z",
+            "closedAt": "2021-04-19T13:49:37Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 2
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "added website, uri, for programming practice",
+            "url": "https://github.com/mtdvio/every-programmer-should-know/pull/160",
+            "state": "CLOSED",
+            "createdAt": "2020-09-25T17:12:50Z",
+            "mergedAt": null,
+            "closedAt": "2022-11-22T14:10:23Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 41,
+            "deletions": 11,
+            "body": "Programming practice site, with python, javascript, java ... And also with database using SQL.",
+            "participants": {
+                "totalCount": 2
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Added the book 'Code Complete' under Practices category",
+            "url": "https://github.com/mtdvio/every-programmer-should-know/pull/164",
+            "state": "MERGED",
+            "createdAt": "2020-11-08T16:43:38Z",
+            "mergedAt": "2021-04-19T13:50:27Z",
+            "closedAt": "2021-04-19T13:50:27Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 0,
+            "body": "Code Complete is a good book about best practices involved in Software Construction",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 0
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "fix distributed section dead link",
+            "url": "https://github.com/mtdvio/every-programmer-should-know/pull/165",
+            "state": "MERGED",
+            "createdAt": "2021-03-10T08:38:04Z",
+            "mergedAt": "2021-04-19T13:48:45Z",
+            "closedAt": "2021-04-19T13:48:45Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "https://www.rgoarchitects.com/Files/fallacies.pdf is a dead link for \"Fallacies of Distributed Computing Explained\". Use a new link.",
+            "participants": {
+                "totalCount": 3
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Updated SEO link",
+            "url": "https://github.com/mtdvio/every-programmer-should-know/pull/168",
+            "state": "MERGED",
+            "createdAt": "2021-09-09T13:59:43Z",
+            "mergedAt": "2022-11-23T11:04:48Z",
+            "closedAt": "2022-11-23T11:04:48Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 1,
+            "deletions": 1,
+            "body": "this fixes #166 ",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    },
+    {
+        "node": {
+            "title": "Add more resources on Engineering Philosophy, Practices and Career.",
+            "url": "https://github.com/mtdvio/every-programmer-should-know/pull/179",
+            "state": "MERGED",
+            "createdAt": "2022-04-18T16:30:51Z",
+            "mergedAt": "2022-11-23T11:06:04Z",
+            "closedAt": "2022-11-23T11:06:05Z",
+            "reviews": {
+                "totalCount": 1
+            },
+            "files": {
+                "totalCount": 1
+            },
+            "additions": 4,
+            "deletions": 0,
+            "body": "",
+            "participants": {
+                "totalCount": 4
+            },
+            "comments": {
+                "totalCount": 1
+            }
+        }
+    }
+]

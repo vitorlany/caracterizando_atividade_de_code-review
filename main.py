@@ -1,7 +1,9 @@
 import os
 import time
+from dotenv import load_dotenv
 from utils import github, data
 
+load_dotenv()
 auth_token = os.getenv("GITHUB_TOKEN")
 
 REPOSITORIES_NUMBER = 200
