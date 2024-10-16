@@ -26,7 +26,6 @@ for file_name in files_name:
     if not total:
         continue
     metrics_per_repository = metrics_per_repository + total
-    break;
 columns = ['repository', 'tamanho_arquivos', 'tamanho_adicionadas', 'tamanho_removidas', 'tempo_analise', 'descricao',
                'num_participantes', 'num_comentarios', 'state', 'reviews']
 pd.DataFrame(metrics_per_repository, columns=columns).to_csv('./data/metrics.csv', index=False)
