@@ -12,3 +12,6 @@ def is_file_exists(filename):
 def load_data(filename):
     with open(f'./data/{filename}.json', 'r') as f:
         return json.load(f)
+
+def list_pullrequests_json_files():
+    return [os.path.splitext(f)[0] for f in os.listdir('./data/pull_requests') if f.endswith('.json')]
