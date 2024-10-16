@@ -143,6 +143,8 @@ def get_pull_requests_bypass_page(owner, name, num_prs, auth_token, cursor = '')
     while page <= num_pages:
         graphql_query = build_pull_request_query(owner, name, max_per_page, cursor)
         result = run_query(graphql_query, auth_token)
+        if not result:
+            continue
 
         page_pull_requests = result["data"]["repository"]["pullRequests"]["edges"]
         if not page_pull_requests:
