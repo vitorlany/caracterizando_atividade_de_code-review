@@ -2,7 +2,7 @@ import pandas as pd
 
 from utils import data
 
-def get_data(row):
+def get_data(row, repository):
     row = row['node']
     tamanho_arquivos = row['files']['totalCount']
     tamanho_adicionadas = row['additions']
@@ -11,7 +11,9 @@ def get_data(row):
     descricao = len(row['body'])
     num_participantes = row['participants']['totalCount']
     num_comentarios = row['comments']['totalCount']
-    return tamanho_arquivos, tamanho_adicionadas, tamanho_removidas, tempo_analise, descricao, num_participantes, num_comentarios
+    state = row['state']
+    reviews = row['reviews']['totalCount']
+    return repository, tamanho_arquivos, tamanho_adicionadas, tamanho_removidas, tempo_analise, descricao, num_participantes, num_comentarios, state, reviews
 
 files_name = data.list_pullrequests_json_files()
 metrics_per_repository = []
@@ -19,12 +21,12 @@ for file_name in files_name:
     file_data = data.load_data(f'pull_requests/{file_name}')
     total = []
     for row in file_data:
-        res = get_data(row)
+        res = get_data(row, file_name)
         total = total + [res]
     if not total:
         continue
-    data_frame = pd.DataFrame(total, columns=['tamanho_arquivos', 'tamanho_adicionadas', 'tamanho_removidas', 'tempo_analise', 'descricao', 'num_participantes', 'num_comentarios'])
-    final_data = data_frame.mean().to_dict()
-    final_data['repository'] = file_name
-    metrics_per_repository = metrics_per_repository + [final_data]
-pd.DataFrame(metrics_per_repository).to_csv('./data/metrics.csv', index=False)
+    metrics_per_repository = metrics_per_repository + total
+    break;
+columns = ['repository', 'tamanho_arquivos', 'tamanho_adicionadas', 'tamanho_removidas', 'tempo_analise', 'descricao',
+               'num_participantes', 'num_comentarios', 'state', 'reviews']
+pd.DataFrame(metrics_per_repository, columns=columns).to_csv('./data/metrics.csv', index=False)
