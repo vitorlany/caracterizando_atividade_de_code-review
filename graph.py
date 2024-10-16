@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 # tempo de análise é a coluna tempo_analise (em tempo)
 # descrição é descricao (número)
 # interações é num_comentarios
+# número de revisões é reviews
 
 def plot_pr_size_vs_feedback(data):
     data['tamanho'] = data['tamanho_adicionadas'] + data['tamanho_removidas']
