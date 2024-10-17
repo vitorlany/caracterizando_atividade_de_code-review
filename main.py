@@ -9,7 +9,7 @@ auth_token = os.getenv("GITHUB_TOKEN")
 REPOSITORIES_NUMBER = 200
 
 start_time = time.time()
-
+print("rodando")
 if not data.is_file_exists('repositories'):
     repositories = github.get_repositories(REPOSITORIES_NUMBER, auth_token)
     data.save_data(repositories, 'repositories')
