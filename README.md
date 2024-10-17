@@ -8,8 +8,6 @@ A revisão de código é uma prática essencial em projetos de software open-sou
 ### Criação do Dataset:
 O dataset foi construído a partir de PRs submetidos a repositórios populares do GitHub, filtrando PRs com pelo menos uma revisão manual (não realizada por bots). Foram selecionados PRs com status "MERGED" ou "CLOSED", e aqueles cuja revisão durou mais de uma hora. As variáveis coletadas incluem o número de arquivos modificados, linhas adicionadas/removidas, tempo de análise, descrição, interações e estado final do PR.
 
-# Relatório de Análise de Qualidade de Repositórios Java
-
 ## 3. Resultados
 
 ### A. Feedback Final das Revisões (Status do PR):
